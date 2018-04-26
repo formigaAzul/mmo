@@ -1,0 +1,1335 @@
+ERROR [2017-05-02 00:52:29,077] AgentConnection-2    NewConnectionHandler java.lang.NullPointerException
+       at atavism.server.network.ChannelUtil.fillBuffer(ChannelUtil.java:34)
+       at atavism.msgsys.MessageAgent.waitForAgent(MessageAgent.java:1602)
+       at atavism.msgsys.MessageAgent.access$000(MessageAgent.java:76)
+       at atavism.msgsys.MessageAgent$NewConnectionHandler.run(MessageAgent.java:1556)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+       at java.lang.Thread.run(Thread.java:722)
+ERROR [2017-05-02 00:52:29,078] AgentConnection-2    Agent: invalid agent hello bytes=0
+ERROR [2017-05-02 00:52:29,187] main                 Engine.main: error connecting to the database atavism.server.util.AORuntimeException: could not connect to database: com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.SocketException
+MESSAGE: java.net.SocketException: Permission denied: connect
+
+STACKTRACE:
+
+java.net.SocketException: java.net.SocketException: Permission denied: connect
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:156)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:284)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2569)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1485)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at java.sql.DriverManager.getConnection(DriverManager.java:579)
+	at java.sql.DriverManager.getConnection(DriverManager.java:221)
+	at atavism.server.engine.Database.connect(Database.java:124)
+	at atavism.server.engine.Engine.main(Engine.java:356)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 14 ms ago.
+       at atavism.server.engine.Database.connect(Database.java:126)
+       at atavism.server.engine.Engine.main(Engine.java:356)
+ERROR [2017-05-02 00:52:31,826] main                 Engine.main: error connecting to the database atavism.server.util.AORuntimeException: could not connect to database: com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.SocketException
+MESSAGE: java.net.SocketException: Permission denied: connect
+
+STACKTRACE:
+
+java.net.SocketException: java.net.SocketException: Permission denied: connect
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:156)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:284)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2569)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1485)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at java.sql.DriverManager.getConnection(DriverManager.java:579)
+	at java.sql.DriverManager.getConnection(DriverManager.java:221)
+	at atavism.server.engine.Database.connect(Database.java:124)
+	at atavism.server.engine.Engine.main(Engine.java:356)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 22 ms ago.
+       at atavism.server.engine.Database.connect(Database.java:126)
+       at atavism.server.engine.Engine.main(Engine.java:356)
+ERROR [2017-05-02 00:52:32,059] main                 Engine.main: error connecting to the database atavism.server.util.AORuntimeException: could not connect to database: com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.SocketException
+MESSAGE: java.net.SocketException: Permission denied: connect
+
+STACKTRACE:
+
+java.net.SocketException: java.net.SocketException: Permission denied: connect
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:156)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:284)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2569)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1485)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at java.sql.DriverManager.getConnection(DriverManager.java:579)
+	at java.sql.DriverManager.getConnection(DriverManager.java:221)
+	at atavism.server.engine.Database.connect(Database.java:124)
+	at atavism.server.engine.Engine.main(Engine.java:356)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 14 ms ago.
+       at atavism.server.engine.Database.connect(Database.java:126)
+       at atavism.server.engine.Engine.main(Engine.java:356)
+ERROR [2017-05-02 00:52:32,759] main                 Engine.main: error connecting to the database atavism.server.util.AORuntimeException: could not connect to database: com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.SocketException
+MESSAGE: java.net.SocketException: Permission denied: connect
+
+STACKTRACE:
+
+java.net.SocketException: java.net.SocketException: Permission denied: connect
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:156)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:284)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2569)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1485)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at java.sql.DriverManager.getConnection(DriverManager.java:579)
+	at java.sql.DriverManager.getConnection(DriverManager.java:221)
+	at atavism.server.engine.Database.connect(Database.java:124)
+	at atavism.server.engine.Engine.main(Engine.java:356)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 14 ms ago.
+       at atavism.server.engine.Database.connect(Database.java:126)
+       at atavism.server.engine.Engine.main(Engine.java:356)
+ERROR [2017-05-02 00:52:32,820] main                 Engine.main: error connecting to the database atavism.server.util.AORuntimeException: could not connect to database: com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.SocketException
+MESSAGE: java.net.SocketException: Permission denied: connect
+
+STACKTRACE:
+
+java.net.SocketException: java.net.SocketException: Permission denied: connect
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:156)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:284)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2569)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1485)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at java.sql.DriverManager.getConnection(DriverManager.java:579)
+	at java.sql.DriverManager.getConnection(DriverManager.java:221)
+	at atavism.server.engine.Database.connect(Database.java:124)
+	at atavism.server.engine.Engine.main(Engine.java:356)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 14 ms ago.
+       at atavism.server.engine.Database.connect(Database.java:126)
+       at atavism.server.engine.Engine.main(Engine.java:356)
+ERROR [2017-05-02 00:52:33,104] main                 Engine.main: error connecting to the database atavism.server.util.AORuntimeException: could not connect to database: com.mysql.jdbc.CommunicationsException: Communications link failure due to underlying exception: 
+
+** BEGIN NESTED EXCEPTION ** 
+
+java.net.SocketException
+MESSAGE: java.net.SocketException: Permission denied: connect
+
+STACKTRACE:
+
+java.net.SocketException: java.net.SocketException: Permission denied: connect
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:156)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:284)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2569)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1485)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:266)
+	at java.sql.DriverManager.getConnection(DriverManager.java:579)
+	at java.sql.DriverManager.getConnection(DriverManager.java:221)
+	at atavism.server.engine.Database.connect(Database.java:124)
+	at atavism.server.engine.Engine.main(Engine.java:356)
+
+
+** END NESTED EXCEPTION **
+
+
+
+Last packet sent to the server was 16 ms ago.
+       at atavism.server.engine.Database.connect(Database.java:126)
+       at atavism.server.engine.Engine.main(Engine.java:356)
+ERROR [2017-05-02 00:54:30,549] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:54:30,595] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:33,167] main                 File '../config/world/proxy-ads.txt', line 83: unknown message type ao.MOVEMENT_STATE
+ERROR [2017-05-02 00:55:33,168] main                 File '../config/world/proxy-ads.txt', line 113: unknown message type ao.SET_UNDERWATER
+ERROR [2017-05-02 00:55:35,748] MessageIO            DomainServer: unexpected plugin type=FlashPolicy name=FlashPolicy1
+ERROR [2017-05-02 00:55:37,220] main                 ScriptManager.runPYFile: file=../config/common/proxy.py Traceback (innermost last):
+  File "../config/common/proxy.py", line 77, in ?
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:791)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:423)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:356)
+	at atavism.server.plugins.ProxyPlugin.runCheck(ProxyPlugin.java:503)
+	at atavism.server.plugins.ProxyPlugin.onActivate(ProxyPlugin.java:422)
+	at atavism.agis.plugins.AgisProxyPlugin.onActivate(AgisProxyPlugin.java:34)
+	at atavism.server.engine.EnginePlugin.activate(EnginePlugin.java:236)
+	at atavism.server.engine.Engine.registerPlugin(Engine.java:665)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+
+java.lang.UnsupportedClassVersionError: java.lang.UnsupportedClassVersionError: atavism/server/util/EncryptionHelper : Unsupported major.minor version 52.0
+
+       at org.python.core.Py.JavaError(Unknown Source)
+       at org.python.core.Py.JavaError(Unknown Source)
+       at org.python.core.PyReflectedFunction.__call__(Unknown Source)
+       at org.python.core.PyReflectedFunction.__call__(Unknown Source)
+       at org.python.core.PyObject.__call__(Unknown Source)
+       at org.python.core.PyObject.invoke(Unknown Source)
+       at org.python.pycode._pyx4.f$0(../config/common/proxy.py:77)
+       at org.python.pycode._pyx4.call_function(../config/common/proxy.py)
+       at org.python.core.PyTableCode.call(Unknown Source)
+       at org.python.core.PyCode.call(Unknown Source)
+       at org.python.core.Py.runCode(Unknown Source)
+       at atavism.server.engine.ScriptManager.runPYFile(ScriptManager.java:181)
+       at atavism.server.engine.ScriptManager.runFile(ScriptManager.java:94)
+       at atavism.server.engine.Engine.processPostScripts(Engine.java:554)
+       at atavism.server.engine.Engine.main(Engine.java:406)
+ERROR [2017-05-02 00:55:37,887] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:37,888] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:37,888] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:37,889] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:37,891] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:37,892] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:37,905] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:37,937] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:38,336] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:38,336] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:38,336] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:38,337] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:38,349] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:38,371] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:38,373] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:38,376] MobManager-1         NavMesh WorldFile not found: ../navmesh/DruidIsland/DruidIsland.xml. Reverting to old pathing system
+ERROR [2017-05-02 00:55:38,480] MobManager-4         NavMesh WorldFile not found: ../navmesh/Cuzim/Cuzim.xml. Reverting to old pathing system
+ERROR [2017-05-02 00:55:38,604] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:38,604] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:38,604] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:38,604] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:38,605] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:38,607] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:38,672] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:38,672] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:38,673] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:38,673] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:38,673] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:38,733] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:38,743] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:38,746] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:38,746] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:38,801] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:38,802] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:38,802] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:38,889] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:38,890] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:55:38,927] MessageIO            Lost connection to agent 'arena' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:56:02,585] main                 File '../config/world/proxy-ads.txt', line 83: unknown message type ao.MOVEMENT_STATE
+ERROR [2017-05-02 00:56:02,588] main                 File '../config/world/proxy-ads.txt', line 113: unknown message type ao.SET_UNDERWATER
+ERROR [2017-05-02 00:56:13,940] MessageIO            DomainServer: unexpected plugin type=FlashPolicy name=FlashPolicy1
+ERROR [2017-05-02 00:56:20,399] main                 ScriptManager.runPYFile: file=../config/common/proxy.py Traceback (innermost last):
+  File "../config/common/proxy.py", line 77, in ?
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:791)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:423)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:356)
+	at atavism.server.plugins.ProxyPlugin.runCheck(ProxyPlugin.java:503)
+	at atavism.server.plugins.ProxyPlugin.onActivate(ProxyPlugin.java:422)
+	at atavism.agis.plugins.AgisProxyPlugin.onActivate(AgisProxyPlugin.java:34)
+	at atavism.server.engine.EnginePlugin.activate(EnginePlugin.java:236)
+	at atavism.server.engine.Engine.registerPlugin(Engine.java:665)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+
+java.lang.UnsupportedClassVersionError: java.lang.UnsupportedClassVersionError: atavism/server/util/EncryptionHelper : Unsupported major.minor version 52.0
+
+       at org.python.core.Py.JavaError(Unknown Source)
+       at org.python.core.Py.JavaError(Unknown Source)
+       at org.python.core.PyReflectedFunction.__call__(Unknown Source)
+       at org.python.core.PyReflectedFunction.__call__(Unknown Source)
+       at org.python.core.PyObject.__call__(Unknown Source)
+       at org.python.core.PyObject.invoke(Unknown Source)
+       at org.python.pycode._pyx4.f$0(../config/common/proxy.py:77)
+       at org.python.pycode._pyx4.call_function(../config/common/proxy.py)
+       at org.python.core.PyTableCode.call(Unknown Source)
+       at org.python.core.PyCode.call(Unknown Source)
+       at org.python.core.Py.runCode(Unknown Source)
+       at atavism.server.engine.ScriptManager.runPYFile(ScriptManager.java:181)
+       at atavism.server.engine.ScriptManager.runFile(ScriptManager.java:94)
+       at atavism.server.engine.Engine.processPostScripts(Engine.java:554)
+       at atavism.server.engine.Engine.main(Engine.java:406)
+ERROR [2017-05-02 00:56:21,849] MobManager-1         NavMesh WorldFile not found: ../navmesh/DruidIsland/DruidIsland.xml. Reverting to old pathing system
+ERROR [2017-05-02 00:56:23,881] MobManager-4         NavMesh WorldFile not found: ../navmesh/Cuzim/Cuzim.xml. Reverting to old pathing system
+ERROR [2017-05-02 00:56:24,404] MobManager-8         NavMesh WorldFile not found: ../navmesh/MainWorld/MainWorld.xml. Reverting to old pathing system
+ERROR [2017-05-02 00:57:35,432] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:35,432] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:35,434] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:35,435] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:35,437] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:35,437] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:35,440] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:35,443] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:35,547] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:35,547] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:35,547] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:35,550] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:35,552] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:35,552] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:35,554] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:35,680] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:35,681] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:35,682] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:35,684] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:35,684] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:35,686] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:35,813] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:35,813] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:35,815] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:35,817] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:35,817] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:35,952] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:35,954] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:35,955] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:35,957] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:36,066] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:36,067] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:36,068] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:36,175] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:36,176] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 00:57:36,295] MessageIO            Lost connection to agent 'arena' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:06:38,955] main                 File '../config/world/proxy-ads.txt', line 83: unknown message type ao.MOVEMENT_STATE
+ERROR [2017-05-02 01:06:38,957] main                 File '../config/world/proxy-ads.txt', line 113: unknown message type ao.SET_UNDERWATER
+ERROR [2017-05-02 01:06:41,626] MessageIO            DomainServer: unexpected plugin type=FlashPolicy name=FlashPolicy1
+ERROR [2017-05-02 01:06:43,920] MobManager-1         NavMesh WorldFile not found: ../navmesh/DruidIsland/DruidIsland.xml. Reverting to old pathing system
+ERROR [2017-05-02 01:06:44,343] MobManager-4         NavMesh WorldFile not found: ../navmesh/Cuzim/Cuzim.xml. Reverting to old pathing system
+ERROR [2017-05-02 01:06:44,444] MobManager-9         NavMesh WorldFile not found: ../navmesh/MainWorld/MainWorld.xml. Reverting to old pathing system
+ERROR [2017-05-02 01:07:33,462] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,462] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,463] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,463] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,463] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,464] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,464] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,465] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,494] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,495] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,495] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,495] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,496] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,496] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,496] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,523] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,523] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,523] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,523] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,524] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,524] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,552] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,552] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,553] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,553] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,553] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,582] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,582] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,582] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,582] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,611] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,612] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,612] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,640] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,640] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:07:33,671] MessageIO            Lost connection to agent 'arena' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:08:49,810] main                 File '../config/world/proxy-ads.txt', line 83: unknown message type ao.MOVEMENT_STATE
+ERROR [2017-05-02 01:08:49,811] main                 File '../config/world/proxy-ads.txt', line 113: unknown message type ao.SET_UNDERWATER
+ERROR [2017-05-02 01:08:52,220] MessageIO            DomainServer: unexpected plugin type=FlashPolicy name=FlashPolicy1
+ERROR [2017-05-02 01:08:53,614] main                 ScriptManager.runPYFile: file=../config/common/proxy.py Traceback (innermost last):
+  File "../config/common/proxy.py", line 77, in ?
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:791)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:423)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:356)
+	at atavism.server.plugins.ProxyPlugin.runCheck(ProxyPlugin.java:503)
+	at atavism.server.plugins.ProxyPlugin.onActivate(ProxyPlugin.java:422)
+	at atavism.agis.plugins.AgisProxyPlugin.onActivate(AgisProxyPlugin.java:34)
+	at atavism.server.engine.EnginePlugin.activate(EnginePlugin.java:236)
+	at atavism.server.engine.Engine.registerPlugin(Engine.java:665)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+
+java.lang.UnsupportedClassVersionError: java.lang.UnsupportedClassVersionError: atavism/server/util/EncryptionHelper : Unsupported major.minor version 52.0
+
+       at org.python.core.Py.JavaError(Unknown Source)
+       at org.python.core.Py.JavaError(Unknown Source)
+       at org.python.core.PyReflectedFunction.__call__(Unknown Source)
+       at org.python.core.PyReflectedFunction.__call__(Unknown Source)
+       at org.python.core.PyObject.__call__(Unknown Source)
+       at org.python.core.PyObject.invoke(Unknown Source)
+       at org.python.pycode._pyx4.f$0(../config/common/proxy.py:77)
+       at org.python.pycode._pyx4.call_function(../config/common/proxy.py)
+       at org.python.core.PyTableCode.call(Unknown Source)
+       at org.python.core.PyCode.call(Unknown Source)
+       at org.python.core.Py.runCode(Unknown Source)
+       at atavism.server.engine.ScriptManager.runPYFile(ScriptManager.java:181)
+       at atavism.server.engine.ScriptManager.runFile(ScriptManager.java:94)
+       at atavism.server.engine.Engine.processPostScripts(Engine.java:554)
+       at atavism.server.engine.Engine.main(Engine.java:406)
+ERROR [2017-05-02 01:08:54,719] MobManager-1         NavMesh WorldFile not found: ../navmesh/DruidIsland/DruidIsland.xml. Reverting to old pathing system
+ERROR [2017-05-02 01:08:54,812] MobManager-4         NavMesh WorldFile not found: ../navmesh/Cuzim/Cuzim.xml. Reverting to old pathing system
+ERROR [2017-05-02 01:08:54,884] MobManager-8         NavMesh WorldFile not found: ../navmesh/MainWorld/MainWorld.xml. Reverting to old pathing system
+ERROR [2017-05-02 01:09:39,333] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,334] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,334] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,335] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,335] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,335] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,336] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,336] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,375] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,376] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,376] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,376] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,376] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,376] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,377] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,412] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,412] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,412] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,412] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,413] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,413] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,450] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,450] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,450] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,450] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,451] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,491] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,492] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,492] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,493] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,532] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,532] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,532] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,566] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,566] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:09:39,602] MessageIO            Lost connection to agent 'arena' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:09,173] main                 File '../config/world/proxy-ads.txt', line 83: unknown message type ao.MOVEMENT_STATE
+ERROR [2017-05-02 01:10:09,174] main                 File '../config/world/proxy-ads.txt', line 113: unknown message type ao.SET_UNDERWATER
+ERROR [2017-05-02 01:10:12,578] MessageIO            DomainServer: unexpected plugin type=FlashPolicy name=FlashPolicy1
+ERROR [2017-05-02 01:10:14,938] MobManager-1         NavMesh WorldFile not found: ../navmesh/DruidIsland/DruidIsland.xml. Reverting to old pathing system
+ERROR [2017-05-02 01:10:15,021] MobManager-4         NavMesh WorldFile not found: ../navmesh/Cuzim/Cuzim.xml. Reverting to old pathing system
+ERROR [2017-05-02 01:10:15,152] MobManager-8         NavMesh WorldFile not found: ../navmesh/MainWorld/MainWorld.xml. Reverting to old pathing system
+ERROR [2017-05-02 01:10:15,174] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,175] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,182] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,182] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,183] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,184] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,185] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,186] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,283] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,289] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,290] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,290] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,291] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,291] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,292] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,332] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,332] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,333] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,333] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,334] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,334] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,362] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,363] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,363] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,363] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,365] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,411] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,411] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,412] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,412] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,441] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,441] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,442] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,487] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,487] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:15,514] MessageIO            Lost connection to agent 'arena' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 01:10:39,304] main                 File '../config/world/proxy-ads.txt', line 83: unknown message type ao.MOVEMENT_STATE
+ERROR [2017-05-02 01:10:39,306] main                 File '../config/world/proxy-ads.txt', line 113: unknown message type ao.SET_UNDERWATER
+ERROR [2017-05-02 01:10:41,948] MessageIO            DomainServer: unexpected plugin type=FlashPolicy name=FlashPolicy1
+ERROR [2017-05-02 01:10:43,957] MobManager-1         NavMesh WorldFile not found: ../navmesh/DruidIsland/DruidIsland.xml. Reverting to old pathing system
+ERROR [2017-05-02 01:10:44,218] MobManager-4         NavMesh WorldFile not found: ../navmesh/Cuzim/Cuzim.xml. Reverting to old pathing system
+ERROR [2017-05-02 01:10:44,352] MobManager-8         NavMesh WorldFile not found: ../navmesh/MainWorld/MainWorld.xml. Reverting to old pathing system
+ERROR [2017-05-02 01:15:03,400] SelfMessage          Unexpected RPC response requestId=508 from=proxy_1,516
+ERROR [2017-05-02 02:07:23,437] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,437] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,439] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,439] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,440] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,442] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,442] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,444] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,525] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,526] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,527] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,527] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,527] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,528] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,529] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,599] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,600] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,601] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,601] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,602] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,603] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,676] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,677] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,677] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,678] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,678] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,760] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,761] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,761] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,762] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,829] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,830] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,830] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,910] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,911] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:07:23,980] MessageIO            Lost connection to agent 'arena' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:13:20,311] main                 File '../config/world/proxy-ads.txt', line 83: unknown message type ao.MOVEMENT_STATE
+ERROR [2017-05-02 02:13:20,312] main                 File '../config/world/proxy-ads.txt', line 113: unknown message type ao.SET_UNDERWATER
+ERROR [2017-05-02 02:13:23,234] MessageIO            DomainServer: unexpected plugin type=FlashPolicy name=FlashPolicy1
+ERROR [2017-05-02 02:13:24,184] main                 ScriptManager.runPYFile: file=../config/common/proxy.py Traceback (innermost last):
+  File "../config/common/proxy.py", line 77, in ?
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:791)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:423)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:356)
+	at atavism.server.plugins.ProxyPlugin.runCheck(ProxyPlugin.java:503)
+	at atavism.server.plugins.ProxyPlugin.onActivate(ProxyPlugin.java:422)
+	at atavism.agis.plugins.AgisProxyPlugin.onActivate(AgisProxyPlugin.java:34)
+	at atavism.server.engine.EnginePlugin.activate(EnginePlugin.java:236)
+	at atavism.server.engine.Engine.registerPlugin(Engine.java:665)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+
+java.lang.ClassFormatError: java.lang.ClassFormatError: Incompatible magic value 791289888 in class file atavism/server/util/EncryptionHelper
+
+       at org.python.core.Py.JavaError(Unknown Source)
+       at org.python.core.Py.JavaError(Unknown Source)
+       at org.python.core.PyReflectedFunction.__call__(Unknown Source)
+       at org.python.core.PyReflectedFunction.__call__(Unknown Source)
+       at org.python.core.PyObject.__call__(Unknown Source)
+       at org.python.core.PyObject.invoke(Unknown Source)
+       at org.python.pycode._pyx4.f$0(../config/common/proxy.py:77)
+       at org.python.pycode._pyx4.call_function(../config/common/proxy.py)
+       at org.python.core.PyTableCode.call(Unknown Source)
+       at org.python.core.PyCode.call(Unknown Source)
+       at org.python.core.Py.runCode(Unknown Source)
+       at atavism.server.engine.ScriptManager.runPYFile(ScriptManager.java:181)
+       at atavism.server.engine.ScriptManager.runFile(ScriptManager.java:94)
+       at atavism.server.engine.Engine.processPostScripts(Engine.java:554)
+       at atavism.server.engine.Engine.main(Engine.java:406)
+ERROR [2017-05-02 02:13:25,124] MobManager-1         NavMesh WorldFile not found: ../navmesh/DruidIsland/DruidIsland.xml. Reverting to old pathing system
+ERROR [2017-05-02 02:13:25,202] MobManager-4         NavMesh WorldFile not found: ../navmesh/Cuzim/Cuzim.xml. Reverting to old pathing system
+ERROR [2017-05-02 02:13:25,343] MobManager-8         NavMesh WorldFile not found: ../navmesh/MainWorld/MainWorld.xml. Reverting to old pathing system
+ERROR [2017-05-02 02:17:03,449] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:03,451] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:03,451] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:03,454] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:03,455] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:03,455] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:03,458] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:03,458] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:03,570] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:03,570] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:03,570] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:03,571] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:03,572] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:03,572] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:03,574] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:03,702] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:03,703] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:03,703] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:03,703] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:03,705] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:03,708] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:03,831] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:03,831] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:03,833] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:03,835] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:03,835] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:03,997] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:03,997] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:03,999] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:04,001] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:04,108] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:04,109] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:04,110] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:04,224] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:04,226] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:17:04,351] MessageIO            Lost connection to agent 'arena' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:18:53,602] main                 File '../config/world/proxy-ads.txt', line 83: unknown message type ao.MOVEMENT_STATE
+ERROR [2017-05-02 02:18:53,618] main                 File '../config/world/proxy-ads.txt', line 113: unknown message type ao.SET_UNDERWATER
+ERROR [2017-05-02 02:19:01,464] MessageIO            DomainServer: unexpected plugin type=FlashPolicy name=FlashPolicy1
+ERROR [2017-05-02 02:19:03,824] main                 ScriptManager.runPYFile: file=../config/common/proxy.py Traceback (innermost last):
+  File "../config/common/proxy.py", line 77, in ?
+	at atavism.server.plugins.ProxyPlugin.runCheck(ProxyPlugin.java:503)
+	at atavism.server.plugins.ProxyPlugin.onActivate(ProxyPlugin.java:422)
+	at atavism.agis.plugins.AgisProxyPlugin.onActivate(AgisProxyPlugin.java:34)
+	at atavism.server.engine.EnginePlugin.activate(EnginePlugin.java:236)
+	at atavism.server.engine.Engine.registerPlugin(Engine.java:665)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+
+java.lang.NoClassDefFoundError: java.lang.NoClassDefFoundError: atavism/server/util/EncryptionHelper
+
+       at org.python.core.Py.JavaError(Unknown Source)
+       at org.python.core.Py.JavaError(Unknown Source)
+       at org.python.core.PyReflectedFunction.__call__(Unknown Source)
+       at org.python.core.PyReflectedFunction.__call__(Unknown Source)
+       at org.python.core.PyObject.__call__(Unknown Source)
+       at org.python.core.PyObject.invoke(Unknown Source)
+       at org.python.pycode._pyx4.f$0(../config/common/proxy.py:77)
+       at org.python.pycode._pyx4.call_function(../config/common/proxy.py)
+       at org.python.core.PyTableCode.call(Unknown Source)
+       at org.python.core.PyCode.call(Unknown Source)
+       at org.python.core.Py.runCode(Unknown Source)
+       at atavism.server.engine.ScriptManager.runPYFile(ScriptManager.java:181)
+       at atavism.server.engine.ScriptManager.runFile(ScriptManager.java:94)
+       at atavism.server.engine.Engine.processPostScripts(Engine.java:554)
+       at atavism.server.engine.Engine.main(Engine.java:406)
+ERROR [2017-05-02 02:19:06,689] MobManager-1         NavMesh WorldFile not found: ../navmesh/DruidIsland/DruidIsland.xml. Reverting to old pathing system
+ERROR [2017-05-02 02:19:07,390] MobManager-5         NavMesh WorldFile not found: ../navmesh/Cuzim/Cuzim.xml. Reverting to old pathing system
+ERROR [2017-05-02 02:19:07,532] MobManager-8         NavMesh WorldFile not found: ../navmesh/MainWorld/MainWorld.xml. Reverting to old pathing system
+ERROR [2017-05-02 02:19:53,759] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:53,759] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:53,759] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:53,759] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:53,759] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:53,759] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:53,759] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:53,759] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:53,821] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:53,821] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:53,821] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:53,837] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:53,837] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:53,837] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:53,837] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:53,899] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:53,899] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:53,899] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:53,899] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:53,899] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:53,899] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:53,977] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:53,977] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:53,977] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:53,977] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:53,977] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:54,040] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:54,055] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:54,055] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:54,055] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:54,211] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:54,211] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:54,211] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:54,305] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:54,305] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-02 02:19:54,369] MessageIO            Lost connection to agent 'arena' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:27:54,172] main                 File '../config/world/proxy-ads.txt', line 83: unknown message type ao.MOVEMENT_STATE
+ERROR [2017-05-03 04:27:54,190] main                 File '../config/world/proxy-ads.txt', line 113: unknown message type ao.SET_UNDERWATER
+ERROR [2017-05-03 04:27:55,858] AgentConnection-2    AgentConnector java.lang.NullPointerException
+       at atavism.server.network.ChannelUtil.writeBuffer(ChannelUtil.java:61)
+       at atavism.msgsys.MessageAgent$AgentConnector.connect(MessageAgent.java:2218)
+       at atavism.msgsys.MessageAgent$AgentConnector.run(MessageAgent.java:2180)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+       at java.lang.Thread.run(Thread.java:722)
+ERROR [2017-05-03 04:27:55,859] AgentConnection-3    AgentConnector java.lang.NullPointerException
+       at atavism.server.network.ChannelUtil.fillBuffer(ChannelUtil.java:34)
+       at atavism.msgsys.MessageAgent.waitForAgent(MessageAgent.java:1602)
+       at atavism.msgsys.MessageAgent.access$000(MessageAgent.java:76)
+       at atavism.msgsys.MessageAgent$AgentConnector.connect(MessageAgent.java:2222)
+       at atavism.msgsys.MessageAgent$AgentConnector.run(MessageAgent.java:2180)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+       at java.lang.Thread.run(Thread.java:722)
+ERROR [2017-05-03 04:27:55,860] AgentConnection-6    NewConnectionHandler java.lang.NullPointerException
+       at atavism.server.network.ChannelUtil.fillBuffer(ChannelUtil.java:34)
+       at atavism.msgsys.MessageAgent.waitForAgent(MessageAgent.java:1591)
+       at atavism.msgsys.MessageAgent.access$000(MessageAgent.java:76)
+       at atavism.msgsys.MessageAgent$NewConnectionHandler.run(MessageAgent.java:1556)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+       at java.lang.Thread.run(Thread.java:722)
+ERROR [2017-05-03 04:27:55,861] AgentConnection-2    Agent: invalid agent hello bytes=0
+ERROR [2017-05-03 04:27:55,861] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:27:55,862] AgentConnection-1    NewConnectionHandler java.lang.NullPointerException
+       at atavism.server.network.ChannelUtil.fillBuffer(ChannelUtil.java:34)
+       at atavism.msgsys.MessageAgent.waitForAgent(MessageAgent.java:1591)
+       at atavism.msgsys.MessageAgent.access$000(MessageAgent.java:76)
+       at atavism.msgsys.MessageAgent$NewConnectionHandler.run(MessageAgent.java:1556)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+       at java.lang.Thread.run(Thread.java:722)
+ERROR [2017-05-03 04:27:55,871] AgentConnection-5    NewConnectionHandler java.lang.NullPointerException
+       at atavism.server.network.ChannelUtil.fillBuffer(ChannelUtil.java:34)
+       at atavism.msgsys.MessageAgent.waitForAgent(MessageAgent.java:1591)
+       at atavism.msgsys.MessageAgent.access$000(MessageAgent.java:76)
+       at atavism.msgsys.MessageAgent$NewConnectionHandler.run(MessageAgent.java:1556)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+       at java.lang.Thread.run(Thread.java:722)
+ERROR [2017-05-03 04:27:55,871] AgentConnection-3    Agent: invalid agent hello bytes=0
+ERROR [2017-05-03 04:27:55,891] main                 Engine.main: domain server localhost:20377 failed java.net.BindException: Address already in use: bind
+       at sun.nio.ch.Net.bind0(Native Method)
+       at sun.nio.ch.Net.bind(Net.java:344)
+       at sun.nio.ch.Net.bind(Net.java:336)
+       at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:199)
+       at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+       at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:67)
+       at atavism.server.network.TcpServer.bind(TcpServer.java:59)
+       at atavism.server.network.TcpServer.bind(TcpServer.java:38)
+       at atavism.server.network.TcpServer.bind(TcpServer.java:30)
+       at atavism.msgsys.MessageAgent.openListener(MessageAgent.java:196)
+       at atavism.server.engine.Engine.main(Engine.java:382)
+ERROR [2017-05-03 04:27:55,894] AgentConnection-1    AgentConnector java.net.SocketException: Permission denied: connect
+       at sun.nio.ch.Net.connect0(Native Method)
+       at sun.nio.ch.Net.connect(Net.java:364)
+       at sun.nio.ch.Net.connect(Net.java:356)
+       at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:623)
+       at java.nio.channels.SocketChannel.open(SocketChannel.java:184)
+       at atavism.msgsys.MessageAgent$AgentConnector.connect(MessageAgent.java:2193)
+       at atavism.msgsys.MessageAgent$AgentConnector.run(MessageAgent.java:2180)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+       at java.lang.Thread.run(Thread.java:722)
+ERROR [2017-05-03 04:27:56,011] main                 MessageHandler selector failed java.io.IOException: Unable to establish loopback connection
+       at sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:125)
+       at sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:69)
+       at java.security.AccessController.doPrivileged(Native Method)
+       at sun.nio.ch.PipeImpl.<init>(PipeImpl.java:141)
+       at sun.nio.ch.SelectorProviderImpl.openPipe(SelectorProviderImpl.java:50)
+       at java.nio.channels.Pipe.open(Pipe.java:150)
+       at sun.nio.ch.WindowsSelectorImpl.<init>(WindowsSelectorImpl.java:126)
+       at sun.nio.ch.WindowsSelectorProvider.openSelector(WindowsSelectorProvider.java:44)
+       at java.nio.channels.Selector.open(Selector.java:227)
+       at atavism.msgsys.MessageIO.initialize(MessageIO.java:36)
+       at atavism.msgsys.MessageIO.<init>(MessageIO.java:28)
+       at atavism.msgsys.MessageAgent.<init>(MessageAgent.java:135)
+       at atavism.server.engine.Engine.main(Engine.java:368)
+Caused by: java.net.BindException: Address already in use: bind
+       at sun.nio.ch.Net.bind0(Native Method)
+       at sun.nio.ch.Net.bind(Net.java:344)
+       at sun.nio.ch.Net.bind(Net.java:336)
+       at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:199)
+       at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+       at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:67)
+       at sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:91)
+       at sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:69)
+       at java.security.AccessController.doPrivileged(Native Method)
+       at sun.nio.ch.PipeImpl.<init>(PipeImpl.java:141)
+       at sun.nio.ch.SelectorProviderImpl.openPipe(SelectorProviderImpl.java:50)
+       at java.nio.channels.Pipe.open(Pipe.java:150)
+       at sun.nio.ch.WindowsSelectorImpl.<init>(WindowsSelectorImpl.java:126)
+       at sun.nio.ch.WindowsSelectorProvider.openSelector(WindowsSelectorProvider.java:44)
+       at java.nio.channels.Selector.open(Selector.java:227)
+       at atavism.msgsys.MessageIO.initialize(MessageIO.java:36)
+       at atavism.msgsys.MessageIO.<init>(MessageIO.java:28)
+       at atavism.msgsys.MessageAgent.<init>(MessageAgent.java:135)
+       at atavism.server.engine.Engine.main(Engine.java:368)
+ERROR [2017-05-03 04:33:16,838] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:33:16,839] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:33:16,840] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:33:16,842] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:33:16,844] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:33:16,871] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:33:16,871] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:33:16,871] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:33:16,871] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:33:16,903] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:33:16,903] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:33:16,904] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:33:16,936] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:33:16,936] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:33:16,971] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:33:17,006] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:33:55,886] main                 File '../config/world/proxy-ads.txt', line 83: unknown message type ao.MOVEMENT_STATE
+ERROR [2017-05-03 04:33:55,888] main                 File '../config/world/proxy-ads.txt', line 113: unknown message type ao.SET_UNDERWATER
+ERROR [2017-05-03 04:34:00,661] MessageIO            DomainServer: unexpected plugin type=FlashPolicy name=FlashPolicy1
+ERROR [2017-05-03 04:34:07,586] main                 ScriptManager.runPYFile: file=../config/common/proxy.py Traceback (innermost last):
+  File "../config/common/proxy.py", line 77, in ?
+	at atavism.server.plugins.ProxyPlugin.runCheck(ProxyPlugin.java:503)
+	at atavism.server.plugins.ProxyPlugin.onActivate(ProxyPlugin.java:422)
+	at atavism.agis.plugins.AgisProxyPlugin.onActivate(AgisProxyPlugin.java:34)
+	at atavism.server.engine.EnginePlugin.activate(EnginePlugin.java:236)
+	at atavism.server.engine.Engine.registerPlugin(Engine.java:665)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+
+java.lang.NoClassDefFoundError: java.lang.NoClassDefFoundError: atavism/server/util/EncryptionHelper
+
+       at org.python.core.Py.JavaError(Unknown Source)
+       at org.python.core.Py.JavaError(Unknown Source)
+       at org.python.core.PyReflectedFunction.__call__(Unknown Source)
+       at org.python.core.PyReflectedFunction.__call__(Unknown Source)
+       at org.python.core.PyObject.__call__(Unknown Source)
+       at org.python.core.PyObject.invoke(Unknown Source)
+       at org.python.pycode._pyx4.f$0(../config/common/proxy.py:77)
+       at org.python.pycode._pyx4.call_function(../config/common/proxy.py)
+       at org.python.core.PyTableCode.call(Unknown Source)
+       at org.python.core.PyCode.call(Unknown Source)
+       at org.python.core.Py.runCode(Unknown Source)
+       at atavism.server.engine.ScriptManager.runPYFile(ScriptManager.java:181)
+       at atavism.server.engine.ScriptManager.runFile(ScriptManager.java:94)
+       at atavism.server.engine.Engine.processPostScripts(Engine.java:554)
+       at atavism.server.engine.Engine.main(Engine.java:406)
+ERROR [2017-05-03 04:34:09,773] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:09,773] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:09,774] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:09,774] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:09,774] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:09,780] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:09,780] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:09,786] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:09,786] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:09,786] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:09,787] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:09,787] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:09,788] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:09,788] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:09,821] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:09,821] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:09,822] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:09,822] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:09,832] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:09,833] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:09,852] MobManager-2         NavMesh WorldFile not found: ../navmesh/Cuzim/Cuzim.xml. Reverting to old pathing system
+ERROR [2017-05-03 04:34:09,852] MobManager-3         NavMesh WorldFile not found: ../navmesh/MainWorld/MainWorld.xml. Reverting to old pathing system
+ERROR [2017-05-03 04:34:09,858] MobManager-1         NavMesh WorldFile not found: ../navmesh/DruidIsland/DruidIsland.xml. Reverting to old pathing system
+ERROR [2017-05-03 04:34:09,874] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:09,874] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:09,874] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:09,875] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:09,875] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:09,914] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:09,914] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:09,915] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:09,915] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:09,958] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:09,959] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:09,960] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:10,017] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:10,018] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:10,062] MessageIO            Lost connection to agent 'arena' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:34:28,255] main                 File '../config/world/proxy-ads.txt', line 83: unknown message type ao.MOVEMENT_STATE
+ERROR [2017-05-03 04:34:28,256] main                 File '../config/world/proxy-ads.txt', line 113: unknown message type ao.SET_UNDERWATER
+ERROR [2017-05-03 04:34:30,639] MessageIO            DomainServer: unexpected plugin type=FlashPolicy name=FlashPolicy1
+ERROR [2017-05-03 04:34:32,504] main                 ScriptManager.runPYFile: file=../config/common/proxy.py Traceback (innermost last):
+  File "../config/common/proxy.py", line 77, in ?
+	at atavism.server.plugins.ProxyPlugin.runCheck(ProxyPlugin.java:503)
+	at atavism.server.plugins.ProxyPlugin.onActivate(ProxyPlugin.java:422)
+	at atavism.agis.plugins.AgisProxyPlugin.onActivate(AgisProxyPlugin.java:34)
+	at atavism.server.engine.EnginePlugin.activate(EnginePlugin.java:236)
+	at atavism.server.engine.Engine.registerPlugin(Engine.java:665)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:601)
+
+java.lang.NoClassDefFoundError: java.lang.NoClassDefFoundError: atavism/server/util/EncryptionHelper
+
+       at org.python.core.Py.JavaError(Unknown Source)
+       at org.python.core.Py.JavaError(Unknown Source)
+       at org.python.core.PyReflectedFunction.__call__(Unknown Source)
+       at org.python.core.PyReflectedFunction.__call__(Unknown Source)
+       at org.python.core.PyObject.__call__(Unknown Source)
+       at org.python.core.PyObject.invoke(Unknown Source)
+       at org.python.pycode._pyx4.f$0(../config/common/proxy.py:77)
+       at org.python.pycode._pyx4.call_function(../config/common/proxy.py)
+       at org.python.core.PyTableCode.call(Unknown Source)
+       at org.python.core.PyCode.call(Unknown Source)
+       at org.python.core.Py.runCode(Unknown Source)
+       at atavism.server.engine.ScriptManager.runPYFile(ScriptManager.java:181)
+       at atavism.server.engine.ScriptManager.runFile(ScriptManager.java:94)
+       at atavism.server.engine.Engine.processPostScripts(Engine.java:554)
+       at atavism.server.engine.Engine.main(Engine.java:406)
+ERROR [2017-05-03 04:34:33,864] MobManager-1         NavMesh WorldFile not found: ../navmesh/DruidIsland/DruidIsland.xml. Reverting to old pathing system
+ERROR [2017-05-03 04:34:33,990] MobManager-4         NavMesh WorldFile not found: ../navmesh/Cuzim/Cuzim.xml. Reverting to old pathing system
+ERROR [2017-05-03 04:34:34,104] MobManager-8         NavMesh WorldFile not found: ../navmesh/MainWorld/MainWorld.xml. Reverting to old pathing system
+ERROR [2017-05-03 04:35:25,379] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,379] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,379] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,380] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,380] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,381] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,381] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,382] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,446] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,446] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,447] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,447] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,447] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,447] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,447] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,501] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,501] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,502] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,502] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,502] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,503] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,544] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,544] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,545] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,545] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,545] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,591] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,592] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,592] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,592] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,644] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,644] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,644] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,686] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,686] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:35:25,733] MessageIO            Lost connection to agent 'arena' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 04:36:39,510] main                 File '../config/world/proxy-ads.txt', line 83: unknown message type ao.MOVEMENT_STATE
+ERROR [2017-05-03 04:36:39,511] main                 File '../config/world/proxy-ads.txt', line 113: unknown message type ao.SET_UNDERWATER
+ERROR [2017-05-03 04:36:43,078] MessageIO            DomainServer: unexpected plugin type=FlashPolicy name=FlashPolicy1
+ERROR [2017-05-03 04:36:45,659] MobManager-1         NavMesh WorldFile not found: ../navmesh/DruidIsland/DruidIsland.xml. Reverting to old pathing system
+ERROR [2017-05-03 04:36:45,858] MobManager-4         NavMesh WorldFile not found: ../navmesh/Cuzim/Cuzim.xml. Reverting to old pathing system
+ERROR [2017-05-03 04:36:45,981] MobManager-9         NavMesh WorldFile not found: ../navmesh/MainWorld/MainWorld.xml. Reverting to old pathing system
+ERROR [2017-05-03 04:42:53,977] SelfMessage          Unexpected RPC response requestId=713 from=proxy_1,721
+ERROR [2017-05-03 04:47:35,735] SelfMessage          Unexpected RPC response requestId=912 from=proxy_1,920
+ERROR [2017-05-03 05:14:36,913] SelfMessage          Unexpected RPC response requestId=1219 from=proxy_1,1227
+ERROR [2017-05-03 05:17:09,041] SelfMessage          Unexpected RPC response requestId=1333 from=proxy_1,1341
+ERROR [2017-05-03 05:23:28,110] SelfMessage          Unexpected RPC response requestId=1612 from=proxy_1,1618
+ERROR [2017-05-03 05:32:33,537] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:33,537] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:33,540] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:33,540] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:33,543] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:33,543] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:33,545] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:33,546] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:33,627] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:33,627] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:33,628] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:33,629] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:33,630] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:33,630] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:33,632] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:33,738] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:33,739] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:33,740] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:33,741] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:33,741] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:33,743] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:33,829] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:33,830] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:33,831] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:33,831] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:33,833] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:33,948] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:33,948] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:33,949] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:33,950] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:34,068] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:34,069] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:34,070] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:34,178] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:34,179] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 05:32:34,278] MessageIO            Lost connection to agent 'arena' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 15:17:09,561] main                 File '../config/world/proxy-ads.txt', line 83: unknown message type ao.MOVEMENT_STATE
+ERROR [2017-05-03 15:17:09,752] main                 File '../config/world/proxy-ads.txt', line 113: unknown message type ao.SET_UNDERWATER
+ERROR [2017-05-03 15:17:12,555] MessageIO            DomainServer: unexpected plugin type=FlashPolicy name=FlashPolicy1
+ERROR [2017-05-03 15:17:16,663] MobManager-1         NavMesh WorldFile not found: ../navmesh/DruidIsland/DruidIsland.xml. Reverting to old pathing system
+ERROR [2017-05-03 15:17:16,663] MobManager-3         NavMesh WorldFile not found: ../navmesh/MainWorld/MainWorld.xml. Reverting to old pathing system
+ERROR [2017-05-03 15:17:16,663] MobManager-2         NavMesh WorldFile not found: ../navmesh/Cuzim/Cuzim.xml. Reverting to old pathing system
+ERROR [2017-05-03 15:25:44,070] WorldManager1-10     EnginePlugin.setPropertyImpl: could not find obj / subobj for oid 0000000000004f67, namespace [Namespace NS.wmgr:3], key=weaponsSheathed
+ERROR [2017-05-03 15:26:45,780] SelfMessage          Unexpected RPC response requestId=561 from=proxy_1,569
+ERROR [2017-05-03 16:32:42,380] SelfMessage          Unexpected RPC response requestId=672 from=proxy_1,680
+ERROR [2017-05-03 16:41:25,337] WorldManager1-8      EnginePlugin.GetPropertyHook: could not find subobj for oid 0000000000004f7c in namespace [Namespace NS.wmgr:3]
+ERROR [2017-05-03 16:41:25,739] Scheduled-5          CombatInfo.run: got exception atavism.msgsys.NoRecipientsException: sendRPC: no message recipients for type=MessageType['ao.GETWNODE_REQ', 16] [atavism.msgsys.SubjectMessage subject=0000000000004f7c], class atavism.msgsys.SubjectMessage
+       at atavism.msgsys.MessageAgent._sendRPC(MessageAgent.java:1161)
+       at atavism.msgsys.MessageAgent.sendRPC(MessageAgent.java:967)
+       at atavism.msgsys.MessageAgent.sendRPC(MessageAgent.java:950)
+       at atavism.msgsys.MessageAgent.sendRPCReturnObject(MessageAgent.java:1101)
+       at atavism.server.plugins.WorldManagerClient.getWorldNode(WorldManagerClient.java:75)
+       at atavism.agis.core.AgisAbility.checkRange(AgisAbility.java:1163)
+       at atavism.agis.core.AgisAbility.checkAbility(AgisAbility.java:1533)
+       at atavism.agis.abilities.CombatMeleeAbility.checkAbility(CombatMeleeAbility.java:37)
+       at atavism.agis.core.AgisAbilityState.updateState(AgisAbilityState.java:142)
+       at atavism.agis.core.AgisAbility.startAbility(AgisAbility.java:1558)
+       at atavism.agis.core.AgisAbility.startAbility(AgisAbility.java:1549)
+       at atavism.agis.plugins.CombatPlugin.resolveAutoAttack(CombatPlugin.java:306)
+       at atavism.agis.objects.CombatInfo.run(CombatInfo.java:166)
+       at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+       at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+       at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:178)
+       at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:292)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+       at java.lang.Thread.run(Thread.java:722)
+ERROR [2017-05-03 16:42:29,809] WorldManager1-4      EnginePlugin.GetPropertyHook: could not find subobj for oid 0000000000004f76 in namespace [Namespace NS.wmgr:3]
+ERROR [2017-05-03 16:43:41,009] WorldManager1-9      EnginePlugin.GetPropertyHook: could not find subobj for oid 0000000000004f82 in namespace [Namespace NS.wmgr:3]
+ERROR [2017-05-03 16:43:41,021] Voxel-1              handleMessageImpl java.lang.NullPointerException
+       at atavism.agis.plugins.VoxelPlugin$DespawnedHook.processMessage(VoxelPlugin.java:195)
+       at atavism.server.engine.EnginePlugin.handleMessageImpl(EnginePlugin.java:426)
+       at atavism.server.engine.EnginePlugin$QueuedMessage.run(EnginePlugin.java:460)
+       at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+       at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+       at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+       at java.lang.Thread.run(Thread.java:722)
+ERROR [2017-05-03 16:44:06,261] WorldManager1-7      EnginePlugin.GetPropertyHook: could not find subobj for oid 0000000000004f58 in namespace [Namespace NS.wmgr:3]
+ERROR [2017-05-03 16:44:06,284] Voxel-2              handleMessageImpl java.lang.NullPointerException
+       at atavism.agis.plugins.VoxelPlugin$DespawnedHook.processMessage(VoxelPlugin.java:195)
+       at atavism.server.engine.EnginePlugin.handleMessageImpl(EnginePlugin.java:426)
+       at atavism.server.engine.EnginePlugin$QueuedMessage.run(EnginePlugin.java:460)
+       at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+       at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+       at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+       at java.lang.Thread.run(Thread.java:722)
+ERROR [2017-05-03 16:44:51,658] WorldManager1-4      EnginePlugin.GetPropertyHook: could not find subobj for oid 0000000000004f5b in namespace [Namespace NS.wmgr:3]
+ERROR [2017-05-03 16:45:18,852] WorldManager1-10     EnginePlugin.GetPropertyHook: could not find subobj for oid 0000000000004f55 in namespace [Namespace NS.wmgr:3]
+ERROR [2017-05-03 16:45:18,863] WorldManager1-5      EnginePlugin.setPropertyImpl: could not find obj / subobj for oid 0000000000004f55, namespace [Namespace NS.wmgr:3], key=weaponsSheathed
+ERROR [2017-05-03 16:45:18,887] Voxel-4              handleMessageImpl java.lang.NullPointerException
+       at atavism.agis.plugins.VoxelPlugin$DespawnedHook.processMessage(VoxelPlugin.java:195)
+       at atavism.server.engine.EnginePlugin.handleMessageImpl(EnginePlugin.java:426)
+       at atavism.server.engine.EnginePlugin$QueuedMessage.run(EnginePlugin.java:460)
+       at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+       at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+       at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+       at java.lang.Thread.run(Thread.java:722)
+ERROR [2017-05-03 16:45:51,404] WorldManager1-2      EnginePlugin.setPropertyImpl: could not find obj / subobj for oid 0000000000004f61, namespace [Namespace NS.wmgr:3], key=weaponsSheathed
+ERROR [2017-05-03 16:48:57,464] WorldManager1-4      EnginePlugin.setPropertyImpl: could not find obj / subobj for oid 0000000000004f73, namespace [Namespace NS.wmgr:3], key=weaponsSheathed
+ERROR [2017-05-03 16:48:57,464] WorldManager1-4      EnginePlugin.GetPropertyHook: could not find subobj for oid 0000000000004f73 in namespace [Namespace NS.wmgr:3]
+ERROR [2017-05-03 16:50:52,897] WorldManager1-4      EnginePlugin.GetPropertyHook: could not find subobj for oid 0000000000004f79 in namespace [Namespace NS.wmgr:3]
+ERROR [2017-05-03 16:54:39,431] SelfMessage          Unexpected RPC response requestId=1671 from=proxy_1,1679
+ERROR [2017-05-03 16:54:59,662] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:54:59,662] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:54:59,662] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:54:59,662] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:54:59,662] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:54:59,662] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:54:59,662] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:54:59,662] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:54:59,740] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:54:59,740] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:54:59,740] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:54:59,740] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:54:59,740] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:54:59,740] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:54:59,740] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:54:59,802] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:54:59,802] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:54:59,802] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:54:59,802] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:54:59,802] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:54:59,802] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:54:59,880] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:54:59,880] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:54:59,896] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:54:59,896] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:54:59,896] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:54:59,974] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:54:59,974] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:54:59,974] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:54:59,974] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:55:00,036] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:55:00,036] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:55:00,036] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:55:00,114] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:55:00,114] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-03 16:55:00,177] MessageIO            Lost connection to agent 'arena' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-24 20:08:16,237] main                 File '../config/world/proxy-ads.txt', line 83: unknown message type ao.MOVEMENT_STATE
+ERROR [2017-05-24 20:08:16,277] main                 File '../config/world/proxy-ads.txt', line 113: unknown message type ao.SET_UNDERWATER
+ERROR [2017-05-24 20:08:19,465] MessageIO            DomainServer: unexpected plugin type=FlashPolicy name=FlashPolicy1
+ERROR [2017-05-24 20:08:26,249] MobManager-1         NavMesh WorldFile not found: ../navmesh/DruidIsland/DruidIsland.xml. Reverting to old pathing system
+ERROR [2017-05-24 20:08:26,249] MobManager-2         NavMesh WorldFile not found: ../navmesh/Cuzim/Cuzim.xml. Reverting to old pathing system
+ERROR [2017-05-24 20:08:26,249] MobManager-3         NavMesh WorldFile not found: ../navmesh/MainWorld/MainWorld.xml. Reverting to old pathing system
+ERROR [2017-05-29 03:07:09,885] main                 File '../config/world/proxy-ads.txt', line 83: unknown message type ao.MOVEMENT_STATE
+ERROR [2017-05-29 03:07:09,910] main                 File '../config/world/proxy-ads.txt', line 113: unknown message type ao.SET_UNDERWATER
+ERROR [2017-05-29 03:07:11,366] MessageIO            DomainServer: unexpected plugin type=FlashPolicy name=FlashPolicy1
+ERROR [2017-05-29 03:07:19,916] MobManager-2         NavMesh WorldFile not found: ../navmesh/Cuzim/Cuzim.xml. Reverting to old pathing system
+ERROR [2017-05-29 03:07:19,919] MobManager-1         NavMesh WorldFile not found: ../navmesh/DruidIsland/DruidIsland.xml. Reverting to old pathing system
+ERROR [2017-05-29 03:07:19,920] MobManager-3         NavMesh WorldFile not found: ../navmesh/MainWorld/MainWorld.xml. Reverting to old pathing system
+ERROR [2017-05-29 03:13:18,393] SelfMessage          Unexpected RPC response requestId=526 from=proxy_1,533
+ERROR [2017-05-29 03:13:33,851] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:33,851] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:33,852] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:33,853] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:33,854] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:33,854] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:33,855] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:33,856] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:33,925] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:33,926] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:33,927] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:33,928] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:33,931] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:33,932] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:33,933] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:34,055] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:34,055] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:34,056] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:34,056] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:34,057] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:34,057] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:34,118] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:34,119] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:34,121] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:34,121] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:34,122] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:34,196] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:34,197] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:34,198] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:34,198] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:34,276] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:34,277] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:34,277] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:34,352] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:34,353] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2017-05-29 03:13:34,425] MessageIO            Lost connection to agent 'arena' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-20 04:32:08,573] main                 File '../config/world/proxy-ads.txt', line 83: unknown message type ao.MOVEMENT_STATE
+ERROR [2017-12-20 04:32:08,722] main                 File '../config/world/proxy-ads.txt', line 113: unknown message type ao.SET_UNDERWATER
+ERROR [2017-12-20 05:02:18,679] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-20 05:02:18,680] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-20 05:02:18,682] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-20 05:02:18,683] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-20 05:02:18,687] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-20 05:02:18,686] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-20 05:02:18,914] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-20 05:02:18,914] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-20 05:02:18,915] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-20 05:02:18,917] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-20 05:02:18,917] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-20 05:02:19,066] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-20 05:02:19,067] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-20 05:02:19,070] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-20 05:02:19,072] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-20 05:02:19,194] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-20 05:02:19,195] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-20 05:02:19,195] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-20 05:02:19,310] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-20 05:02:19,310] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-20 05:02:19,434] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:07:50,191] main                 File '../config/world/proxy-ads.txt', line 83: unknown message type ao.MOVEMENT_STATE
+ERROR [2017-12-30 03:07:50,254] main                 File '../config/world/proxy-ads.txt', line 113: unknown message type ao.SET_UNDERWATER
+ERROR [2017-12-30 03:07:57,507] MessageIO            DomainServer: unexpected plugin type=FlashPolicy name=FlashPolicy1
+ERROR [2017-12-30 03:08:29,692] MobManager-3         NavMesh WorldFile not found: ../navmesh/MainWorld/MainWorld.xml. Reverting to old pathing system
+ERROR [2017-12-30 03:08:29,692] MobManager-2         NavMesh WorldFile not found: ../navmesh/Cuzim/Cuzim.xml. Reverting to old pathing system
+ERROR [2017-12-30 03:08:29,692] MobManager-1         NavMesh WorldFile not found: ../navmesh/DruidIsland/DruidIsland.xml. Reverting to old pathing system
+ERROR [2017-12-30 03:43:49,880] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:43:49,882] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:43:49,883] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:43:49,885] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:43:49,888] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:43:49,890] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:43:49,890] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:43:50,012] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:43:50,013] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:43:50,014] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:43:50,015] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:43:50,015] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:43:50,017] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:43:50,020] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:43:50,255] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:43:50,255] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:43:50,255] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:43:50,256] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:43:50,257] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:43:50,262] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:43:50,468] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:43:50,468] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:43:50,470] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:43:50,470] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:43:50,472] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:43:50,527] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:43:50,531] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:43:50,532] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:43:50,534] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:43:50,955] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:43:50,957] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:43:51,035] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-30 03:43:51,038] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:04:20,406] main                 File '../config/world/proxy-ads.txt', line 83: unknown message type ao.MOVEMENT_STATE
+ERROR [2017-12-31 22:04:20,418] main                 File '../config/world/proxy-ads.txt', line 113: unknown message type ao.SET_UNDERWATER
+ERROR [2017-12-31 22:04:29,827] MessageIO            DomainServer: unexpected plugin type=FlashPolicy name=FlashPolicy1
+ERROR [2017-12-31 22:04:40,351] MobManager-3         NavMesh WorldFile not found: ../navmesh/MainWorld/MainWorld.xml. Reverting to old pathing system
+ERROR [2017-12-31 22:04:40,358] MobManager-1         NavMesh WorldFile not found: ../navmesh/DruidIsland/DruidIsland.xml. Reverting to old pathing system
+ERROR [2017-12-31 22:04:40,360] MobManager-2         NavMesh WorldFile not found: ../navmesh/Cuzim/Cuzim.xml. Reverting to old pathing system
+ERROR [2017-12-31 22:16:17,470] Arena-9              handleMessageImpl atavism.msgsys.NoRecipientsException: sendRPC: no message recipients for type=MessageType['ao.GET_PROPERTY', 84] [GetPropertyMessage oid=0000000000004492, keys=duelChallengeID, super=[atavism.server.engine.EnginePlugin$GetPropertyMessage subject=0000000000004492]], class atavism.server.engine.EnginePlugin$GetPropertyMessage
+       at atavism.msgsys.MessageAgent._sendRPC(MessageAgent.java:1161)
+       at atavism.msgsys.MessageAgent.sendRPC(MessageAgent.java:967)
+       at atavism.msgsys.MessageAgent.sendRPC(MessageAgent.java:950)
+       at atavism.msgsys.MessageAgent.sendRPCReturnObject(MessageAgent.java:1101)
+       at atavism.server.engine.EnginePlugin.getObjectProperty(EnginePlugin.java:2128)
+       at atavism.agis.plugins.ArenaPlugin$DespawnedHook.processMessage(ArenaPlugin.java:537)
+       at atavism.server.engine.EnginePlugin.handleMessageImpl(EnginePlugin.java:426)
+       at atavism.server.engine.EnginePlugin$QueuedMessage.run(EnginePlugin.java:460)
+       at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:471)
+       at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+       at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+       at java.lang.Thread.run(Thread.java:722)
+ERROR [2017-12-31 22:16:17,580] SelfMessage          Unexpected RPC response requestId=521 from=proxy_1,529
+ERROR [2017-12-31 22:20:03,158] SelfMessage          Unexpected RPC response requestId=920 from=proxy_1,928
+ERROR [2017-12-31 22:20:55,949] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:55,950] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:55,951] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:55,953] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:55,953] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:55,954] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:55,954] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:55,956] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:56,060] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:56,060] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:56,061] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:56,061] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:56,061] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:56,062] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:56,063] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:56,167] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:56,169] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:56,169] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:56,171] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:56,172] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:56,173] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:56,274] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:56,275] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:56,275] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:56,276] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:56,276] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:56,386] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:56,387] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:56,391] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:56,393] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:56,502] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:56,503] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:56,503] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:56,627] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:56,627] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2017-12-31 22:20:56,727] MessageIO            Lost connection to agent 'arena' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:38:11,589] main                 File '../config/world/proxy-ads.txt', line 83: unknown message type ao.MOVEMENT_STATE
+ERROR [2018-01-23 12:38:11,600] main                 File '../config/world/proxy-ads.txt', line 113: unknown message type ao.SET_UNDERWATER
+ERROR [2018-01-23 12:38:19,182] MessageIO            DomainServer: unexpected plugin type=FlashPolicy name=FlashPolicy1
+ERROR [2018-01-23 12:38:32,640] MobManager-1         NavMesh WorldFile not found: ../navmesh/DruidIsland/DruidIsland.xml. Reverting to old pathing system
+ERROR [2018-01-23 12:38:32,643] MobManager-2         NavMesh WorldFile not found: ../navmesh/Cuzim/Cuzim.xml. Reverting to old pathing system
+ERROR [2018-01-23 12:38:32,643] MobManager-3         NavMesh WorldFile not found: ../navmesh/MainWorld/MainWorld.xml. Reverting to old pathing system
+ERROR [2018-01-23 12:40:13,899] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:13,900] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:13,902] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:13,904] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:13,905] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:13,906] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:13,907] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:13,912] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:14,004] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:14,006] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:14,008] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:14,008] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:14,008] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:14,009] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:14,010] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:14,168] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:14,171] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:14,171] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:14,171] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:14,172] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:14,174] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:14,298] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:14,298] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:14,300] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:14,301] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:14,301] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:14,393] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:14,397] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:14,398] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:14,400] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:14,504] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:14,505] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:14,506] MessageIO            Lost connection to agent 'proxy_1' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:14,606] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:14,607] MessageIO            Lost connection to agent 'mobserver' java.nio.channels.SocketChannel[closed]
+ERROR [2018-01-23 12:40:14,708] MessageIO            Lost connection to agent 'arena' java.nio.channels.SocketChannel[closed]

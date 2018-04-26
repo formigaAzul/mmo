@@ -1,0 +1,157 @@
+INFO  [2018-01-23 12:37:24,972] main                 pid 6124@PCHacker
+DEBUG [2018-01-23 12:37:24,974] main                 Using property file ../bin/auth.properties
+DEBUG [2018-01-23 12:37:24,974] main                 Properties are:
+DEBUG [2018-01-23 12:37:24,975] main                     java.vendor = Oracle Corporation
+DEBUG [2018-01-23 12:37:24,975] main                     log4j.appender.FILE = org.apache.log4j.RollingFileAppender
+DEBUG [2018-01-23 12:37:24,975] main                     sun.java.launcher = SUN_STANDARD
+DEBUG [2018-01-23 12:37:24,975] main                     sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+DEBUG [2018-01-23 12:37:24,975] main                     atavism.remote_db_hostname = 0.0.0.0
+DEBUG [2018-01-23 12:37:24,976] main                     os.name = Windows 7
+DEBUG [2018-01-23 12:37:24,976] main                     sun.boot.class.path = C:\Program Files\Java\jdk1.7.0_09\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_09\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_09\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_09\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_09\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_09\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_09\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_09\jre\classes
+DEBUG [2018-01-23 12:37:24,976] main                     sun.desktop = windows
+DEBUG [2018-01-23 12:37:24,976] main                     java.vm.specification.vendor = Oracle Corporation
+DEBUG [2018-01-23 12:37:24,976] main                     java.runtime.version = 1.7.0_09-b05
+DEBUG [2018-01-23 12:37:24,977] main                     user.name = Hacker Noiadão
+DEBUG [2018-01-23 12:37:24,977] main                     atavism.db_user = root
+DEBUG [2018-01-23 12:37:24,977] main                     atavism.remote_db_enabled = false
+DEBUG [2018-01-23 12:37:24,977] main                     atavism.remote_db_driver = com.mysql.jdbc.Driver
+DEBUG [2018-01-23 12:37:24,977] main                     atavism.allowaccountregistration = true
+DEBUG [2018-01-23 12:37:24,977] main                     atavism.master_rdp_port = 9010
+DEBUG [2018-01-23 12:37:24,977] main                     atavism.remote_db_user = root
+DEBUG [2018-01-23 12:37:24,978] main                     user.language = pt
+DEBUG [2018-01-23 12:37:24,978] main                     atavism.jdbcJarPath = ../other/mysql-connector-java-3.1.14-bin.jar
+DEBUG [2018-01-23 12:37:24,978] main                     atavism.log_rdp_counters = false
+DEBUG [2018-01-23 12:37:24,978] main                     atavism.db_type = mysql
+DEBUG [2018-01-23 12:37:24,978] main                     sun.boot.library.path = C:\Program Files\Java\jdk1.7.0_09\jre\bin
+DEBUG [2018-01-23 12:37:24,978] main                     atavism.db_driver = com.mysql.jdbc.Driver
+DEBUG [2018-01-23 12:37:24,979] main                     java.version = 1.7.0_09
+DEBUG [2018-01-23 12:37:24,979] main                     log4j.rootLogger = DEBUG, FILE
+DEBUG [2018-01-23 12:37:24,979] main                     user.timezone = America/Sao_Paulo
+DEBUG [2018-01-23 12:37:24,979] main                     atavism.remote_db_type = mysql
+DEBUG [2018-01-23 12:37:24,979] main                     sun.arch.data.model = 64
+DEBUG [2018-01-23 12:37:24,979] main                     java.endorsed.dirs = C:\Program Files\Java\jdk1.7.0_09\jre\lib\endorsed
+DEBUG [2018-01-23 12:37:24,979] main                     atavism.db_name = master
+DEBUG [2018-01-23 12:37:24,980] main                     sun.cpu.isalist = amd64
+DEBUG [2018-01-23 12:37:24,980] main                     sun.jnu.encoding = Cp1252
+DEBUG [2018-01-23 12:37:24,980] main                     file.encoding.pkg = sun.io
+DEBUG [2018-01-23 12:37:24,980] main                     atavism.master_tcp_port = 9005
+DEBUG [2018-01-23 12:37:24,980] main                     file.separator = \
+DEBUG [2018-01-23 12:37:24,980] main                     java.specification.name = Java Platform API Specification
+DEBUG [2018-01-23 12:37:24,981] main                     atavism.socketpolicy.bindport = 5090
+DEBUG [2018-01-23 12:37:24,981] main                     java.class.version = 51.0
+DEBUG [2018-01-23 12:37:24,981] main                     log4j.appender.FILE.layout = org.apache.log4j.PatternLayout
+DEBUG [2018-01-23 12:37:24,981] main                     user.country = BR
+DEBUG [2018-01-23 12:37:24,981] main                     atavism.remote_db_name = some_db
+DEBUG [2018-01-23 12:37:24,981] main                     java.home = C:\Program Files\Java\jdk1.7.0_09\jre
+DEBUG [2018-01-23 12:37:24,982] main                     java.vm.info = mixed mode
+DEBUG [2018-01-23 12:37:24,982] main                     os.version = 6.1
+DEBUG [2018-01-23 12:37:24,982] main                     atavism.remote_db_password = 
+DEBUG [2018-01-23 12:37:24,982] main                     atavism.remote_db_account_table = account
+DEBUG [2018-01-23 12:37:24,982] main                     path.separator = ;
+DEBUG [2018-01-23 12:37:24,982] main                     java.vm.version = 23.5-b02
+DEBUG [2018-01-23 12:37:24,982] main                     atavism.logs = ../logs/master
+DEBUG [2018-01-23 12:37:24,983] main                     user.variant = 
+DEBUG [2018-01-23 12:37:24,983] main                     java.awt.printerjob = sun.awt.windows.WPrinterJob
+DEBUG [2018-01-23 12:37:24,983] main                     sun.io.unicode.encoding = UnicodeLittle
+DEBUG [2018-01-23 12:37:24,983] main                     log4j.appender.FILE.File = ${atavism.logs}/${atavism.loggername}.out
+DEBUG [2018-01-23 12:37:24,983] main                     awt.toolkit = sun.awt.windows.WToolkit
+DEBUG [2018-01-23 12:37:24,983] main                     atavism.db_hostname = localhost
+DEBUG [2018-01-23 12:37:24,984] main                     user.script = 
+DEBUG [2018-01-23 12:37:24,984] main                     user.home = C:\Users\Hacker Noiadão
+DEBUG [2018-01-23 12:37:24,984] main                     java.specification.vendor = Oracle Corporation
+DEBUG [2018-01-23 12:37:24,984] main                     java.library.path = C:\Program Files\Java\jdk1.7.0_09\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.7.0_09\bin;.;C:\cygwin64\usr\local\bin;C:\cygwin64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\QuickTime\QTSystem;C:\Program Files\Java\jdk1.7.0_09\bin;C:\OpenSSL-Win64\bin;C:\Program Files (x86)\Skype\Phone;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\Nintendo\Nintendo Dev Interface;C:\Program Files\Nintendo\HostBridge;C:\Program Files (x86)\EgisTec BioExcess\x64;C:\Program Files (x86)\EgisTec BioExcess;C:\Users\Hacker Noiadão\AppData\Local\Programs\Python\Python36-32\Scripts;C:\Users\Hacker Noiadão\AppData\Local\Programs\Python\Python36-32;C:\Program Files\Java\jdk1.7.0_09\bin;C:\Program Files\Heroku\bin;C:\Users\Hacker Noiadão\AppData\Roaming\npm;C:\Users\Hacker Noiadão\AppData\Local\GitHubDesktop\bin;.
+DEBUG [2018-01-23 12:37:24,985] main                     java.vendor.url = http://java.oracle.com/
+DEBUG [2018-01-23 12:37:24,985] main                     java.vm.vendor = Oracle Corporation
+DEBUG [2018-01-23 12:37:24,985] main                     java.runtime.name = Java(TM) SE Runtime Environment
+DEBUG [2018-01-23 12:37:24,985] main                     sun.java.command = atavism.server.engine.MasterServer ../bin/auth_server.py
+DEBUG [2018-01-23 12:37:24,986] main                     java.class.path = ../other/rhino1_5R5/js.jar;../other/mysql-connector-java-3.1.14-bin.jar;../dist/lib/injected.jar;../dist/lib/atavism.jar;../dist/lib/agis.jar;../other/java-getopt-1.0.11.jar;../other/jython.jar;../other/log4j-1.2.15.jar;../other/bcel-5.2.jar;.
+DEBUG [2018-01-23 12:37:24,986] main                     log4j.appender.FILE.MaxBackupIndex = 3
+DEBUG [2018-01-23 12:37:24,986] main                     java.vm.specification.name = Java Virtual Machine Specification
+DEBUG [2018-01-23 12:37:24,986] main                     java.vm.specification.version = 1.7
+DEBUG [2018-01-23 12:37:24,986] main                     sun.cpu.endian = little
+DEBUG [2018-01-23 12:37:24,987] main                     atavism.rotate_logs_on_startup = true
+DEBUG [2018-01-23 12:37:24,987] main                     sun.os.patch.level = Service Pack 1
+DEBUG [2018-01-23 12:37:24,987] main                     java.io.tmpdir = C:\cygwin64\tmp\
+DEBUG [2018-01-23 12:37:24,987] main                     java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+DEBUG [2018-01-23 12:37:24,987] main                     log4j.appender.FILE.MaxFileSize = 50MB
+DEBUG [2018-01-23 12:37:24,987] main                     atavism.loggername = authentication
+DEBUG [2018-01-23 12:37:24,987] main                     os.arch = amd64
+DEBUG [2018-01-23 12:37:24,988] main                     java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+DEBUG [2018-01-23 12:37:24,988] main                     java.ext.dirs = C:\Program Files\Java\jdk1.7.0_09\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+DEBUG [2018-01-23 12:37:24,988] main                     log4j.appender.FILE.layout.ConversionPattern = %-5p [%d{ISO8601}] %-20t %m%n
+DEBUG [2018-01-23 12:37:24,988] main                     user.dir = C:\ataserver\bin
+DEBUG [2018-01-23 12:37:24,988] main                     atavism.world_available_message = DONE INITIALIZING, you can log in now
+DEBUG [2018-01-23 12:37:24,989] main                     line.separator = 
+
+DEBUG [2018-01-23 12:37:24,989] main                     java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+DEBUG [2018-01-23 12:37:24,989] main                     atavism.propertyfile = ../bin/auth.properties
+DEBUG [2018-01-23 12:37:24,989] main                     atavism.db_password = 
+DEBUG [2018-01-23 12:37:24,989] main                     file.encoding = Cp1252
+DEBUG [2018-01-23 12:37:24,990] main                     atavism.log_level = 1
+DEBUG [2018-01-23 12:37:24,990] main                     atavism.use_salted_passwords = false
+DEBUG [2018-01-23 12:37:24,990] main                     java.specification.version = 1.7
+DEBUG [2018-01-23 12:37:24,990] main                     atavism.socketpolicy.bindaddress = localhost
+INFO  [2018-01-23 12:37:24,991] main                 The log level is 1
+INFO  [2018-01-23 12:37:24,996] main                 Atavism server version 2.6.1 0 (- -)
+DEBUG [2018-01-23 12:37:25,787] main                 SecureTokenManager.initDomain: reading domain key. keyId=0x1 algorithm=HmacSHA1
+DEBUG [2018-01-23 12:37:25,800] main                 SocketPolicy: binding for incoming client connections at: localhost/127.0.0.1:5090
+DEBUG [2018-01-23 12:37:25,801] main                 Set policy complete
+DEBUG [2018-01-23 12:37:25,817] main                 TcpServer: bound to /127.0.0.1:5090
+DEBUG [2018-01-23 12:37:25,819] main                 Started server
+DEBUG [2018-01-23 12:37:25,819] main                 SocketPolicy: activation done
+DEBUG [2018-01-23 12:37:27,797] main                 Executing script file: ../bin/auth_server.py
+DEBUG [2018-01-23 12:37:27,797] main                 runPYFile: file=../bin/auth_server.py
+DEBUG [2018-01-23 12:37:28,239] main                 SecureTokenManager.initMaster: master key keyId=0x7 algorithm=DSA
+DEBUG [2018-01-23 12:37:28,241] main                 script completed
+DEBUG [2018-01-23 12:37:28,283] main                 Database: starting keepalive
+DEBUG [2018-01-23 12:37:28,286] main                 *** url = jdbc:mysql://localhost/master username = root password = 
+DEBUG [2018-01-23 12:37:29,069] main                 RDPServer: starting rdpServerThread with priority 7
+DEBUG [2018-01-23 12:37:29,071] main                 BIND: in Bind with port: 9010
+DEBUG [2018-01-23 12:37:29,071] main                 BIND: about to bind RDPServer
+DEBUG [2018-01-23 12:37:29,071] main                 BIND: about to open datagram channel
+DEBUG [2018-01-23 12:37:29,085] main                 BIND: about to set buffer size for datagram channel: 65536
+DEBUG [2018-01-23 12:37:29,106] main                 BIND: about to bind to dc socket with port: 9010
+DEBUG [2018-01-23 12:37:29,106] main                 BIND: created addr: 0.0.0.0/0.0.0.0:9010
+DEBUG [2018-01-23 12:37:29,106] main                 BIND: got socket: sun.nio.ch.DatagramSocketAdaptor@523ed23c
+DEBUG [2018-01-23 12:37:29,107] main                 BIND: bound socket: 
+DEBUG [2018-01-23 12:37:29,107] main                 BIND: getting resulting port: 
+DEBUG [2018-01-23 12:37:29,107] main                 BIND: about to signal channelMapNotEmpty: 
+DEBUG [2018-01-23 12:37:29,107] main                 BIND: about to wake up selector: 
+DEBUG [2018-01-23 12:37:29,108] main                 BIND: about to register RDPServer socket
+DEBUG [2018-01-23 12:37:29,110] main                 BIND: registered RDPServer socket
+INFO  [2018-01-23 12:37:29,110] main                 masterserver: rdp on port 9010
+DEBUG [2018-01-23 12:37:29,137] main                 TcpServer: bound to /0:0:0:0:0:0:0:0:9010
+INFO  [2018-01-23 12:37:29,137] main                 masterserver: tcp on port 9005
+DEBUG [2018-01-23 12:37:29,138] main                 masterserver: tcp server listening on port 9005
+DEBUG [2018-01-23 12:38:28,300] DBKeepalive          Database: ping
+INFO  [2018-01-23 12:38:28,374] DBKeepalive          Database reconnect: url=jdbc:mysql://localhost/master
+INFO  [2018-01-23 12:38:28,990] DBKeepalive          Database: reconnected to jdbc:mysql://localhost/master
+DEBUG [2018-01-23 12:38:46,230] RDPServer            masterserver: new incoming connection: RDP(/127.0.0.1:5868)
+DEBUG [2018-01-23 12:38:46,250] RDPCallback          masterserver: got name resolution request
+DEBUG [2018-01-23 12:38:46,251] RDPCallback          masterserver.resolvename: looking up worldName atavism_demo
+ERROR [2018-01-23 12:38:46,252] RDPCallback          RDPServer.PacketCallbackThread:  java.nio.BufferUnderflowException
+       at java.nio.Buffer.nextGetIndex(Buffer.java:498)
+       at java.nio.HeapByteBuffer.getInt(HeapByteBuffer.java:355)
+       at atavism.server.network.AOByteBuffer.getString(AOByteBuffer.java:185)
+       at atavism.server.engine.MasterServer.resolveName(MasterServer.java:114)
+       at atavism.server.engine.MasterServer.processPacket(MasterServer.java:89)
+       at atavism.server.network.rdp.RDPServer.callbackProcessPacket(RDPServer.java:1277)
+       at atavism.server.network.rdp.RDPServer$PacketCallbackThread.run(RDPServer.java:1234)
+       at java.lang.Thread.run(Thread.java:722)
+DEBUG [2018-01-23 12:38:47,289] pool-1-thread-1      Magic cookie: -1
+DEBUG [2018-01-23 12:38:47,290] pool-1-thread-1      cookie=-1 version=1
+DEBUG [2018-01-23 12:38:47,290] pool-1-thread-1      MasterServer.handleAuth: username len=4
+DEBUG [2018-01-23 12:38:47,290] pool-1-thread-1      MasterServer.handleAuth: login username=moka
+ERROR [2018-01-23 12:39:01,940] pool-1-thread-1      MasterServer.run caught exception java.io.EOFException
+       at java.io.DataInputStream.readInt(DataInputStream.java:392)
+       at atavism.server.engine.MasterServer$SocketHandler.handleAuth(MasterServer.java:278)
+       at atavism.server.engine.MasterServer$SocketHandler.run(MasterServer.java:472)
+       at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1110)
+       at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:603)
+       at java.lang.Thread.run(Thread.java:722)
+DEBUG [2018-01-23 12:39:01,941] pool-1-thread-1      SocketHandler: closed socket: Socket[addr=/127.0.0.1,port=50862,localport=9005]
+DEBUG [2018-01-23 12:39:18,617] RDPServer            RDPServer.processExistingConnection: got reset packet for con RDP(/127.0.0.1:5868)
+DEBUG [2018-01-23 12:39:18,617] RDPServer            Masterserver: connection reset
+DEBUG [2018-01-23 12:39:28,990] DBKeepalive          Database: ping
+INFO  [2018-01-23 12:39:28,991] DBKeepalive          Database reconnect: url=jdbc:mysql://localhost/master
+INFO  [2018-01-23 12:39:29,087] DBKeepalive          Database: reconnected to jdbc:mysql://localhost/master

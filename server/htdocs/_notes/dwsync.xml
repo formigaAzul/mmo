@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="index.php" server="10.9.8.62//" local="130850439468022966" remote="130850439000000000" Dst="2" />
+<file name="conndb_atavism.inc.php" server="10.9.8.62//" local="130843040846267431" remote="130843040400000000" Dst="2" />
+<file name="getBackdatingDB.php" server="10.9.8.62//" local="130847380193162452" remote="130847209800000000" Dst="2" />
+<file name="atavismfunctions.inc.php" server="10.9.8.62//" local="130850426954147213" remote="130850426400000000" Dst="2" />
+<file name="update_itemtemplates.php" server="10.9.8.62//" local="130847380678190194" remote="130847210400000000" Dst="2" />
+<file name="getLogs.php" server="10.9.8.62//" local="130847383962558050" remote="130847214000000000" Dst="2" />
+<file name="makeSQLBackup.php" server="10.9.8.62//" local="130847384943054131" remote="130847214600000000" Dst="2" />
+<file name="getSQLBackup.php" server="10.9.8.62//" local="130847384380761969" remote="130847214000000000" Dst="2" />
+<file name="restoreMySQLfromBackup.php" server="10.9.8.62//" local="130847387138609709" remote="130847217000000000" Dst="2" />
+<file name="config.inc.php" server="10.9.8.62//" local="130849410908662735" remote="130849410600000000" Dst="2" />
+<file name="top.php" server="10.9.8.62//" local="130843158807504428" remote="130843158600000000" Dst="2" />
+<file name="menu.php" server="10.9.8.62//" local="130850415378125102" remote="130850415000000000" Dst="2" />
+<file name="middle.php" server="10.9.8.62//" local="130850414855635218" remote="130850414400000000" Dst="2" />
+<file name="footer.php" server="10.9.8.62//" local="130842358921643574" remote="130842358800000000" Dst="2" />
+<file name="connection.inc.php" server="10.9.8.62//" local="130856203139255017" remote="130856202600000000" Dst="2" />
+<file name="updatetemplate.php" server="10.9.8.62//" local="130843201146456077" remote="130843200600000000" Dst="2" />
+<file name="session.php" server="10.9.8.62//" local="130843346264366347" remote="130843345800000000" Dst="2" />
+<file name="login.php" server="10.9.8.62//" local="130843363913045794" remote="130843363800000000" Dst="2" />
+<file name="logout.php" server="10.9.8.62//" local="130843130956591447" remote="130843130400000000" Dst="2" />
+<file name="profile.php" server="10.9.8.62//" local="130843157757594376" remote="130843157400000000" Dst="2" />
+<file name="update_charactertemplates.php" server="10.9.8.62//" local="130851291752230834" remote="130851291600000000" Dst="2" />
+<file name="phpinfo.php" server="10.9.8.62//" local="130846767136047591" remote="130846597200000000" Dst="2" />
+<file name="atavismfunctions.inc.php" server="10.9.8.68//var/www/html/" local="130880423536420353" remote="130880423510000000" Dst="2" />
+<file name="config.inc.php" server="10.9.8.68//var/www/html/" local="130880449840000000" remote="130880449840000000" Dst="2" />
+<file name="conndb_atavism.inc.php" server="10.9.8.68//var/www/html/" local="130843040846267431" remote="130843040840000000" Dst="2" />
+<file name="update_charactertemplates.php" server="10.9.8.68//var/www/html/" local="130858073586418475" remote="130858073570000000" Dst="2" />
+<file name="update_itemtemplates.php" server="10.9.8.68//var/www/html/" local="130858073795510435" remote="130858073780000000" Dst="2" />
+<file name="connection.inc.php" server="10.9.8.68//var/www/html/" local="130880449840000000" remote="130880449840000000" Dst="2" />
+</dwsync>

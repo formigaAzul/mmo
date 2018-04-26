@@ -1,0 +1,1480 @@
+INFO  [2018-01-23 12:38:00,154] main                 pid 6688@PCHacker
+DEBUG [2018-01-23 12:38:00,157] main                 Using property file ../bin/world.properties
+DEBUG [2018-01-23 12:38:00,157] main                 Properties are:
+DEBUG [2018-01-23 12:38:00,159] main                     java.vendor = Oracle Corporation
+DEBUG [2018-01-23 12:38:00,159] main                     atavism.login.bindport = 5040
+DEBUG [2018-01-23 12:38:00,160] main                     atavism.content.db_hostname = localhost
+DEBUG [2018-01-23 12:38:00,160] main                     log4j.appender.FILE = org.apache.log4j.RollingFileAppender
+DEBUG [2018-01-23 12:38:00,161] main                     atavism.plugin_dep.sampleworld.MobManager = ObjectManager,WorldManager,Inventory,Quest,Combat
+DEBUG [2018-01-23 12:38:00,161] main                     sun.java.launcher = SUN_STANDARD
+DEBUG [2018-01-23 12:38:00,162] main                     atavism.plugin_dep.Proxy = Instance
+DEBUG [2018-01-23 12:38:00,162] main                     log4j.appender.ErrorLog.File = ${atavism.logs}/errors.out
+DEBUG [2018-01-23 12:38:00,162] main                     sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+DEBUG [2018-01-23 12:38:00,162] main                     atavism.plugin_dep.WorldManager = 
+DEBUG [2018-01-23 12:38:00,163] main                     os.name = Windows 7
+DEBUG [2018-01-23 12:38:00,163] main                     atavism.plugin_dep.Quest = 
+DEBUG [2018-01-23 12:38:00,163] main                     sun.boot.class.path = C:\Program Files\Java\jdk1.7.0_09\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_09\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_09\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_09\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_09\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_09\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_09\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_09\jre\classes
+DEBUG [2018-01-23 12:38:00,164] main                     atavism.auth.db_differentsettings = false
+DEBUG [2018-01-23 12:38:00,164] main                     atavism.service_user = mgttest
+DEBUG [2018-01-23 12:38:00,164] main                     atavism.flashpolicy.bindaddress = localhost
+DEBUG [2018-01-23 12:38:00,164] main                     sun.desktop = windows
+DEBUG [2018-01-23 12:38:00,165] main                     java.vm.specification.vendor = Oracle Corporation
+DEBUG [2018-01-23 12:38:00,165] main                     atavism.admin.db_name = admin
+DEBUG [2018-01-23 12:38:00,165] main                     java.runtime.version = 1.7.0_09-b05
+DEBUG [2018-01-23 12:38:00,165] main                     atavism.proxy.bindport = 5050
+DEBUG [2018-01-23 12:38:00,166] main                     atavism.flashpolicy.bindport = 5041
+DEBUG [2018-01-23 12:38:00,166] main                     atavism.voiceserver = :same
+DEBUG [2018-01-23 12:38:00,166] main                     user.name = Hacker Noiadão
+DEBUG [2018-01-23 12:38:00,166] main                     atavism.db_user = root
+DEBUG [2018-01-23 12:38:00,167] main                     log4j.appender.ErrorLog.MaxBackupIndex = 3
+DEBUG [2018-01-23 12:38:00,167] main                     atavism.msgsvr_port = 20377
+DEBUG [2018-01-23 12:38:00,169] main                     atavism.jdbcJarPath = ../other/mysql-connector-java-3.1.14-bin.jar
+DEBUG [2018-01-23 12:38:00,169] main                     user.language = pt
+DEBUG [2018-01-23 12:38:00,170] main                     atavism.log_rdp_counters = false
+DEBUG [2018-01-23 12:38:00,170] main                     atavism.servername = Local
+DEBUG [2018-01-23 12:38:00,170] main                     atavism.startup_timeout = 120
+DEBUG [2018-01-23 12:38:00,170] main                     atavism.plugin_dep.Trainer = 
+DEBUG [2018-01-23 12:38:00,171] main                     atavism.db_type = mysql
+DEBUG [2018-01-23 12:38:00,171] main                     sun.boot.library.path = C:\Program Files\Java\jdk1.7.0_09\jre\bin
+DEBUG [2018-01-23 12:38:00,171] main                     atavism.db_driver = com.mysql.jdbc.Driver
+DEBUG [2018-01-23 12:38:00,172] main                     atavism.service_password = mgttestpass
+DEBUG [2018-01-23 12:38:00,172] main                     java.version = 1.7.0_09
+DEBUG [2018-01-23 12:38:00,172] main                     log4j.rootLogger = DEBUG, FILE, ErrorLog
+DEBUG [2018-01-23 12:38:00,172] main                     user.timezone = America/Sao_Paulo
+DEBUG [2018-01-23 12:38:00,173] main                     log4j.appender.ErrorLog.MaxFileSize = 50MB
+DEBUG [2018-01-23 12:38:00,173] main                     atavism.plugin_dep.Domain = Instance,Proxy
+DEBUG [2018-01-23 12:38:00,173] main                     sun.arch.data.model = 64
+DEBUG [2018-01-23 12:38:00,173] main                     java.endorsed.dirs = C:\Program Files\Java\jdk1.7.0_09\jre\lib\endorsed
+DEBUG [2018-01-23 12:38:00,174] main                     atavism.db_name = atavism
+DEBUG [2018-01-23 12:38:00,174] main                     sun.cpu.isalist = amd64
+DEBUG [2018-01-23 12:38:00,174] main                     sun.jnu.encoding = Cp1252
+DEBUG [2018-01-23 12:38:00,174] main                     atavism.worldname = world
+DEBUG [2018-01-23 12:38:00,174] main                     file.encoding.pkg = sun.io
+DEBUG [2018-01-23 12:38:00,175] main                     atavism.admin.db_password = 
+DEBUG [2018-01-23 12:38:00,175] main                     file.separator = \
+DEBUG [2018-01-23 12:38:00,175] main                     java.specification.name = Java Platform API Specification
+DEBUG [2018-01-23 12:38:00,175] main                     atavism.proxy.bindaddress = localhost
+DEBUG [2018-01-23 12:38:00,176] main                     java.class.version = 51.0
+DEBUG [2018-01-23 12:38:00,176] main                     log4j.appender.FILE.layout = org.apache.log4j.PatternLayout
+DEBUG [2018-01-23 12:38:00,176] main                     user.country = BR
+DEBUG [2018-01-23 12:38:00,202] main                     atavism.plugin_dep.Combat = 
+DEBUG [2018-01-23 12:38:00,202] main                     atavism.content.db_password = 
+DEBUG [2018-01-23 12:38:00,202] main                     java.home = C:\Program Files\Java\jdk1.7.0_09\jre
+DEBUG [2018-01-23 12:38:00,203] main                     atavism.plugin_dep.ClassAbility = 
+DEBUG [2018-01-23 12:38:00,203] main                     java.vm.info = mixed mode
+DEBUG [2018-01-23 12:38:00,203] main                     os.version = 6.1
+DEBUG [2018-01-23 12:38:00,203] main                     atavism.plugin_dep.Login = ObjectManager,Instance
+DEBUG [2018-01-23 12:38:00,204] main                     atavism.precreated_positional_voice_group = 1
+DEBUG [2018-01-23 12:38:00,204] main                     path.separator = ;
+DEBUG [2018-01-23 12:38:00,204] main                     atavism.content.db_user = root
+DEBUG [2018-01-23 12:38:00,205] main                     atavism.login.bindaddress = localhost
+DEBUG [2018-01-23 12:38:00,205] main                     log4j.appender.ErrorLog.layout.ConversionPattern = %-5p [%d{ISO8601}] %-20t %m%n
+DEBUG [2018-01-23 12:38:00,205] main                     atavism.plugin_dep.Social = 
+DEBUG [2018-01-23 12:38:00,205] main                     java.vm.version = 23.5-b02
+DEBUG [2018-01-23 12:38:00,206] main                     atavism.logs = ../logs/world
+DEBUG [2018-01-23 12:38:00,206] main                     user.variant = 
+DEBUG [2018-01-23 12:38:00,206] main                     atavism.auth.db_user = root
+DEBUG [2018-01-23 12:38:00,206] main                     atavism.licence.key = K78V-P7R8
+DEBUG [2018-01-23 12:38:00,207] main                     atavism.plugin_dep.Inventory = 
+DEBUG [2018-01-23 12:38:00,207] main                     java.awt.printerjob = sun.awt.windows.WPrinterJob
+DEBUG [2018-01-23 12:38:00,207] main                     log4j.appender.FILE.File = ${atavism.logs}/${atavism.loggername}.out
+DEBUG [2018-01-23 12:38:00,207] main                     sun.io.unicode.encoding = UnicodeLittle
+DEBUG [2018-01-23 12:38:00,208] main                     atavism.db_hostname = localhost
+DEBUG [2018-01-23 12:38:00,208] main                     awt.toolkit = sun.awt.windows.WToolkit
+DEBUG [2018-01-23 12:38:00,208] main                     user.script = 
+DEBUG [2018-01-23 12:38:00,209] main                     user.home = C:\Users\Hacker Noiadão
+DEBUG [2018-01-23 12:38:00,209] main                     atavism.content.db_driver = com.mysql.jdbc.Driver
+DEBUG [2018-01-23 12:38:00,209] main                     java.specification.vendor = Oracle Corporation
+DEBUG [2018-01-23 12:38:00,209] main                     atavism.auth.db_hostname = localhost
+DEBUG [2018-01-23 12:38:00,210] main                     atavism.voiceport = 5067
+DEBUG [2018-01-23 12:38:00,210] main                     atavism.content.db_name = world_content
+DEBUG [2018-01-23 12:38:00,210] main                     java.library.path = C:\Program Files\Java\jdk1.7.0_09\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.7.0_09\bin;.;C:\cygwin64\usr\local\bin;C:\cygwin64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files (x86)\QuickTime\QTSystem;C:\Program Files\Java\jdk1.7.0_09\bin;C:\OpenSSL-Win64\bin;C:\Program Files (x86)\Skype\Phone;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\Program Files\Nintendo\Nintendo Dev Interface;C:\Program Files\Nintendo\HostBridge;C:\Program Files (x86)\EgisTec BioExcess\x64;C:\Program Files (x86)\EgisTec BioExcess;C:\Users\Hacker Noiadão\AppData\Local\Programs\Python\Python36-32\Scripts;C:\Users\Hacker Noiadão\AppData\Local\Programs\Python\Python36-32;C:\Program Files\Java\jdk1.7.0_09\bin;C:\Program Files\Heroku\bin;C:\Users\Hacker Noiadão\AppData\Roaming\npm;C:\Users\Hacker Noiadão\AppData\Local\GitHubDesktop\bin;.
+DEBUG [2018-01-23 12:38:00,211] main                     java.vendor.url = http://java.oracle.com/
+DEBUG [2018-01-23 12:38:00,211] main                     atavism.service_endpoint = localhost
+DEBUG [2018-01-23 12:38:00,211] main                     java.vm.vendor = Oracle Corporation
+DEBUG [2018-01-23 12:38:00,212] main                     atavism.auth.db_name = master
+DEBUG [2018-01-23 12:38:00,212] main                     atavism.msgsvr_hostname = localhost
+DEBUG [2018-01-23 12:38:00,212] main                     java.runtime.name = Java(TM) SE Runtime Environment
+DEBUG [2018-01-23 12:38:00,212] main                     sun.java.command = atavism.server.engine.Engine -Patavism.worldname=world -i ../bin/proxy.py -i ../config/common/events.py -i ../config/common/aomessages.py -i ../config/world/worldmessages.py -t ../config/common/typenumbers.txt ../config/common/proxy.py ../config/common/global_props.py ../config/world/global_props.py ../config/world/extensions_proxy.py
+DEBUG [2018-01-23 12:38:00,213] main                     java.class.path = ../other/rhino1_5R5/js.jar;../other/mysql-connector-java-3.1.14-bin.jar;../dist/lib/injected.jar;../dist/lib/atavism.jar;../dist/lib/agis.jar;../config/world/world.jar;../other/java-getopt-1.0.11.jar;../other/jython.jar;../other/log4j-1.2.15.jar;../other/bcel-5.2.jar;../other/mbsclient.jar;../other/slf4j-api-1.5.6.jar;../other/slf4j-log4j12-1.5.6.jar;../other/shiro-core-1.0-incubating-SNAPSHOT.jar;../other/json_simple-1.1.jar;.
+DEBUG [2018-01-23 12:38:00,213] main                     log4j.appender.FILE.MaxBackupIndex = 3
+DEBUG [2018-01-23 12:38:00,214] main                     atavism.admin.db_differentsettings = false
+DEBUG [2018-01-23 12:38:00,214] main                     atavism.plugin_dep.Voxel = 
+DEBUG [2018-01-23 12:38:00,214] main                     atavism.content.db_differentsettings = false
+DEBUG [2018-01-23 12:38:00,214] main                     java.vm.specification.name = Java Virtual Machine Specification
+DEBUG [2018-01-23 12:38:00,215] main                     log4j.appender.ErrorLog = org.apache.log4j.RollingFileAppender
+DEBUG [2018-01-23 12:38:00,215] main                     java.vm.specification.version = 1.7
+DEBUG [2018-01-23 12:38:00,215] main                     atavism.rotate_logs_on_startup = true
+DEBUG [2018-01-23 12:38:00,215] main                     sun.cpu.endian = little
+DEBUG [2018-01-23 12:38:00,216] main                     sun.os.patch.level = Service Pack 1
+DEBUG [2018-01-23 12:38:00,216] main                     java.io.tmpdir = C:\cygwin64\tmp\
+DEBUG [2018-01-23 12:38:00,216] main                     atavism.plugin_dep.MobManager = ObjectManager,WorldManager,Inventory,Quest,Social
+DEBUG [2018-01-23 12:38:00,216] main                     atavism.licence.email = 3liteGaming@cgpersia.com
+DEBUG [2018-01-23 12:38:00,216] main                     atavism.log_proxy_histograms = true
+DEBUG [2018-01-23 12:38:00,217] main                     java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+DEBUG [2018-01-23 12:38:00,217] main                     log4j.appender.FILE.MaxFileSize = 50MB
+DEBUG [2018-01-23 12:38:00,218] main                     atavism.loggername = proxy_1
+DEBUG [2018-01-23 12:38:00,218] main                     atavism.agenttype = proxy
+DEBUG [2018-01-23 12:38:00,218] main                     os.arch = amd64
+DEBUG [2018-01-23 12:38:00,218] main                     java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+DEBUG [2018-01-23 12:38:00,219] main                     log4j.appender.FILE.layout.ConversionPattern = %-5p [%d{ISO8601}] %-20t %m%n
+DEBUG [2018-01-23 12:38:00,219] main                     java.ext.dirs = C:\Program Files\Java\jdk1.7.0_09\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+DEBUG [2018-01-23 12:38:00,219] main                     user.dir = C:\ataserver\bin
+DEBUG [2018-01-23 12:38:00,219] main                     atavism.world_available_message = DONE INITIALIZING, you can log in now
+DEBUG [2018-01-23 12:38:00,220] main                     atavism.worldmgrport = 5040
+DEBUG [2018-01-23 12:38:00,220] main                     atavism.admin.db_hostname = localhost
+DEBUG [2018-01-23 12:38:00,220] main                     line.separator = 
+
+DEBUG [2018-01-23 12:38:00,220] main                     java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+DEBUG [2018-01-23 12:38:00,221] main                     atavism.auth.db_driver = com.mysql.jdbc.Driver
+DEBUG [2018-01-23 12:38:00,221] main                     atavism.plugin_dep.Instance = ObjectManager,Quest,MobManager,Inventory,WorldManager
+DEBUG [2018-01-23 12:38:00,221] main                     atavism.propertyfile = ../bin/world.properties
+DEBUG [2018-01-23 12:38:00,221] main                     atavism.db_password = 
+DEBUG [2018-01-23 12:38:00,222] main                     atavism.plugin_dep.ObjectManager = 
+DEBUG [2018-01-23 12:38:00,222] main                     atavism.plugin_dep.Arena = 
+DEBUG [2018-01-23 12:38:00,222] main                     file.encoding = Cp1252
+DEBUG [2018-01-23 12:38:00,222] main                     atavism.log_level = 1
+DEBUG [2018-01-23 12:38:00,223] main                     log4j.appender.ErrorLog.Threshold = ERROR
+DEBUG [2018-01-23 12:38:00,223] main                     log4j.appender.ErrorLog.layout = org.apache.log4j.PatternLayout
+DEBUG [2018-01-23 12:38:00,223] main                     atavism.plugin_dep.Vendor = 
+DEBUG [2018-01-23 12:38:00,223] main                     atavism.log_voice_counters = true
+DEBUG [2018-01-23 12:38:00,224] main                     atavism.admin.db_user = root
+DEBUG [2018-01-23 12:38:00,224] main                     java.specification.version = 1.7
+DEBUG [2018-01-23 12:38:00,224] main                     atavism.auth.db_password = 
+DEBUG [2018-01-23 12:38:00,224] main                     atavism.admin.db_driver = com.mysql.jdbc.Driver
+DEBUG [2018-01-23 12:38:00,225] main                     atavism.plugin_dep.DataLogger = 
+INFO  [2018-01-23 12:38:00,225] main                 The log level is 1
+INFO  [2018-01-23 12:38:00,232] main                 Atavism server version 2.6.1 0 (- -)
+INFO  [2018-01-23 12:38:00,271] main                 Entered MarshallingRuntime.initializeBatch: reading type nums from '../config/common/typenumbers.txt'
+INFO  [2018-01-23 12:38:00,306] main                 Added marshaller for class :class atavism.msgsys.TargetFilter with typeNum: 46
+INFO  [2018-01-23 12:38:00,339] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$sendPetCommandMessage with typeNum: 317
+INFO  [2018-01-23 12:38:00,341] main                 Added marshaller for class :class atavism.server.objects.NamedPropertyClass with typeNum: 125
+INFO  [2018-01-23 12:38:00,344] main                 Added marshaller for class :class atavism.msgsys.MessageType with typeNum: 101
+INFO  [2018-01-23 12:38:00,350] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$FogMessage with typeNum: 191
+INFO  [2018-01-23 12:38:00,355] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$MobPathMessage with typeNum: 195
+INFO  [2018-01-23 12:38:00,361] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$duelStartMessage with typeNum: 302
+INFO  [2018-01-23 12:38:00,364] main                 Added marshaller for class :class atavism.agis.plugins.QuestClient$QuestItemUpdateMessage with typeNum: 256
+INFO  [2018-01-23 12:38:00,366] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$StartNpcInteractionMessage with typeNum: 326
+INFO  [2018-01-23 12:38:00,403] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$SaveObjectMessage with typeNum: 168
+INFO  [2018-01-23 12:38:00,406] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$FreeRoadMessage with typeNum: 193
+INFO  [2018-01-23 12:38:00,409] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerPlugin$HostInstanceFilter with typeNum: 233
+INFO  [2018-01-23 12:38:00,411] main                 Added marshaller for class :class atavism.agis.plugins.GroupClient$createGroupMessage with typeNum: 309
+INFO  [2018-01-23 12:38:00,413] main                 Added marshaller for class :class atavism.agis.plugins.CombatClient$QuestMobDeath with typeNum: 241
+INFO  [2018-01-23 12:38:00,419] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$GenerateSubObjectMessage with typeNum: 162
+INFO  [2018-01-23 12:38:00,424] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$ComReqMessage with typeNum: 183
+INFO  [2018-01-23 12:38:00,427] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$placeBagMessage with typeNum: 267
+INFO  [2018-01-23 12:38:00,429] main                 Added marshaller for class :class atavism.server.plugins.InventoryClient$ActivateMessage with typeNum: 154
+INFO  [2018-01-23 12:38:00,431] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$getGenericItemDataMessage with typeNum: 265
+INFO  [2018-01-23 12:38:00,436] main                 Added marshaller for class :class atavism.server.math.Quaternion with typeNum: 80
+INFO  [2018-01-23 12:38:00,488] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$GetTemplateMessage with typeNum: 172
+INFO  [2018-01-23 12:38:00,490] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$DeleteObjectMessage with typeNum: 175
+INFO  [2018-01-23 12:38:00,492] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$generateItemMessage with typeNum: 266
+INFO  [2018-01-23 12:38:00,498] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerPlugin$WorldManagerFilter with typeNum: 231
+INFO  [2018-01-23 12:38:00,500] main                 Added marshaller for class :class atavism.agis.plugins.ClassAbilityClient$skillGetMessage with typeNum: 286
+INFO  [2018-01-23 12:38:00,504] main                 Added marshaller for class :class atavism.msgsys.StringResponseMessage with typeNum: 55
+INFO  [2018-01-23 12:38:00,508] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$SoundMessage with typeNum: 215
+INFO  [2018-01-23 12:38:00,510] main                 Added marshaller for class :class atavism.agis.plugins.CombatClient$CombatLogoutMessage with typeNum: 246
+INFO  [2018-01-23 12:38:00,789] main                 Added marshaller for class :class atavism.server.objects.PointLight with typeNum: 129
+INFO  [2018-01-23 12:38:00,791] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$alterCurrencyMessage with typeNum: 279
+INFO  [2018-01-23 12:38:00,792] main                 Added marshaller for class :class atavism.server.engine.Perceiver with typeNum: 72
+INFO  [2018-01-23 12:38:00,794] main                 Added marshaller for class :class atavism.msgsys.FilterUpdate$Instruction with typeNum: 32
+INFO  [2018-01-23 12:38:00,845] main                 Added marshaller for class :class atavism.server.messages.PopulationFilter with typeNum: 108
+INFO  [2018-01-23 12:38:00,847] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$categoryUpdatedMessage with typeNum: 324
+INFO  [2018-01-23 12:38:00,849] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$getMerchantListMessage with typeNum: 273
+INFO  [2018-01-23 12:38:00,851] main                 Added marshaller for class :class atavism.server.plugins.ProxyPlugin$AddStaticPerceptionMessage with typeNum: 240
+INFO  [2018-01-23 12:38:00,854] main                 Added marshaller for class :class atavism.server.plugins.InstanceClient$InstanceEntryReqMessage with typeNum: 149
+INFO  [2018-01-23 12:38:00,856] main                 Added marshaller for class :class atavism.msgsys.FilterUpdate with typeNum: 31
+INFO  [2018-01-23 12:38:00,872] main                 Added marshaller for class :class atavism.agis.plugins.DataLoggerClient$DataLogMessage with typeNum: 329
+INFO  [2018-01-23 12:38:00,873] main                 Added marshaller for class :class atavism.msgsys.TargetMessage with typeNum: 40
+INFO  [2018-01-23 12:38:00,879] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$FixWorldNodeMessage with typeNum: 177
+INFO  [2018-01-23 12:38:00,883] main                 Added marshaller for class :class atavism.server.engine.BaseBehavior$StopCommandMessage with typeNum: 60
+INFO  [2018-01-23 12:38:00,885] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$duelChallengeDisconnectMessage with typeNum: 300
+INFO  [2018-01-23 12:38:00,888] main                 Added marshaller for class :class atavism.server.objects.Boundary with typeNum: 111
+INFO  [2018-01-23 12:38:00,888] main                 Added marshaller for class :class atavism.server.objects.DisplayContext with typeNum: 114
+INFO  [2018-01-23 12:38:00,890] main                 Added marshaller for class :class atavism.server.objects.RoadSegment with typeNum: 135
+INFO  [2018-01-23 12:38:00,893] main                 Added marshaller for class :class atavism.server.engine.BaseBehavior$GotoCommandMessage with typeNum: 59
+INFO  [2018-01-23 12:38:00,935] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$duelRemoveMessage with typeNum: 305
+INFO  [2018-01-23 12:38:00,935] main                 Added marshaller for class :class atavism.server.math.Point with typeNum: 79
+INFO  [2018-01-23 12:38:00,942] main                 Added marshaller for class :class atavism.agis.plugins.CombatClient$FactionUpdateMessage with typeNum: 247
+INFO  [2018-01-23 12:38:00,945] main                 Added marshaller for class :class atavism.server.plugins.InventoryClient$LootAllMessage with typeNum: 159
+INFO  [2018-01-23 12:38:00,947] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$ObjectStatus with typeNum: 179
+INFO  [2018-01-23 12:38:00,949] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$RoadMessage with typeNum: 212
+INFO  [2018-01-23 12:38:00,951] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$getArenaStatsMessage with typeNum: 289
+INFO  [2018-01-23 12:38:00,953] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$removeGenericItemMessage with typeNum: 263
+INFO  [2018-01-23 12:38:00,955] main                 Added marshaller for class :class atavism.agis.plugins.QuestClient$ConcludeUpdateMessage with typeNum: 260
+INFO  [2018-01-23 12:38:00,958] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$purchaseItemFromMerchantMessage with typeNum: 274
+INFO  [2018-01-23 12:38:00,960] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$SysChatMessage with typeNum: 218
+INFO  [2018-01-23 12:38:00,962] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$UnloadObjectMessage with typeNum: 173
+INFO  [2018-01-23 12:38:00,965] main                 Added marshaller for class :class atavism.agis.plugins.ClassAbilityClient$skillDecreasedMessage with typeNum: 283
+INFO  [2018-01-23 12:38:00,967] main                 Added marshaller for class :class atavism.msgsys.StackFrame with typeNum: 54
+INFO  [2018-01-23 12:38:00,969] main                 Added marshaller for class :class atavism.server.messages.SearchMessage with typeNum: 106
+INFO  [2018-01-23 12:38:00,971] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$GenerateObjectMessage with typeNum: 161
+INFO  [2018-01-23 12:38:01,021] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$duelChallengeAcceptMessage with typeNum: 298
+INFO  [2018-01-23 12:38:01,024] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$ModifyDisplayContextMessage with typeNum: 198
+INFO  [2018-01-23 12:38:01,027] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$DirLocOrientMessage with typeNum: 187
+INFO  [2018-01-23 12:38:01,032] main                 Added marshaller for class :class atavism.server.messages.SubObjectFilter with typeNum: 98
+INFO  [2018-01-23 12:38:01,035] main                 Added marshaller for class :class atavism.server.pathing.PathInfo with typeNum: 85
+INFO  [2018-01-23 12:38:01,037] main                 Added marshaller for class :class atavism.msgsys.AwaitPluginDependentsMessage with typeNum: 50
+INFO  [2018-01-23 12:38:01,040] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$ObjInfoRespMessage with typeNum: 204
+INFO  [2018-01-23 12:38:01,044] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$SpawnInstanceMobsMessage with typeNum: 311
+INFO  [2018-01-23 12:38:01,046] main                 Added marshaller for class :class atavism.msgsys.AllocNameMessage with typeNum: 102
+INFO  [2018-01-23 12:38:01,048] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$SetAmbientLightMessage with typeNum: 213
+INFO  [2018-01-23 12:38:01,053] main                 Added marshaller for class :class atavism.server.objects.Region$Search with typeNum: 131
+INFO  [2018-01-23 12:38:01,102] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$SetPersistenceMessage with typeNum: 169
+INFO  [2018-01-23 12:38:01,104] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$DisplayContextReqMessage with typeNum: 189
+INFO  [2018-01-23 12:38:01,108] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$TargetedPropertyMessage with typeNum: 220
+INFO  [2018-01-23 12:38:01,110] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$DeleteSubObjectMessage with typeNum: 176
+INFO  [2018-01-23 12:38:01,112] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$FreeRemoteObjectMessage with typeNum: 192
+INFO  [2018-01-23 12:38:01,114] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$spawnPetMessage with typeNum: 314
+INFO  [2018-01-23 12:38:01,117] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$ReparentWNodeReqMessage with typeNum: 210
+INFO  [2018-01-23 12:38:01,117] main                 Added marshaller for class :class atavism.server.engine.OID with typeNum: 56
+INFO  [2018-01-23 12:38:01,119] main                 Added marshaller for class :class atavism.msgsys.PluginAvailableMessage with typeNum: 51
+INFO  [2018-01-23 12:38:01,120] main                 Added marshaller for class :class atavism.server.engine.Behavior$CommandMessage with typeNum: 63
+INFO  [2018-01-23 12:38:01,122] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$RegisterTemplateMessage with typeNum: 166
+INFO  [2018-01-23 12:38:01,124] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$UnloadSubObjectMessage with typeNum: 174
+INFO  [2018-01-23 12:38:01,126] main                 Added marshaller for class :class atavism.agis.plugins.DataLoggerClient$CharacterCreatedMessage with typeNum: 330
+INFO  [2018-01-23 12:38:01,131] main                 Added marshaller for class :class atavism.server.pathing.PathObject with typeNum: 86
+INFO  [2018-01-23 12:38:01,134] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$HostInstanceMessage with typeNum: 227
+INFO  [2018-01-23 12:38:01,187] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$WorldNodeCorrectMessage with typeNum: 224
+INFO  [2018-01-23 12:38:01,189] main                 Added marshaller for class :class atavism.server.engine.EnginePlugin$TransferObjectMessage with typeNum: 68
+INFO  [2018-01-23 12:38:01,191] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$LoadSubObjectMessage with typeNum: 165
+INFO  [2018-01-23 12:38:01,193] main                 Added marshaller for class :class atavism.msgsys.UnsubscribeMessage with typeNum: 41
+INFO  [2018-01-23 12:38:01,195] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$SpawnMobMessage with typeNum: 312
+INFO  [2018-01-23 12:38:01,197] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$NewDirLightMessage with typeNum: 199
+INFO  [2018-01-23 12:38:01,199] main                 Added marshaller for class :class atavism.agis.plugins.ClassAbilityClient$skillResetMessage with typeNum: 284
+INFO  [2018-01-23 12:38:01,201] main                 Added marshaller for class :class atavism.agis.plugins.CombatClient$updateBreathStatusMessage with typeNum: 252
+INFO  [2018-01-23 12:38:01,202] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$SubObjectDepsReadyMessage with typeNum: 170
+INFO  [2018-01-23 12:38:01,204] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$duelDisconnectMessage with typeNum: 304
+INFO  [2018-01-23 12:38:01,206] main                 Added marshaller for class :class atavism.server.messages.LogoutMessage with typeNum: 105
+INFO  [2018-01-23 12:38:01,208] main                 Added marshaller for class :class atavism.server.plugins.InstanceClient$InstanceInfo with typeNum: 151
+INFO  [2018-01-23 12:38:01,210] main                 Added marshaller for class :class atavism.server.objects.BinaryState with typeNum: 110
+INFO  [2018-01-23 12:38:01,212] main                 Added marshaller for class :class atavism.msgsys.AgentHelloMessage with typeNum: 28
+INFO  [2018-01-23 12:38:01,214] main                 Added marshaller for class :class atavism.agis.plugins.ClassAbilityClient$GetPlayerSkillLevelMessage with typeNum: 287
+INFO  [2018-01-23 12:38:01,216] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$OrientMessage with typeNum: 206
+INFO  [2018-01-23 12:38:01,219] main                 Added marshaller for class :class atavism.server.plugins.InventoryClient$InvUpdateMessage with typeNum: 156
+INFO  [2018-01-23 12:38:01,221] main                 Added marshaller for class :class atavism.server.engine.EnginePlugin$TransferFilter with typeNum: 69
+INFO  [2018-01-23 12:38:01,223] main                 Added marshaller for class :class atavism.server.objects.DisplayState with typeNum: 116
+INFO  [2018-01-23 12:38:01,225] main                 Added marshaller for class :class atavism.server.objects.RegionConfig with typeNum: 132
+INFO  [2018-01-23 12:38:01,227] main                 Added marshaller for class :class atavism.msgsys.AgentStateMessage with typeNum: 29
+INFO  [2018-01-23 12:38:01,250] main                 Added marshaller for class :class atavism.agis.plugins.FactionClient$getAttitudeMessage with typeNum: 328
+INFO  [2018-01-23 12:38:01,252] main                 Added marshaller for class :class atavism.server.objects.Fog with typeNum: 120
+INFO  [2018-01-23 12:38:01,252] main                 Added marshaller for class :class atavism.server.engine.BasicWorldNode with typeNum: 62
+INFO  [2018-01-23 12:38:01,254] main                 Added marshaller for class :class atavism.agis.plugins.GroupClient$getPlayerByNameMessage with typeNum: 308
+INFO  [2018-01-23 12:38:01,254] main                 Added marshaller for class :class atavism.server.engine.PropertySearch with typeNum: 74
+INFO  [2018-01-23 12:38:01,256] main                 Added marshaller for class :class atavism.server.plugins.InventoryClient$ItemInfo with typeNum: 158
+INFO  [2018-01-23 12:38:01,258] main                 Added marshaller for class :class atavism.agis.plugins.QuestClient$RequestQuestProgressMessage with typeNum: 258
+INFO  [2018-01-23 12:38:01,260] main                 Added marshaller for class :class atavism.agis.plugins.CombatClient$interruptAbilityMessage with typeNum: 245
+INFO  [2018-01-23 12:38:01,262] main                 Added marshaller for class :class atavism.server.objects.FogRegionConfig with typeNum: 121
+INFO  [2018-01-23 12:38:01,264] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$ObjInfoReqMessage with typeNum: 203
+INFO  [2018-01-23 12:38:01,266] main                 Added marshaller for class :class atavism.agis.plugins.ClassAbilityClient$skillAlterCurrentMessage with typeNum: 285
+INFO  [2018-01-23 12:38:01,268] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$MobPathCorrectionMessage with typeNum: 194
+INFO  [2018-01-23 12:38:01,307] main                 Added marshaller for class :class atavism.agis.objects.AgisStat with typeNum: 334
+INFO  [2018-01-23 12:38:01,309] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$RefreshWNodeMessage with typeNum: 209
+INFO  [2018-01-23 12:38:01,326] main                 Added marshaller for class :class atavism.server.objects.Template with typeNum: 139
+INFO  [2018-01-23 12:38:01,329] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$getSpecificItemDataMessage with typeNum: 264
+INFO  [2018-01-23 12:38:01,329] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$MobPathMessageBaseClass with typeNum: 196
+INFO  [2018-01-23 12:38:01,331] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$UpdateMessage with typeNum: 221
+INFO  [2018-01-23 12:38:01,333] main                 Added marshaller for class :class atavism.server.engine.EnginePlugin$SetPropertyMessage with typeNum: 67
+INFO  [2018-01-23 12:38:01,336] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$endArenaMessage with typeNum: 296
+INFO  [2018-01-23 12:38:01,338] main                 Added marshaller for class :class atavism.msgsys.FilterUpdateMessage with typeNum: 33
+INFO  [2018-01-23 12:38:01,340] main                 Added marshaller for class :class atavism.server.messages.LoginMessage with typeNum: 99
+INFO  [2018-01-23 12:38:01,341] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$duelDefeatMessage with typeNum: 303
+INFO  [2018-01-23 12:38:01,343] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$despawnGatesMessage with typeNum: 295
+INFO  [2018-01-23 12:38:01,345] main                 Added marshaller for class :class atavism.server.messages.SearchMessageFilter with typeNum: 107
+INFO  [2018-01-23 12:38:01,349] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$DespawnReqMessage with typeNum: 184
+INFO  [2018-01-23 12:38:01,384] main                 Added marshaller for class :class atavism.server.objects.SearchEntry with typeNum: 144
+INFO  [2018-01-23 12:38:01,386] main                 Added marshaller for class :class atavism.server.engine.FixedPerceiver with typeNum: 70
+INFO  [2018-01-23 12:38:01,389] main                 Added marshaller for class :class atavism.server.objects.Region with typeNum: 130
+INFO  [2018-01-23 12:38:01,391] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$duelChallengeDeclineMessage with typeNum: 299
+INFO  [2018-01-23 12:38:01,393] main                 Added marshaller for class :class atavism.server.engine.SearchSelection with typeNum: 75
+INFO  [2018-01-23 12:38:01,395] main                 Added marshaller for class :class atavism.server.plugins.InstanceClient$GetInstanceInfoMessage with typeNum: 150
+INFO  [2018-01-23 12:38:01,397] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$LoadObjectMessage with typeNum: 164
+INFO  [2018-01-23 12:38:01,399] main                 Added marshaller for class :class atavism.msgsys.SubjectFilter with typeNum: 45
+INFO  [2018-01-23 12:38:01,400] main                 Added marshaller for class :class atavism.msgsys.Filter with typeNum: 30
+INFO  [2018-01-23 12:38:01,401] main                 Added marshaller for class :class atavism.server.engine.Behavior$EventMessage with typeNum: 64
+INFO  [2018-01-23 12:38:01,403] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$FreeObjectMessage with typeNum: 200
+INFO  [2018-01-23 12:38:01,408] main                 Added marshaller for class :class atavism.server.engine.EnginePlugin$PluginStateMessage with typeNum: 66
+INFO  [2018-01-23 12:38:01,410] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$getLootListMessage with typeNum: 272
+INFO  [2018-01-23 12:38:01,412] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$DespawnedMessage with typeNum: 185
+INFO  [2018-01-23 12:38:01,414] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$MobPathReqMessage with typeNum: 197
+INFO  [2018-01-23 12:38:01,415] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$removePlayerMessage with typeNum: 290
+INFO  [2018-01-23 12:38:01,451] main                 Added marshaller for class :class atavism.server.engine.TerrainConfig with typeNum: 73
+INFO  [2018-01-23 12:38:01,454] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$moveBagMessage with typeNum: 268
+INFO  [2018-01-23 12:38:01,456] main                 Added marshaller for class :class atavism.agis.plugins.CombatClient$stopAutoAttackMessage with typeNum: 243
+INFO  [2018-01-23 12:38:01,458] main                 Added marshaller for class :class atavism.server.pathing.PathArc with typeNum: 82
+INFO  [2018-01-23 12:38:01,460] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$SaveObjectDataMessage with typeNum: 167
+INFO  [2018-01-23 12:38:01,462] main                 Added marshaller for class :class atavism.server.messages.PerceptionMessage$ObjectNote with typeNum: 95
+INFO  [2018-01-23 12:38:01,464] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$petCommandUpdateMessage with typeNum: 316
+INFO  [2018-01-23 12:38:01,466] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$petTargetLostMessage with typeNum: 319
+INFO  [2018-01-23 12:38:01,468] main                 Added marshaller for class :class atavism.server.plugins.MobManagerClient$SetAggroRadiusMessage with typeNum: 238
+INFO  [2018-01-23 12:38:01,495] main                 Added marshaller for class :class atavism.agis.plugins.QuestClient$CompleteQuestMessage with typeNum: 259
+INFO  [2018-01-23 12:38:01,497] main                 Added marshaller for class :class atavism.server.pathing.PathPortal with typeNum: 89
+INFO  [2018-01-23 12:38:01,500] main                 Added marshaller for class :class atavism.server.objects.OceanData with typeNum: 127
+INFO  [2018-01-23 12:38:01,502] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$arenaKillMessage with typeNum: 291
+INFO  [2018-01-23 12:38:01,502] main                 Added marshaller for class :class atavism.server.math.AOVector with typeNum: 77
+INFO  [2018-01-23 12:38:01,504] main                 Added marshaller for class :class atavism.server.engine.BaseBehavior$ArrivedEventMessage with typeNum: 57
+INFO  [2018-01-23 12:38:01,506] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$sendPurchaseMailMessage with typeNum: 277
+INFO  [2018-01-23 12:38:01,541] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$SpawnedMessage with typeNum: 217
+INFO  [2018-01-23 12:38:01,543] main                 Added marshaller for class :class atavism.server.objects.DirectionalLight with typeNum: 113
+INFO  [2018-01-23 12:38:01,545] main                 Added marshaller for class :class atavism.agis.plugins.ClassAbilityClient$LearnAbilityMessage with typeNum: 288
+INFO  [2018-01-23 12:38:01,548] main                 Added marshaller for class :class atavism.server.pathing.PathPolygon with typeNum: 88
+INFO  [2018-01-23 12:38:01,550] main                 Added marshaller for class :class atavism.server.messages.PropertyFilter with typeNum: 109
+INFO  [2018-01-23 12:38:01,552] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$DialogueOptionChosenMessage with typeNum: 327
+INFO  [2018-01-23 12:38:01,554] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerPlugin$WorldManagerTransferFilter with typeNum: 230
+INFO  [2018-01-23 12:38:01,555] main                 Added marshaller for class :class atavism.server.messages.PerceptionFilter with typeNum: 93
+INFO  [2018-01-23 12:38:01,557] main                 Added marshaller for class :class atavism.msgsys.MessageTypeSessionIdFilter with typeNum: 44
+INFO  [2018-01-23 12:38:01,558] main                 Added marshaller for class :class atavism.agis.plugins.QuestClient$AbandonQuestMessage with typeNum: 261
+INFO  [2018-01-23 12:38:01,561] main                 Added marshaller for class :class atavism.server.plugins.InstanceClient$CreateInstanceMessage with typeNum: 148
+INFO  [2018-01-23 12:38:01,562] main                 Added marshaller for class :class atavism.agis.plugins.QuestClient$GetQuestItemReqsMessage with typeNum: 255
+INFO  [2018-01-23 12:38:01,565] main                 Added marshaller for class :class atavism.agis.objects.AgisAttachSocket with typeNum: 234
+INFO  [2018-01-23 12:38:01,567] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$CheckComponentMessage with typeNum: 280
+INFO  [2018-01-23 12:38:01,569] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$GetNpcInteractionsMessage with typeNum: 325
+INFO  [2018-01-23 12:38:01,571] main                 Added marshaller for class :class atavism.server.plugins.MobManagerClient$CreateSpawnGeneratorMessage with typeNum: 237
+INFO  [2018-01-23 12:38:01,606] main                 Added marshaller for class :class atavism.server.objects.DisplayContext$Submesh with typeNum: 115
+INFO  [2018-01-23 12:38:01,608] main                 Added marshaller for class :class atavism.server.plugins.InventoryClient$AddItemMessage with typeNum: 155
+INFO  [2018-01-23 12:38:01,611] main                 Added marshaller for class :class atavism.server.objects.TerrainDecalData with typeNum: 140
+INFO  [2018-01-23 12:38:01,613] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$ObjectInfo with typeNum: 205
+INFO  [2018-01-23 12:38:01,616] main                 Added marshaller for class :class atavism.server.messages.PerceptionTrigger with typeNum: 96
+INFO  [2018-01-23 12:38:01,618] main                 Added marshaller for class :class atavism.msgsys.AdvertiseMessage with typeNum: 27
+INFO  [2018-01-23 12:38:01,618] main                 Added marshaller for class :class atavism.server.objects.ObjectType with typeNum: 118
+INFO  [2018-01-23 12:38:01,619] main                 Added marshaller for class :class atavism.server.objects.Entity with typeNum: 117
+INFO  [2018-01-23 12:38:01,620] main                 Added marshaller for class :class atavism.msgsys.NewAgentMessage with typeNum: 37
+INFO  [2018-01-23 12:38:01,623] main                 Added marshaller for class :class atavism.server.math.Geometry with typeNum: 76
+INFO  [2018-01-23 12:38:01,625] main                 Added marshaller for class :class atavism.agis.plugins.CombatClient$alterExpMessage with typeNum: 251
+INFO  [2018-01-23 12:38:01,627] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$UpdateWorldNodeReqMessage with typeNum: 223
+INFO  [2018-01-23 12:38:01,629] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$dotScoreMessage with typeNum: 292
+INFO  [2018-01-23 12:38:01,632] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$NewRemoteObjectMessage with typeNum: 202
+INFO  [2018-01-23 12:38:01,633] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$startArenaCheckMessage with typeNum: 293
+INFO  [2018-01-23 12:38:01,635] main                 Added marshaller for class :class atavism.server.pathing.PathObjectType with typeNum: 87
+INFO  [2018-01-23 12:38:01,636] main                 Added marshaller for class :class atavism.server.objects.PermissionCallback with typeNum: 128
+INFO  [2018-01-23 12:38:01,639] main                 Added marshaller for class :class atavism.agis.plugins.DataLoggerClient$LogEventMessage with typeNum: 332
+INFO  [2018-01-23 12:38:01,642] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$DetachMessage with typeNum: 186
+INFO  [2018-01-23 12:38:01,644] main                 Added marshaller for class :class atavism.server.plugins.InventoryClient$RemoveOrFindItemMessage with typeNum: 160
+INFO  [2018-01-23 12:38:01,644] main                 Added marshaller for class :class atavism.msgsys.MessageTrigger with typeNum: 35
+INFO  [2018-01-23 12:38:01,646] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$DisplayContextMessage with typeNum: 188
+INFO  [2018-01-23 12:38:01,705] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$RoadInfo with typeNum: 211
+INFO  [2018-01-23 12:38:01,707] main                 Added marshaller for class :class atavism.agis.plugins.QuestClient$TaskUpdateMessage with typeNum: 257
+INFO  [2018-01-23 12:38:01,709] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$SetWorldNodeReqMessage with typeNum: 214
+INFO  [2018-01-23 12:38:01,712] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$LoadObjectDataMessage with typeNum: 163
+INFO  [2018-01-23 12:38:01,713] main                 Added marshaller for class :class atavism.msgsys.MessageTypeFilter with typeNum: 36
+INFO  [2018-01-23 12:38:01,713] main                 Added marshaller for class :class atavism.server.messages.OIDNamespaceMessage with typeNum: 91
+INFO  [2018-01-23 12:38:01,717] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$PlayerPathWMReqMessage with typeNum: 228
+INFO  [2018-01-23 12:38:01,719] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$removeTargetToCheckMessage with typeNum: 322
+INFO  [2018-01-23 12:38:01,721] main                 Added marshaller for class :class atavism.server.pathing.PathData with typeNum: 83
+INFO  [2018-01-23 12:38:01,723] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$SpawnReqMessage with typeNum: 216
+INFO  [2018-01-23 12:38:01,725] main                 Added marshaller for class :class atavism.agis.plugins.CombatClient$applyEffectMessage with typeNum: 250
+INFO  [2018-01-23 12:38:01,727] main                 Added marshaller for class :class atavism.msgsys.IntegerResponseMessage with typeNum: 47
+INFO  [2018-01-23 12:38:01,729] main                 Added marshaller for class :class atavism.server.objects.SoundRegionConfig with typeNum: 137
+INFO  [2018-01-23 12:38:01,732] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$TargetedComMessage with typeNum: 182
+INFO  [2018-01-23 12:38:01,782] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$PerceptionInfo with typeNum: 225
+INFO  [2018-01-23 12:38:01,784] main                 Added marshaller for class :class atavism.msgsys.GenericResponseMessage with typeNum: 43
+INFO  [2018-01-23 12:38:01,787] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$updatePetStatsMessage with typeNum: 318
+INFO  [2018-01-23 12:38:01,789] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$OrientReqMessage with typeNum: 207
+INFO  [2018-01-23 12:38:01,789] main                 Added marshaller for class :class atavism.server.engine.Namespace with typeNum: 71
+INFO  [2018-01-23 12:38:01,791] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$NewRegionMessage with typeNum: 201
+INFO  [2018-01-23 12:38:01,794] main                 Added marshaller for class :class atavism.server.objects.LightData with typeNum: 123
+INFO  [2018-01-23 12:38:01,796] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$GetNamedObjectMessage with typeNum: 178
+INFO  [2018-01-23 12:38:01,798] main                 Added marshaller for class :class atavism.agis.plugins.CombatClient$abilityUsedMessage with typeNum: 242
+INFO  [2018-01-23 12:38:01,807] main                 Added marshaller for class :class atavism.server.plugins.InstanceClient$SetInstanceGroupMessage with typeNum: 153
+INFO  [2018-01-23 12:38:01,808] main                 Added marshaller for class :class atavism.msgsys.SubjectMessage with typeNum: 38
+INFO  [2018-01-23 12:38:01,810] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerPlugin$LocationNamespaceFilter with typeNum: 229
+INFO  [2018-01-23 12:38:01,812] main                 Added marshaller for class :class atavism.agis.plugins.ClassAbilityClient$skillIncreasedMessage with typeNum: 282
+INFO  [2018-01-23 12:38:01,814] main                 Added marshaller for class :class atavism.server.plugins.InventoryClient$InvUpdateMessage$InvPos with typeNum: 157
+INFO  [2018-01-23 12:38:01,817] main                 Added marshaller for class :class atavism.server.objects.SpawnData with typeNum: 138
+INFO  [2018-01-23 12:38:01,819] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$SendInventoryUpdateMessage with typeNum: 276
+INFO  [2018-01-23 12:38:01,821] main                 Added marshaller for class :class atavism.msgsys.ExceptionResponseMessage with typeNum: 52
+INFO  [2018-01-23 12:38:01,823] main                 Added marshaller for class :class atavism.server.objects.RoadRegionConfig with typeNum: 134
+INFO  [2018-01-23 12:38:01,825] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$duelChallengeMessage with typeNum: 297
+INFO  [2018-01-23 12:38:01,827] main                 Added marshaller for class :class atavism.msgsys.LongResponseMessage with typeNum: 48
+INFO  [2018-01-23 12:38:01,827] main                 Added marshaller for class :class atavism.server.objects.Light with typeNum: 122
+INFO  [2018-01-23 12:38:01,831] main                 Added marshaller for class :class atavism.agis.plugins.CraftingClient$CraftItemMessage with typeNum: 333
+INFO  [2018-01-23 12:38:01,833] main                 Added marshaller for class :class atavism.agis.plugins.CombatClient$updateActionBarMessage with typeNum: 249
+INFO  [2018-01-23 12:38:01,833] main                 Added marshaller for class :class atavism.server.messages.PropertyMessage with typeNum: 92
+INFO  [2018-01-23 12:38:01,835] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$addTargetToCheckMessage with typeNum: 321
+INFO  [2018-01-23 12:38:01,837] main                 Added marshaller for class :class atavism.server.plugins.InstanceClient$GetRegionMessage with typeNum: 152
+INFO  [2018-01-23 12:38:01,839] main                 Added marshaller for class :class atavism.agis.plugins.CombatClient$updateFatigueStatusMessage with typeNum: 253
+INFO  [2018-01-23 12:38:01,841] main                 Added marshaller for class :class atavism.msgsys.BooleanResponseMessage with typeNum: 49
+INFO  [2018-01-23 12:38:01,843] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$removeEffectsMessage with typeNum: 306
+INFO  [2018-01-23 12:38:01,845] main                 Added marshaller for class :class atavism.server.objects.ObjectTracker$TrackerFilter with typeNum: 145
+INFO  [2018-01-23 12:38:01,846] main                 Added marshaller for class :class atavism.msgsys.ResponseMessage with typeNum: 104
+INFO  [2018-01-23 12:38:01,852] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$AnimationMessage with typeNum: 180
+INFO  [2018-01-23 12:38:01,855] main                 Added marshaller for class :class atavism.msgsys.ExceptionData with typeNum: 53
+INFO  [2018-01-23 12:38:01,857] main                 Added marshaller for class :class atavism.server.objects.EntityHandle with typeNum: 119
+INFO  [2018-01-23 12:38:01,859] main                 Added marshaller for class :class atavism.server.engine.BaseBehavior$DisableCommandMessage with typeNum: 61
+INFO  [2018-01-23 12:38:01,861] main                 Added marshaller for class :class atavism.msgsys.SubscribeMessage with typeNum: 39
+INFO  [2018-01-23 12:38:01,861] main                 Added marshaller for class :class atavism.msgsys.Message with typeNum: 100
+INFO  [2018-01-23 12:38:01,861] main                 Added marshaller for class :class atavism.server.objects.ObjState with typeNum: 126
+INFO  [2018-01-23 12:38:01,864] main                 Added marshaller for class :class atavism.server.math.Plane with typeNum: 78
+INFO  [2018-01-23 12:38:01,866] main                 Added marshaller for class :class atavism.server.objects.Marker with typeNum: 143
+INFO  [2018-01-23 12:38:01,868] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerPlugin$WorldManagerFilter$InstanceGeometry with typeNum: 232
+INFO  [2018-01-23 12:38:01,870] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$UpdateWorldNodeMessage with typeNum: 222
+INFO  [2018-01-23 12:38:01,872] main                 Added marshaller for class :class atavism.msgsys.AllocNameResponseMessage with typeNum: 103
+INFO  [2018-01-23 12:38:01,874] main                 Added marshaller for class :class atavism.server.plugins.InstanceClient$RegisterInstanceTemplateMessage with typeNum: 147
+INFO  [2018-01-23 12:38:01,874] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$ExtensionMessage with typeNum: 190
+INFO  [2018-01-23 12:38:01,877] main                 Added marshaller for class :class atavism.server.objects.Color with typeNum: 112
+INFO  [2018-01-23 12:38:01,879] main                 Added marshaller for class :class atavism.server.engine.BaseBehavior$FollowCommandMessage with typeNum: 58
+INFO  [2018-01-23 12:38:01,880] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$spawnArenaCreatureMessage with typeNum: 313
+INFO  [2018-01-23 12:38:01,882] main                 Added marshaller for class :class atavism.agis.plugins.CombatClient$getAoeTargetsMessage with typeNum: 248
+INFO  [2018-01-23 12:38:01,884] main                 Added marshaller for class :class atavism.server.objects.Vector2 with typeNum: 141
+INFO  [2018-01-23 12:38:01,886] main                 Added marshaller for class :class atavism.agis.plugins.ClassAbilityClient$levelChangeMessage with typeNum: 281
+INFO  [2018-01-23 12:38:01,888] main                 Added marshaller for class :class atavism.server.util.AnimationCommand with typeNum: 81
+INFO  [2018-01-23 12:38:01,890] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$duelChallengeRemoveMessage with typeNum: 301
+INFO  [2018-01-23 12:38:01,892] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$lootAllMessage with typeNum: 271
+INFO  [2018-01-23 12:38:01,896] main                 Added marshaller for class :class atavism.server.objects.InstanceTemplate with typeNum: 146
+INFO  [2018-01-23 12:38:01,898] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$checkCurrencyMessage with typeNum: 278
+INFO  [2018-01-23 12:38:01,898] main                 Added marshaller for class :class atavism.server.objects.AOObject with typeNum: 124
+INFO  [2018-01-23 12:38:01,900] main                 Added marshaller for class :class atavism.agis.plugins.GroupClient$groupInviteByNameMessage with typeNum: 307
+INFO  [2018-01-23 12:38:01,902] main                 Added marshaller for class :class atavism.server.pathing.PathEdge with typeNum: 84
+INFO  [2018-01-23 12:38:01,904] main                 Added marshaller for class :class atavism.server.plugins.ProxyPlugin$PlayerLoginStatus with typeNum: 239
+INFO  [2018-01-23 12:38:01,906] main                 Added marshaller for class :class atavism.server.objects.SoundData with typeNum: 136
+INFO  [2018-01-23 12:38:01,909] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$LoadSubObjectMessage with typeNum: 226
+INFO  [2018-01-23 12:38:01,909] main                 Added marshaller for class :class atavism.msgsys.GenericMessage with typeNum: 42
+INFO  [2018-01-23 12:38:01,911] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$QuestItemsListMessage with typeNum: 275
+INFO  [2018-01-23 12:38:01,914] main                 Added marshaller for class :class atavism.agis.plugins.QuestClient$StartQuestMessage with typeNum: 254
+INFO  [2018-01-23 12:38:01,916] main                 Added marshaller for class :class atavism.server.engine.EnginePlugin$GetPropertyMessage with typeNum: 65
+INFO  [2018-01-23 12:38:01,918] main                 Added marshaller for class :class atavism.server.plugins.ObjectManagerClient$SetSubPersistenceMessage with typeNum: 171
+INFO  [2018-01-23 12:38:01,921] main                 Added marshaller for class :class atavism.server.messages.PerceptionMessage with typeNum: 94
+INFO  [2018-01-23 12:38:01,923] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$targetInReactionRangeMessage with typeNum: 320
+INFO  [2018-01-23 12:38:01,926] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$ComMessage with typeNum: 181
+INFO  [2018-01-23 12:38:01,928] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$PerceiverRegionsMessage with typeNum: 208
+INFO  [2018-01-23 12:38:01,928] main                 Added marshaller for class :class atavism.server.messages.NamespaceFilter with typeNum: 97
+INFO  [2018-01-23 12:38:01,930] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$tameBeastMessage with typeNum: 315
+INFO  [2018-01-23 12:38:01,933] main                 Added marshaller for class :class atavism.msgsys.HelloResponseMessage with typeNum: 34
+INFO  [2018-01-23 12:38:01,934] main                 Added marshaller for class :class atavism.server.messages.NamespaceMessage with typeNum: 90
+INFO  [2018-01-23 12:38:01,936] main                 Added marshaller for class :class atavism.server.objects.InstanceRestorePoint with typeNum: 142
+INFO  [2018-01-23 12:38:01,938] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$GetInstanceTemplateMessage with typeNum: 310
+INFO  [2018-01-23 12:38:01,941] main                 Added marshaller for class :class atavism.server.objects.ObjectTracker$NotifyAggroRadiusMessage with typeNum: 236
+INFO  [2018-01-23 12:38:01,943] main                 Added marshaller for class :class atavism.server.objects.ObjectTracker$NotifyReactionRadiusMessage with typeNum: 235
+INFO  [2018-01-23 12:38:01,945] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$removeBagMessage with typeNum: 269
+INFO  [2018-01-23 12:38:01,947] main                 Added marshaller for class :class atavism.agis.plugins.AgisMobClient$getIslandsDataMessage with typeNum: 323
+INFO  [2018-01-23 12:38:01,949] main                 Added marshaller for class :class atavism.agis.plugins.CombatClient$TargetTypeMessage with typeNum: 244
+INFO  [2018-01-23 12:38:01,951] main                 Added marshaller for class :class atavism.agis.plugins.ArenaClient$addArenaCreatureMessage with typeNum: 294
+INFO  [2018-01-23 12:38:01,953] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$RequestOpenMobMessage with typeNum: 262
+INFO  [2018-01-23 12:38:01,968] main                 Added marshaller for class :class atavism.server.objects.Road with typeNum: 133
+INFO  [2018-01-23 12:38:01,971] main                 Added marshaller for class :class atavism.agis.plugins.DataLoggerClient$CharacterDeletedMessage with typeNum: 331
+INFO  [2018-01-23 12:38:01,972] main                 Added marshaller for class :class atavism.agis.plugins.AgisInventoryClient$lootItemMessage with typeNum: 270
+INFO  [2018-01-23 12:38:01,975] main                 Added marshaller for class :class atavism.server.plugins.WorldManagerClient$TargetedExtensionMessage with typeNum: 219
+INFO  [2018-01-23 12:38:01,975] main                 Entered MarshallingRuntime.initializeBatch: Registered 308 classes
+INFO  [2018-01-23 12:38:01,976] main                 Engine: My local host name is 'PCHacker'
+DEBUG [2018-01-23 12:38:01,979] main                 Engine: atavism.cputime_logging_interval disabled
+DEBUG [2018-01-23 12:38:02,037] main                 Engine: populateScriptList: option i: ../bin/proxy.py
+DEBUG [2018-01-23 12:38:02,037] main                 Engine: populateScriptList: option i: ../config/common/events.py
+DEBUG [2018-01-23 12:38:02,037] main                 Engine: populateScriptList: option i: ../config/common/aomessages.py
+DEBUG [2018-01-23 12:38:02,038] main                 Engine: populateScriptList: option i: ../config/world/worldmessages.py
+DEBUG [2018-01-23 12:38:02,038] main                 Engine: populateScriptList: nonoption args element: ../config/common/proxy.py
+DEBUG [2018-01-23 12:38:02,038] main                 Engine: populateScriptList: nonoption args element: ../config/common/global_props.py
+DEBUG [2018-01-23 12:38:02,038] main                 Engine: populateScriptList: nonoption args element: ../config/world/global_props.py
+DEBUG [2018-01-23 12:38:02,039] main                 Engine: populateScriptList: nonoption args element: ../config/world/extensions_proxy.py
+DEBUG [2018-01-23 12:38:06,355] main                 Engine: Engine: reading in script: ../bin/proxy.py
+DEBUG [2018-01-23 12:38:06,398] main                 Engine: Executing init script file: ../bin/proxy.py
+DEBUG [2018-01-23 12:38:06,398] main                 runPYFile: file=../bin/proxy.py
+DEBUG [2018-01-23 12:38:06,914] main                 Engine: script completed
+DEBUG [2018-01-23 12:38:06,915] main                 Engine: Engine: reading in script: ../config/common/events.py
+DEBUG [2018-01-23 12:38:06,938] main                 Engine: Executing init script file: ../config/common/events.py
+DEBUG [2018-01-23 12:38:06,938] main                 runPYFile: file=../config/common/events.py
+WARN  [2018-01-23 12:38:07,666] main                 Engine.getEventServer: creating eventserver (was null)
+DEBUG [2018-01-23 12:38:07,799] main                 loaded event, event id#1 maps to 'atavism.server.events.LoginEvent'
+DEBUG [2018-01-23 12:38:07,801] main                 loaded event, event id#3 maps to 'atavism.server.events.ComEvent'
+DEBUG [2018-01-23 12:38:07,804] main                 loaded event, event id#4 maps to 'atavism.server.events.LoginResponseEvent'
+DEBUG [2018-01-23 12:38:07,805] main                 loaded event, event id#5 maps to 'atavism.server.events.LogoutEvent'
+DEBUG [2018-01-23 12:38:07,808] main                 loaded event, event id#6 maps to 'atavism.server.events.TerrainEvent'
+DEBUG [2018-01-23 12:38:07,810] main                 loaded event, event id#7 maps to 'atavism.server.events.SkyboxEvent'
+DEBUG [2018-01-23 12:38:07,812] main                 loaded event, event id#8 maps to 'atavism.server.events.NewObjectEvent'
+DEBUG [2018-01-23 12:38:07,814] main                 loaded event, event id#10 maps to 'atavism.server.events.NotifyFreeObjectEvent'
+DEBUG [2018-01-23 12:38:07,816] main                 loaded event, event id#11 maps to 'atavism.server.events.AcquireEvent'
+DEBUG [2018-01-23 12:38:07,818] main                 loaded event, event id#12 maps to 'atavism.server.events.AcquireResponseEvent'
+DEBUG [2018-01-23 12:38:07,820] main                 loaded event, event id#13 maps to 'atavism.server.events.CommandEvent'
+DEBUG [2018-01-23 12:38:07,841] main                 loaded event, event id#14 maps to 'atavism.agis.events.EquipEvent'
+DEBUG [2018-01-23 12:38:07,844] main                 loaded event, event id#15 maps to 'atavism.agis.events.AgisEquipResponseEvent'
+DEBUG [2018-01-23 12:38:07,846] main                 loaded event, event id#16 maps to 'atavism.agis.events.AgisUnequipEvent'
+DEBUG [2018-01-23 12:38:07,849] main                 loaded event, event id#18 maps to 'atavism.server.events.AttachEvent'
+DEBUG [2018-01-23 12:38:07,862] main                 loaded event, event id#19 maps to 'atavism.server.events.DetachEvent'
+DEBUG [2018-01-23 12:38:07,865] main                 loaded event, event id#20 maps to 'atavism.agis.events.CombatEvent'
+DEBUG [2018-01-23 12:38:07,867] main                 loaded event, event id#21 maps to 'atavism.server.events.AutoAttackEvent'
+DEBUG [2018-01-23 12:38:07,871] main                 loaded event, event id#22 maps to 'atavism.agis.events.StatusUpdateEvent'
+DEBUG [2018-01-23 12:38:07,872] main                 loaded event, event id#23 maps to 'atavism.agis.events.AgisDamageEvent'
+DEBUG [2018-01-23 12:38:07,874] main                 loaded event, event id#24 maps to 'atavism.server.events.DropEvent'
+DEBUG [2018-01-23 12:38:07,877] main                 loaded event, event id#25 maps to 'atavism.agis.events.DropResponseEvent'
+DEBUG [2018-01-23 12:38:07,880] main                 loaded event, event id#26 maps to 'atavism.server.events.NotifyPlayAnimationEvent'
+DEBUG [2018-01-23 12:38:07,881] main                 loaded event, event id#30 maps to 'atavism.server.events.PortalEvent'
+DEBUG [2018-01-23 12:38:07,883] main                 loaded event, event id#31 maps to 'atavism.server.events.AmbientLightEvent'
+DEBUG [2018-01-23 12:38:07,885] main                 loaded event, event id#32 maps to 'atavism.server.events.NewLightEvent'
+DEBUG [2018-01-23 12:38:07,889] main                 loaded event, event id#38 maps to 'atavism.agis.events.AgisStateEvent'
+DEBUG [2018-01-23 12:38:07,889] main                 loaded event, event id#39 maps to 'atavism.agis.events.RequestQuestInfo'
+DEBUG [2018-01-23 12:38:07,892] main                 loaded event, event id#40 maps to 'atavism.agis.events.QuestInfo'
+DEBUG [2018-01-23 12:38:07,892] main                 loaded event, event id#41 maps to 'atavism.agis.events.QuestResponse'
+DEBUG [2018-01-23 12:38:07,928] main                 loaded event, event id#42 maps to 'atavism.server.events.RegionConfiguration'
+DEBUG [2018-01-23 12:38:07,930] main                 loaded event, event id#44 maps to 'atavism.agis.events.QuestLogInfo'
+DEBUG [2018-01-23 12:38:07,932] main                 loaded event, event id#47 maps to 'atavism.agis.events.RemoveQuestResponse'
+DEBUG [2018-01-23 12:38:07,933] main                 loaded event, event id#49 maps to 'atavism.agis.events.ConcludeQuest'
+DEBUG [2018-01-23 12:38:07,935] main                 loaded event, event id#50 maps to 'atavism.server.events.UITheme'
+DEBUG [2018-01-23 12:38:07,938] main                 loaded event, event id#53 maps to 'atavism.server.events.FragmentedMessage'
+DEBUG [2018-01-23 12:38:07,940] main                 loaded event, event id#54 maps to 'atavism.server.events.RoadEvent'
+DEBUG [2018-01-23 12:38:07,940] main                 loaded event, event id#55 maps to 'atavism.server.plugins.WorldManagerClient$FogMessage'
+DEBUG [2018-01-23 12:38:07,943] main                 loaded event, event id#56 maps to 'atavism.agis.events.AbilityUpdateEvent'
+DEBUG [2018-01-23 12:38:07,945] main                 loaded event, event id#57 maps to 'atavism.agis.events.AbilityInfoEvent'
+DEBUG [2018-01-23 12:38:07,947] main                 loaded event, event id#58 maps to 'atavism.agis.events.CooldownEvent'
+DEBUG [2018-01-23 12:38:07,950] main                 loaded event, event id#59 maps to 'atavism.agis.events.AbilityActivateEvent'
+DEBUG [2018-01-23 12:38:07,952] main                 loaded event, event id#60 maps to 'atavism.agis.events.AbilityProgressEvent'
+DEBUG [2018-01-23 12:38:07,954] main                 loaded event, event id#72 maps to 'atavism.server.events.ActivateItemEvent'
+DEBUG [2018-01-23 12:38:07,956] main                 loaded event, event id#75 maps to 'atavism.server.events.NewTerrainDecalEvent'
+DEBUG [2018-01-23 12:38:07,958] main                 loaded event, event id#76 maps to 'atavism.server.events.FreeTerrainDecalEvent'
+DEBUG [2018-01-23 12:38:07,993] main                 loaded event, event id#77 maps to 'atavism.server.events.ModelInfoEvent'
+DEBUG [2018-01-23 12:38:07,995] main                 loaded event, event id#79 maps to 'atavism.server.events.DirLocOrientEvent'
+DEBUG [2018-01-23 12:38:07,998] main                 loaded event, event id#80 maps to 'atavism.server.events.AuthorizedLoginEvent'
+DEBUG [2018-01-23 12:38:08,000] main                 loaded event, event id#81 maps to 'atavism.server.events.AuthorizedLoginResponseEvent'
+DEBUG [2018-01-23 12:38:08,002] main                 loaded event, event id#82 maps to 'atavism.server.events.LoadingStateEvent'
+DEBUG [2018-01-23 12:38:08,004] main                 loaded event, event id#83 maps to 'atavism.server.events.ExtensionMessageEvent'
+DEBUG [2018-01-23 12:38:08,006] main                 loaded event, event id#84 maps to 'atavism.agis.events.AbilityStatusEvent'
+DEBUG [2018-01-23 12:38:08,009] main                 loaded event, event id#85 maps to 'atavism.server.events.WorldFileEvent'
+DEBUG [2018-01-23 12:38:08,011] main                 loaded event, event id#1025 maps to 'atavism.server.events.RegisterEntityEvent'
+DEBUG [2018-01-23 12:38:08,013] main                 loaded event, event id#1026 maps to 'atavism.server.events.RegisterEntityResponseEvent'
+DEBUG [2018-01-23 12:38:08,014] main                 loaded event, event id#1027 maps to 'atavism.server.events.ConResetEvent'
+DEBUG [2018-01-23 12:38:08,016] main                 loaded event, event id#1028 maps to 'atavism.server.events.NotifyNewObjectEvent'
+DEBUG [2018-01-23 12:38:08,019] main                 loaded event, event id#1029 maps to 'atavism.server.events.ScriptEvent'
+DEBUG [2018-01-23 12:38:08,023] main                 loaded event, event id#1030 maps to 'atavism.server.events.DirectedEvent'
+DEBUG [2018-01-23 12:38:08,025] main                 loaded event, event id#1031 maps to 'atavism.server.events.SaveEvent'
+DEBUG [2018-01-23 12:38:08,028] main                 loaded event, event id#1032 maps to 'atavism.agis.events.QuestAvailableEvent'
+DEBUG [2018-01-23 12:38:08,063] main                 loaded event, event id#1033 maps to 'atavism.agis.events.NewQuestStateEvent'
+DEBUG [2018-01-23 12:38:08,065] main                 loaded event, event id#1035 maps to 'atavism.agis.events.QuestCompleted'
+DEBUG [2018-01-23 12:38:08,067] main                 loaded event, event id#1036 maps to 'atavism.server.events.UnregisterEntityEvent'
+DEBUG [2018-01-23 12:38:08,069] main                 loaded event, event id#1037 maps to 'atavism.server.events.UnregisterEntityResponseEvent'
+DEBUG [2018-01-23 12:38:08,069] main                 Engine: script completed
+DEBUG [2018-01-23 12:38:08,070] main                 Engine: Engine: reading in script: ../config/common/aomessages.py
+DEBUG [2018-01-23 12:38:08,070] main                 Engine: Executing init script file: ../config/common/aomessages.py
+DEBUG [2018-01-23 12:38:08,070] main                 runPYFile: file=../config/common/aomessages.py
+DEBUG [2018-01-23 12:38:08,669] main                 Adding msg type 'ao.PROPERTY', msgNumber 1/0x1
+DEBUG [2018-01-23 12:38:08,671] main                 Adding msg type 'ao.LOGIN', msgNumber 2/0x2
+DEBUG [2018-01-23 12:38:08,678] main                 Adding msg type 'ao.LOGOUT', msgNumber 3/0x3
+DEBUG [2018-01-23 12:38:08,695] main                 Adding msg type 'ao.ANIMATION', msgNumber 4/0x4
+DEBUG [2018-01-23 12:38:08,695] main                 Adding msg type 'ao.COM', msgNumber 5/0x5
+DEBUG [2018-01-23 12:38:08,696] main                 Adding msg type 'ao.COM_REQ', msgNumber 6/0x6
+DEBUG [2018-01-23 12:38:08,696] main                 Adding msg type 'ao.DC_REQ', msgNumber 7/0x7
+DEBUG [2018-01-23 12:38:08,696] main                 Adding msg type 'ao.DESPAWNED', msgNumber 8/0x8
+DEBUG [2018-01-23 12:38:08,697] main                 Adding msg type 'ao.DESPAWN_REQ', msgNumber 9/0x9
+DEBUG [2018-01-23 12:38:08,697] main                 Adding msg type 'ao.DETACH', msgNumber 10/0xa
+DEBUG [2018-01-23 12:38:08,697] main                 Adding msg type 'ao.DIR_LOC_ORIENT', msgNumber 11/0xb
+DEBUG [2018-01-23 12:38:08,698] main                 Adding msg type 'ao.DISPLAY_CONTEXT', msgNumber 12/0xc
+DEBUG [2018-01-23 12:38:08,698] main                 Adding msg type 'ao.EXTENSION', msgNumber 13/0xd
+DEBUG [2018-01-23 12:38:08,699] main                 Adding msg type 'ao.FOG', msgNumber 14/0xe
+DEBUG [2018-01-23 12:38:08,699] main                 Adding msg type 'ao.FREE_REMOTE_OBJ', msgNumber 15/0xf
+DEBUG [2018-01-23 12:38:08,702] main                 Adding msg type 'ao.GETWNODE_REQ', msgNumber 16/0x10
+DEBUG [2018-01-23 12:38:08,702] main                 Adding msg type 'ao.MOB_PATH', msgNumber 17/0x11
+DEBUG [2018-01-23 12:38:08,703] main                 Adding msg type 'ao.MOB_PATH_CORRECTION', msgNumber 18/0x12
+DEBUG [2018-01-23 12:38:08,703] main                 Adding msg type 'ao.MOB_PATH_REQ', msgNumber 19/0x13
+DEBUG [2018-01-23 12:38:08,703] main                 Adding msg type 'ao.MODIFY_DC', msgNumber 20/0x14
+DEBUG [2018-01-23 12:38:08,704] main                 Adding msg type 'ao.NEW_DIRLIGHT', msgNumber 21/0x15
+DEBUG [2018-01-23 12:38:08,704] main                 Adding msg type 'ao.FREE_OBJECT', msgNumber 22/0x16
+DEBUG [2018-01-23 12:38:08,704] main                 Adding msg type 'ao.NEW_REGION', msgNumber 23/0x17
+DEBUG [2018-01-23 12:38:08,705] main                 Adding msg type 'ao.NEW_REMOTE_OBJ', msgNumber 24/0x18
+DEBUG [2018-01-23 12:38:08,705] main                 Adding msg type 'ao.OBJINFO_REQ', msgNumber 25/0x19
+DEBUG [2018-01-23 12:38:08,705] main                 Adding msg type 'ao.GET_OBJECTS_IN', msgNumber 26/0x1a
+DEBUG [2018-01-23 12:38:08,706] main                 Adding msg type 'ao.ORIENT', msgNumber 27/0x1b
+DEBUG [2018-01-23 12:38:08,706] main                 Adding msg type 'ao.ORIENT_REQ', msgNumber 28/0x1c
+DEBUG [2018-01-23 12:38:08,707] main                 Adding msg type 'ao.PERCEIVER_REGIONS', msgNumber 29/0x1d
+DEBUG [2018-01-23 12:38:08,707] main                 Adding msg type 'ao.REFRESH_WNODE', msgNumber 30/0x1e
+DEBUG [2018-01-23 12:38:08,707] main                 Adding msg type 'ao.REPARENT_WNODE_REQ', msgNumber 31/0x1f
+DEBUG [2018-01-23 12:38:08,708] main                 Adding msg type 'ao.ROAD', msgNumber 32/0x20
+DEBUG [2018-01-23 12:38:08,708] main                 Adding msg type 'ao.FREE_ROAD', msgNumber 33/0x21
+DEBUG [2018-01-23 12:38:08,708] main                 Adding msg type 'ao.SETWNODE_REQ', msgNumber 34/0x22
+DEBUG [2018-01-23 12:38:08,709] main                 Adding msg type 'ao.SET_AMBIENT', msgNumber 35/0x23
+DEBUG [2018-01-23 12:38:08,709] main                 Adding msg type 'ao.SOUND', msgNumber 36/0x24
+DEBUG [2018-01-23 12:38:08,709] main                 Adding msg type 'ao.SPAWNED', msgNumber 37/0x25
+DEBUG [2018-01-23 12:38:08,710] main                 Adding msg type 'ao.SPAWN_REQ', msgNumber 38/0x26
+DEBUG [2018-01-23 12:38:08,710] main                 Adding msg type 'ao.SYS_CHAT', msgNumber 39/0x27
+DEBUG [2018-01-23 12:38:08,710] main                 Adding msg type 'ao.TARGETED_PROPERTY', msgNumber 40/0x28
+DEBUG [2018-01-23 12:38:08,711] main                 Adding msg type 'ao.UPDATEWNODE', msgNumber 41/0x29
+DEBUG [2018-01-23 12:38:08,711] main                 Adding msg type 'ao.UPDATEWNODE_REQ', msgNumber 42/0x2a
+DEBUG [2018-01-23 12:38:08,711] main                 Adding msg type 'ao.UPDATE_OBJECT', msgNumber 43/0x2b
+DEBUG [2018-01-23 12:38:08,712] main                 Adding msg type 'ao.WNODECORRECT', msgNumber 44/0x2c
+DEBUG [2018-01-23 12:38:08,712] main                 Adding msg type 'ao.P2P_EXTENSION', msgNumber 45/0x2d
+DEBUG [2018-01-23 12:38:08,712] main                 Adding msg type 'ao.PERCEPTION_INFO', msgNumber 46/0x2e
+DEBUG [2018-01-23 12:38:08,712] main                 Adding msg type 'ao.PERCEPTION', msgNumber 47/0x2f
+DEBUG [2018-01-23 12:38:08,713] main                 Adding msg type 'ao.HOST_INSTANCE', msgNumber 48/0x30
+DEBUG [2018-01-23 12:38:08,713] main                 Adding msg type 'ao.PLAYER_PATH_WM_REQ', msgNumber 49/0x31
+DEBUG [2018-01-23 12:38:08,722] main                 Adding msg type 'ao.SET_PERSISTENCE', msgNumber 50/0x32
+DEBUG [2018-01-23 12:38:08,723] main                 Adding msg type 'ao.SET_SUBPERSISTENCE', msgNumber 51/0x33
+DEBUG [2018-01-23 12:38:08,723] main                 Adding msg type 'ao.MODIFY_NAMESPACE', msgNumber 52/0x34
+DEBUG [2018-01-23 12:38:08,723] main                 Adding msg type 'ao.LOAD_OBJECT', msgNumber 53/0x35
+DEBUG [2018-01-23 12:38:08,724] main                 Adding msg type 'ao.LOAD_SUBOBJECT', msgNumber 54/0x36
+DEBUG [2018-01-23 12:38:08,724] main                 Adding msg type 'ao.LOAD_OBJECT_DATA', msgNumber 55/0x37
+DEBUG [2018-01-23 12:38:08,725] main                 Adding msg type 'ao.SAVE_OBJECT_DATA', msgNumber 56/0x38
+DEBUG [2018-01-23 12:38:08,725] main                 Adding msg type 'ao.SAVE_OBJECT', msgNumber 57/0x39
+DEBUG [2018-01-23 12:38:08,725] main                 Adding msg type 'ao.SAVE_SUBOBJECT', msgNumber 58/0x3a
+DEBUG [2018-01-23 12:38:08,726] main                 Adding msg type 'ao.GENERATE_OBJECT', msgNumber 59/0x3b
+DEBUG [2018-01-23 12:38:08,726] main                 Adding msg type 'ao.GENERATE_SUB_OBJECT', msgNumber 60/0x3c
+DEBUG [2018-01-23 12:38:08,740] main                 Adding msg type 'ao.SUB_OBJECT_DEPS_READY', msgNumber 61/0x3d
+DEBUG [2018-01-23 12:38:08,741] main                 Adding msg type 'ao.REGISTER_TEMPLATE', msgNumber 62/0x3e
+DEBUG [2018-01-23 12:38:08,741] main                 Adding msg type 'ao.GET_TEMPLATE', msgNumber 63/0x3f
+DEBUG [2018-01-23 12:38:08,741] main                 Adding msg type 'ao.GET_TEMPLATE_NAMES', msgNumber 64/0x40
+DEBUG [2018-01-23 12:38:08,742] main                 Adding msg type 'ao.UNLOAD_OBJECT', msgNumber 65/0x41
+DEBUG [2018-01-23 12:38:08,742] main                 Adding msg type 'ao.UNLOAD_SUBOBJECT', msgNumber 66/0x42
+DEBUG [2018-01-23 12:38:08,742] main                 Adding msg type 'ao.DELETE_OBJECT', msgNumber 67/0x43
+DEBUG [2018-01-23 12:38:08,743] main                 Adding msg type 'ao.DELETE_SUBOBJECT', msgNumber 68/0x44
+DEBUG [2018-01-23 12:38:08,743] main                 Adding msg type 'ao.FIX_WNODE_REQ', msgNumber 69/0x45
+DEBUG [2018-01-23 12:38:08,743] main                 Adding msg type 'ao.GET_NAMED_OBJECT', msgNumber 70/0x46
+DEBUG [2018-01-23 12:38:08,744] main                 Adding msg type 'ao.GET_MATCHING_OBJECTS', msgNumber 71/0x47
+DEBUG [2018-01-23 12:38:08,744] main                 Adding msg type 'ao.GET_OBJECT_STATUS', msgNumber 72/0x48
+DEBUG [2018-01-23 12:38:08,751] main                 Adding msg type 'ao.ADD_ITEM', msgNumber 73/0x49
+DEBUG [2018-01-23 12:38:08,751] main                 Adding msg type 'ao.CREATE_INV', msgNumber 74/0x4a
+DEBUG [2018-01-23 12:38:08,752] main                 Adding msg type 'ao.INV_UPDATE', msgNumber 75/0x4b
+DEBUG [2018-01-23 12:38:08,752] main                 Adding msg type 'ao.ACTIVATE', msgNumber 76/0x4c
+DEBUG [2018-01-23 12:38:08,752] main                 Adding msg type 'ao.LOOTALL', msgNumber 77/0x4d
+DEBUG [2018-01-23 12:38:08,752] main                 Adding msg type 'ao.INV_FIND', msgNumber 78/0x4e
+DEBUG [2018-01-23 12:38:08,753] main                 Adding msg type 'ao.INV_REMOVE', msgNumber 79/0x4f
+DEBUG [2018-01-23 12:38:08,753] main                 Adding msg type 'ao.DESTROY_ITEM', msgNumber 80/0x50
+DEBUG [2018-01-23 12:38:08,762] main                 Adding msg type 'ao.NOTIFY_REACTION_RADIUS', msgNumber 81/0x51
+DEBUG [2018-01-23 12:38:08,763] main                 Adding msg type 'ao.NOTIFY_AGGRO_RADIUS', msgNumber 82/0x52
+DEBUG [2018-01-23 12:38:08,763] main                 Adding msg type 'ao.DUMP_ALL_THREAD_STACKS', msgNumber 83/0x53
+DEBUG [2018-01-23 12:38:08,763] main                 Adding msg type 'ao.GET_PROPERTY', msgNumber 84/0x54
+DEBUG [2018-01-23 12:38:08,764] main                 Adding msg type 'ao.GET_PROPERTY_NAMES', msgNumber 85/0x55
+DEBUG [2018-01-23 12:38:08,764] main                 Adding msg type 'ao.PLUGIN_STATE', msgNumber 86/0x56
+DEBUG [2018-01-23 12:38:08,765] main                 Adding msg type 'ao.SET_PROPERTY', msgNumber 87/0x57
+DEBUG [2018-01-23 12:38:08,765] main                 Adding msg type 'ao.SET_PROPERTY_NONBLOCK', msgNumber 88/0x58
+DEBUG [2018-01-23 12:38:08,765] main                 Adding msg type 'ao.TRANSFER_OBJECT', msgNumber 89/0x59
+DEBUG [2018-01-23 12:38:08,771] main                 Adding msg type 'ao.COMMAND', msgNumber 90/0x5a
+DEBUG [2018-01-23 12:38:08,772] main                 Adding msg type 'ao.EVENT', msgNumber 91/0x5b
+DEBUG [2018-01-23 12:38:08,779] main                 Adding msg type 'ao.REQ_QUEST_INFO', msgNumber 92/0x5c
+DEBUG [2018-01-23 12:38:08,779] main                 Adding msg type 'ao.REQ_CONCLUDE_QUEST', msgNumber 93/0x5d
+DEBUG [2018-01-23 12:38:08,779] main                 Adding msg type 'ao.QUEST_INFO', msgNumber 94/0x5e
+DEBUG [2018-01-23 12:38:08,780] main                 Adding msg type 'ao.GET_QUEST_STATUS', msgNumber 95/0x5f
+DEBUG [2018-01-23 12:38:08,780] main                 Adding msg type 'ao.QUEST_RESP', msgNumber 96/0x60
+DEBUG [2018-01-23 12:38:08,780] main                 Adding msg type 'ao.NEW_QUESTSTATE', msgNumber 97/0x61
+DEBUG [2018-01-23 12:38:08,781] main                 Adding msg type 'ao.CONCLUDE_QUEST', msgNumber 98/0x62
+DEBUG [2018-01-23 12:38:08,782] main                 Adding msg type 'ao.QUEST_STATE_STATUS_CHANGE', msgNumber 99/0x63
+DEBUG [2018-01-23 12:38:08,782] main                 Adding msg type 'ao.QUEST_LOG_INFO', msgNumber 100/0x64
+DEBUG [2018-01-23 12:38:08,782] main                 Adding msg type 'ao.QUEST_STATE_INFO', msgNumber 101/0x65
+DEBUG [2018-01-23 12:38:08,783] main                 Adding msg type 'ao.REMOVE_QUEST_RESP', msgNumber 102/0x66
+DEBUG [2018-01-23 12:38:08,783] main                 Adding msg type 'ao.REQ_RESET_QUESTS', msgNumber 103/0x67
+DEBUG [2018-01-23 12:38:08,804] main                 Adding msg type 'ao.AGIS_INV_FIND', msgNumber 104/0x68
+DEBUG [2018-01-23 12:38:08,805] main                 Adding msg type 'ao.TRADE_START_REQ', msgNumber 105/0x69
+DEBUG [2018-01-23 12:38:08,805] main                 Adding msg type 'ao.TRADE_START', msgNumber 106/0x6a
+DEBUG [2018-01-23 12:38:08,805] main                 Adding msg type 'ao.TRADE_COMPLETE', msgNumber 107/0x6b
+DEBUG [2018-01-23 12:38:08,806] main                 Adding msg type 'ao.TRADE_OFFER_REQ', msgNumber 108/0x6c
+DEBUG [2018-01-23 12:38:08,806] main                 Adding msg type 'ao.TRADE_OFFER_UPDATE', msgNumber 109/0x6d
+DEBUG [2018-01-23 12:38:08,817] main                 Adding msg type 'ao.AUTO_ATTACK', msgNumber 110/0x6e
+DEBUG [2018-01-23 12:38:08,817] main                 Adding msg type 'ao.START_ABILITY', msgNumber 111/0x6f
+DEBUG [2018-01-23 12:38:08,818] main                 Adding msg type 'ao.COOLDOWN', msgNumber 112/0x70
+DEBUG [2018-01-23 12:38:08,818] main                 Adding msg type 'ao.ABILITY_PROGRESS', msgNumber 113/0x71
+DEBUG [2018-01-23 12:38:08,818] main                 Adding msg type 'ao.DAMAGE', msgNumber 114/0x72
+DEBUG [2018-01-23 12:38:08,819] main                 Adding msg type 'ao.RELEASE_OBJECT', msgNumber 115/0x73
+DEBUG [2018-01-23 12:38:08,819] main                 Adding msg type 'ao.ABILITY_STATUS', msgNumber 116/0x74
+DEBUG [2018-01-23 12:38:08,819] main                 Adding msg type 'ao.ABILITY_UPDATE', msgNumber 117/0x75
+DEBUG [2018-01-23 12:38:08,820] main                 Adding msg type 'ao.ADD_SKILL', msgNumber 118/0x76
+DEBUG [2018-01-23 12:38:08,820] main                 Adding msg type 'ao.TRAINING_FAILED', msgNumber 119/0x77
+DEBUG [2018-01-23 12:38:08,820] main                 Adding msg type 'ao.SKILL_UPDATE', msgNumber 120/0x78
+DEBUG [2018-01-23 12:38:08,821] main                 Adding msg type 'ao.GET_ABILITY', msgNumber 121/0x79
+DEBUG [2018-01-23 12:38:08,823] main                 Adding msg type 'ao.INVOKE_EFFECT', msgNumber 122/0x7a
+DEBUG [2018-01-23 12:38:08,833] main                 Adding msg type 'ao.REGISTER_INSTANCE_TEMPLATE', msgNumber 123/0x7b
+DEBUG [2018-01-23 12:38:08,834] main                 Adding msg type 'ao.CREATE_INSTANCE', msgNumber 124/0x7c
+DEBUG [2018-01-23 12:38:08,834] main                 Adding msg type 'ao.GET_INSTANCE_INFO', msgNumber 125/0x7d
+DEBUG [2018-01-23 12:38:08,835] main                 Adding msg type 'ao.INSTANCE_ENTRY_REQ', msgNumber 126/0x7e
+DEBUG [2018-01-23 12:38:08,835] main                 Adding msg type 'ao.GET_REGION', msgNumber 127/0x7f
+DEBUG [2018-01-23 12:38:08,835] main                 Adding msg type 'ao.LOAD_INSTANCE', msgNumber 128/0x80
+DEBUG [2018-01-23 12:38:08,836] main                 Adding msg type 'ao.UNLOAD_INSTANCE', msgNumber 129/0x81
+DEBUG [2018-01-23 12:38:08,836] main                 Adding msg type 'ao.DELETE_INSTANCE', msgNumber 130/0x82
+DEBUG [2018-01-23 12:38:08,836] main                 Adding msg type 'ao.LOAD_INSTANCE_CONTENT', msgNumber 131/0x83
+DEBUG [2018-01-23 12:38:08,837] main                 Adding msg type 'ao.INSTANCE_UNLOADED', msgNumber 132/0x84
+DEBUG [2018-01-23 12:38:08,837] main                 Adding msg type 'ao.INSTANCE_DELETED', msgNumber 133/0x85
+DEBUG [2018-01-23 12:38:08,838] main                 Adding msg type 'ao.GET_ENTITY_OIDS', msgNumber 134/0x86
+DEBUG [2018-01-23 12:38:08,838] main                 Adding msg type 'ao.LOAD_INSTANCE_BY_ID', msgNumber 135/0x87
+DEBUG [2018-01-23 12:38:08,838] main                 Adding msg type 'ao.INSTANCE_LOADED', msgNumber 136/0x88
+DEBUG [2018-01-23 12:38:08,839] main                 Adding msg type 'ao.SET_INSTANCE_GROUP', msgNumber 137/0x89
+DEBUG [2018-01-23 12:38:08,841] main                 Adding msg type 'ao.CREATE_SPAWN_GEN', msgNumber 138/0x8a
+DEBUG [2018-01-23 12:38:08,842] main                 Adding msg type 'ao.SET_AGGRO_RADIUS', msgNumber 139/0x8b
+DEBUG [2018-01-23 12:38:08,842] main                 Adding msg type 'ao.VOICE_PARMS', msgNumber 140/0x8c
+DEBUG [2018-01-23 12:38:08,866] main                 Adding msg type 'ao.PLAYER_PATH_REQ', msgNumber 141/0x8d
+DEBUG [2018-01-23 12:38:08,866] main                 Adding msg type 'ao.UPDATE_PLAYER_IGNORE_LIST', msgNumber 142/0x8e
+DEBUG [2018-01-23 12:38:08,867] main                 Adding msg type 'ao.RELAY_UPDATE_PLAYER_IGNORE_LIST', msgNumber 143/0x8f
+DEBUG [2018-01-23 12:38:08,867] main                 Adding msg type 'ao.GET_MATCHING_PLAYERS', msgNumber 144/0x90
+DEBUG [2018-01-23 12:38:08,867] main                 Adding msg type 'ao.PLAYER_IGNORE_LIST', msgNumber 145/0x91
+DEBUG [2018-01-23 12:38:08,868] main                 Adding msg type 'ao.PLAYER_IGNORE_LIST_REQ', msgNumber 146/0x92
+DEBUG [2018-01-23 12:38:08,868] main                 Adding msg type 'ao.GET_PLAYER_LOGIN_STATUS', msgNumber 147/0x93
+DEBUG [2018-01-23 12:38:08,868] main                 Adding msg type 'ao.LOGOUT_PLAYER', msgNumber 148/0x94
+DEBUG [2018-01-23 12:38:08,869] main                 Adding msg type 'ao.ADD_STATIC_PERCEPTION', msgNumber 149/0x95
+DEBUG [2018-01-23 12:38:08,869] main                 Adding msg type 'ao.REMOVE_STATIC_PERCEPTION', msgNumber 150/0x96
+DEBUG [2018-01-23 12:38:08,869] main                 Adding msg type 'ao.LOGIN_SPAWNED', msgNumber 151/0x97
+DEBUG [2018-01-23 12:38:08,870] main                 Adding msg type 'ao.ACCOUNT_LOGIN', msgNumber 152/0x98
+DEBUG [2018-01-23 12:38:08,873] main                 Adding msg type 'ao.SEARCH', msgNumber 153/0x99
+DEBUG [2018-01-23 12:38:08,875] main                 Adding msg type 'ao.REQ_TRAINER_INFO', msgNumber 154/0x9a
+DEBUG [2018-01-23 12:38:08,876] main                 Adding msg type 'ao.REQ_SKILL_TRAINING', msgNumber 155/0x9b
+DEBUG [2018-01-23 12:38:08,876] main                 Adding msg type 'ao.TRAINING_INFO', msgNumber 156/0x9c
+DEBUG [2018-01-23 12:38:08,884] main                 Adding msg type 'ao.STAT_XP_UPDATE', msgNumber 157/0x9d
+DEBUG [2018-01-23 12:38:08,885] main                 Adding msg type 'ao.HANDLE_EXP', msgNumber 158/0x9e
+DEBUG [2018-01-23 12:38:08,895] main                 Adding msg type 'ao.GROUP_INVITE', msgNumber 159/0x9f
+DEBUG [2018-01-23 12:38:08,895] main                 Adding msg type 'ao.GROUP_INVITE_RESPONSE', msgNumber 160/0xa0
+DEBUG [2018-01-23 12:38:08,895] main                 Adding msg type 'ao.GROUP_REMOVE_MEMBER', msgNumber 161/0xa1
+DEBUG [2018-01-23 12:38:08,896] main                 Adding msg type 'ao.GROUP_CHAT', msgNumber 162/0xa2
+DEBUG [2018-01-23 12:38:08,896] main                 Adding msg type 'ao.REQUEST_GROUP_INFO', msgNumber 163/0xa3
+DEBUG [2018-01-23 12:38:08,896] main                 Adding msg type 'ao.GROUP_INFO_RESPONSE', msgNumber 164/0xa4
+DEBUG [2018-01-23 12:38:08,897] main                 Adding msg type 'ao.GROUP_SET_ALLOWED_SPEAKER', msgNumber 165/0xa5
+DEBUG [2018-01-23 12:38:08,897] main                 Adding msg type 'ao.GROUP_MUTE_VOICE_CHAT', msgNumber 166/0xa6
+DEBUG [2018-01-23 12:38:08,897] main                 Adding msg type 'ao.GROUP_VOICE_CHAT_STATUS', msgNumber 167/0xa7
+DEBUG [2018-01-23 12:38:08,905] main                 Adding msg type 'ao.VOICECLIENT', msgNumber 168/0xa8
+DEBUG [2018-01-23 12:38:08,905] main                 Adding msg type 'ao.VOICE_MEMBER_ADDED', msgNumber 169/0xa9
+DEBUG [2018-01-23 12:38:08,906] main                 Adding msg type 'ao.VOICE_MEMBER_REMOVED', msgNumber 170/0xaa
+DEBUG [2018-01-23 12:38:08,907] main                 Adding msg type 'ao.GET_PLUGIN_STATUS', msgNumber 171/0xab
+DEBUG [2018-01-23 12:38:08,910] main                 Adding msg type 'ao.ITEM_PURCHASE', msgNumber 172/0xac
+DEBUG [2018-01-23 12:38:08,911] main                 Adding msg type 'ao.VENDOR_BALANCE', msgNumber 173/0xad
+DEBUG [2018-01-23 12:38:08,911] main                 Adding msg type 'ao.VENDOR_GET_BALANCE', msgNumber 174/0xae
+DEBUG [2018-01-23 12:38:08,911] main                 Adding msg type 'ao.VENDOR_INFO_REQ', msgNumber 175/0xaf
+DEBUG [2018-01-23 12:38:08,914] main                 Adding msg type 'ao.BILLING_BALANCE', msgNumber 176/0xb0
+DEBUG [2018-01-23 12:38:08,915] main                 Adding msg type 'ao.DECREMENT_TOKEN_BALANCE', msgNumber 177/0xb1
+DEBUG [2018-01-23 12:38:08,915] main                 Adding msg type 'ao.GET_TOKEN_BALANCE', msgNumber 178/0xb2
+DEBUG [2018-01-23 12:38:08,915] main                 Adding msg type 'ao.GET_PLAYER', msgNumber 179/0xb3
+DEBUG [2018-01-23 12:38:08,919] main                 Adding msg type 'ao.DATA_LOG', msgNumber 180/0xb4
+DEBUG [2018-01-23 12:38:08,919] main                 Engine: script completed
+DEBUG [2018-01-23 12:38:08,919] main                 Engine: Engine: reading in script: ../config/world/worldmessages.py
+DEBUG [2018-01-23 12:38:08,920] main                 Engine: Executing init script file: ../config/world/worldmessages.py
+DEBUG [2018-01-23 12:38:08,920] main                 runPYFile: file=../config/world/worldmessages.py
+DEBUG [2018-01-23 12:38:09,254] main                 Adding msg type 'ao.ITEM_ACQUIRE_STATUS_CHANGE', msgNumber 501/0x1f5
+DEBUG [2018-01-23 12:38:09,255] main                 Adding msg type 'ao.ITEM_EQUIP_STATUS_CHANGE', msgNumber 502/0x1f6
+DEBUG [2018-01-23 12:38:09,255] main                 Adding msg type 'inventory.REQ_OPEN_MOB', msgNumber 503/0x1f7
+DEBUG [2018-01-23 12:38:09,255] main                 Adding msg type 'inventory.REMOVE_SPECIFIC_ITEM', msgNumber 504/0x1f8
+DEBUG [2018-01-23 12:38:09,256] main                 Adding msg type 'inventory.REMOVE_GENERIC_ITEM', msgNumber 505/0x1f9
+DEBUG [2018-01-23 12:38:09,256] main                 Adding msg type 'inventory.GET_SPECIFIC_ITEM_DATA', msgNumber 506/0x1fa
+DEBUG [2018-01-23 12:38:09,256] main                 Adding msg type 'inventory.GET_GENERIC_ITEM_DATA', msgNumber 507/0x1fb
+DEBUG [2018-01-23 12:38:09,257] main                 Adding msg type 'inventory.GENERATE_ITEM', msgNumber 508/0x1fc
+DEBUG [2018-01-23 12:38:09,257] main                 Adding msg type 'inventory.PLACE_BAG', msgNumber 509/0x1fd
+DEBUG [2018-01-23 12:38:09,257] main                 Adding msg type 'inventory.MOVE_BAG', msgNumber 510/0x1fe
+DEBUG [2018-01-23 12:38:09,258] main                 Adding msg type 'inventory.REMOVE_BAG', msgNumber 511/0x1ff
+DEBUG [2018-01-23 12:38:09,258] main                 Adding msg type 'inventory.MOVE_ITEM', msgNumber 512/0x200
+DEBUG [2018-01-23 12:38:09,258] main                 Adding msg type 'inventory.LOOT_ITEM', msgNumber 513/0x201
+DEBUG [2018-01-23 12:38:09,259] main                 Adding msg type 'inventory.LOOT_ALL', msgNumber 514/0x202
+DEBUG [2018-01-23 12:38:09,259] main                 Adding msg type 'inventory.GENERATE_LOOT', msgNumber 515/0x203
+DEBUG [2018-01-23 12:38:09,260] main                 Adding msg type 'inventory.GET_LOOT_LIST', msgNumber 516/0x204
+DEBUG [2018-01-23 12:38:09,260] main                 Adding msg type 'inventory.GET_MERCHANT_LIST', msgNumber 517/0x205
+DEBUG [2018-01-23 12:38:09,260] main                 Adding msg type 'inventory.MSG_TYPE_PURCHASE_ITEM_FROM_MERCHANT', msgNumber 518/0x206
+DEBUG [2018-01-23 12:38:09,261] main                 Adding msg type 'inventory.PURCHASE_ITEM', msgNumber 519/0x207
+DEBUG [2018-01-23 12:38:09,261] main                 Adding msg type 'inventory.SELL_ITEM', msgNumber 520/0x208
+DEBUG [2018-01-23 12:38:09,261] main                 Adding msg type 'inventory.PICKUP_ITEM', msgNumber 521/0x209
+DEBUG [2018-01-23 12:38:09,261] main                 Adding msg type 'inventory.QUEST_ITEMS_LIST', msgNumber 522/0x20a
+DEBUG [2018-01-23 12:38:09,262] main                 Adding msg type 'inventory.SEND_INV_UPDATE', msgNumber 523/0x20b
+DEBUG [2018-01-23 12:38:09,262] main                 Adding msg type 'inventory.GET_MAIL', msgNumber 524/0x20c
+DEBUG [2018-01-23 12:38:09,262] main                 Adding msg type 'inventory.MAIL_READ', msgNumber 525/0x20d
+DEBUG [2018-01-23 12:38:09,263] main                 Adding msg type 'inventory.MAIL_TAKE_ITEM', msgNumber 526/0x20e
+DEBUG [2018-01-23 12:38:09,263] main                 Adding msg type 'inventory.RETURN_MAIL', msgNumber 527/0x20f
+DEBUG [2018-01-23 12:38:09,263] main                 Adding msg type 'inventory.DELETE_MAIL', msgNumber 528/0x210
+DEBUG [2018-01-23 12:38:09,264] main                 Adding msg type 'inventory.SEND_MAIL', msgNumber 529/0x211
+DEBUG [2018-01-23 12:38:09,264] main                 Adding msg type 'inventory.SEND_PURCHASE_MAIL', msgNumber 530/0x212
+DEBUG [2018-01-23 12:38:09,265] main                 Adding msg type 'inventory.CHECK_CURRENCY', msgNumber 531/0x213
+DEBUG [2018-01-23 12:38:09,265] main                 Adding msg type 'inventory.ALTER_CURRENCY', msgNumber 532/0x214
+DEBUG [2018-01-23 12:38:09,265] main                 Adding msg type 'ao.GET_SKINS', msgNumber 533/0x215
+DEBUG [2018-01-23 12:38:09,266] main                 Adding msg type 'ao.RELOAD_ITEMS', msgNumber 534/0x216
+DEBUG [2018-01-23 12:38:09,266] main                 Adding msg type 'ao.SET_WEAPON', msgNumber 535/0x217
+DEBUG [2018-01-23 12:38:09,266] main                 Adding msg type 'ao.PURCHASE_SKIN', msgNumber 536/0x218
+DEBUG [2018-01-23 12:38:09,267] main                 Adding msg type 'ao.SET_SKIN_COLOUR', msgNumber 537/0x219
+DEBUG [2018-01-23 12:38:09,267] main                 Adding msg type 'ao.GET_ACCOUNT_ITEM_COUNT', msgNumber 538/0x21a
+DEBUG [2018-01-23 12:38:09,267] main                 Adding msg type 'ao.ALTER_ITEM_COUNT', msgNumber 539/0x21b
+DEBUG [2018-01-23 12:38:09,268] main                 Adding msg type 'ao.USE_ACCOUNT_ITEM', msgNumber 540/0x21c
+DEBUG [2018-01-23 12:38:09,268] main                 Adding msg type 'ao.ITEM_ACTIVATED', msgNumber 541/0x21d
+DEBUG [2018-01-23 12:38:09,268] main                 Adding msg type 'ao.CHECK_COMPONENT', msgNumber 542/0x21e
+DEBUG [2018-01-23 12:38:09,269] main                 Adding msg type 'ao.EQUIPPED_ITEM_USED', msgNumber 543/0x21f
+DEBUG [2018-01-23 12:38:09,269] main                 Adding msg type 'ao.REPAIR_ITEMS', msgNumber 544/0x220
+DEBUG [2018-01-23 12:38:09,269] main                 Adding msg type 'ao.LEVEL_CHANGE', msgNumber 545/0x221
+DEBUG [2018-01-23 12:38:09,270] main                 Adding msg type 'combat.SKILL_INCREASE', msgNumber 546/0x222
+DEBUG [2018-01-23 12:38:09,270] main                 Adding msg type 'combat.SKILL_DECREASE', msgNumber 547/0x223
+DEBUG [2018-01-23 12:38:09,270] main                 Adding msg type 'combat.SKILL_RESET', msgNumber 548/0x224
+DEBUG [2018-01-23 12:38:09,271] main                 Adding msg type 'combat.SKILL_ALTER_CURRENT', msgNumber 549/0x225
+DEBUG [2018-01-23 12:38:09,271] main                 Adding msg type 'combat.GET_SKILL', msgNumber 550/0x226
+DEBUG [2018-01-23 12:38:09,271] main                 Adding msg type 'combat.GET_PLAYER_SKILL_LEVEL', msgNumber 551/0x227
+DEBUG [2018-01-23 12:38:09,272] main                 Adding msg type 'combat.LEARN_ABILITY', msgNumber 552/0x228
+DEBUG [2018-01-23 12:38:09,272] main                 Adding msg type 'combat.SET_SKILL_STATE', msgNumber 553/0x229
+DEBUG [2018-01-23 12:38:09,272] main                 Adding msg type 'ao.OFFER_QUEST', msgNumber 554/0x22a
+DEBUG [2018-01-23 12:38:09,273] main                 Adding msg type 'ao.START_QUEST', msgNumber 555/0x22b
+DEBUG [2018-01-23 12:38:09,273] main                 Adding msg type 'ao.CAN_PLAYER_START_QUEST', msgNumber 556/0x22c
+DEBUG [2018-01-23 12:38:09,273] main                 Adding msg type 'ao.QUEST_ITEM_REQ', msgNumber 557/0x22d
+DEBUG [2018-01-23 12:38:09,274] main                 Adding msg type 'ao.QUEST_ITEM_UPDATE', msgNumber 558/0x22e
+DEBUG [2018-01-23 12:38:09,274] main                 Adding msg type 'ao.QUEST_TASK_UPDATE', msgNumber 559/0x22f
+DEBUG [2018-01-23 12:38:09,274] main                 Adding msg type 'ao.REQ_QUEST_PROGRESS', msgNumber 560/0x230
+DEBUG [2018-01-23 12:38:09,275] main                 Adding msg type 'ao.COMPLETE_QUEST', msgNumber 561/0x231
+DEBUG [2018-01-23 12:38:09,275] main                 Adding msg type 'ao.QUEST_CONCLUDE_UPDATE', msgNumber 562/0x232
+DEBUG [2018-01-23 12:38:09,275] main                 Adding msg type 'ao.ABANDON_QUEST', msgNumber 563/0x233
+DEBUG [2018-01-23 12:38:09,276] main                 Adding msg type 'ao.SET_COMBAT_INFO_STATE', msgNumber 564/0x234
+DEBUG [2018-01-23 12:38:09,276] main                 Adding msg type 'ao.COMBAT_MOB_DEATH', msgNumber 565/0x235
+DEBUG [2018-01-23 12:38:09,276] main                 Adding msg type 'combat.ABILITY_USED', msgNumber 566/0x236
+DEBUG [2018-01-23 12:38:09,277] main                 Adding msg type 'combat.STOP_AUTO_ATTACK', msgNumber 567/0x237
+DEBUG [2018-01-23 12:38:09,277] main                 Adding msg type 'combat.TARGET_TYPE', msgNumber 568/0x238
+DEBUG [2018-01-23 12:38:09,278] main                 Adding msg type 'combat.INTERRUPT_ABILITY', msgNumber 569/0x239
+DEBUG [2018-01-23 12:38:09,278] main                 Adding msg type 'combat.LOGOUT', msgNumber 570/0x23a
+DEBUG [2018-01-23 12:38:09,278] main                 Adding msg type 'faction.UPDATE', msgNumber 571/0x23b
+DEBUG [2018-01-23 12:38:09,278] main                 Adding msg type 'combat.GET_AOE_TARGETS', msgNumber 572/0x23c
+DEBUG [2018-01-23 12:38:09,279] main                 Adding msg type 'combat.UPDATE_ACTIONBAR', msgNumber 573/0x23d
+DEBUG [2018-01-23 12:38:09,279] main                 Adding msg type 'combat.APPLY_EFFECT', msgNumber 574/0x23e
+DEBUG [2018-01-23 12:38:09,279] main                 Adding msg type 'combat.REMOVE_EFFECT', msgNumber 575/0x23f
+DEBUG [2018-01-23 12:38:09,280] main                 Adding msg type 'combat.ALTER_EXP', msgNumber 576/0x240
+DEBUG [2018-01-23 12:38:09,280] main                 Adding msg type 'combat.UPDATE_BREATH', msgNumber 577/0x241
+DEBUG [2018-01-23 12:38:09,280] main                 Adding msg type 'combat.UPDATE_FATIGUE', msgNumber 578/0x242
+DEBUG [2018-01-23 12:38:09,281] main                 Adding msg type 'ao.ALTER_HEARTS', msgNumber 579/0x243
+DEBUG [2018-01-23 12:38:09,281] main                 Adding msg type 'ao.KNOCKED_OUT', msgNumber 580/0x244
+DEBUG [2018-01-23 12:38:09,282] main                 Adding msg type 'ao.UPDATE_HEALTH_PROPS', msgNumber 581/0x245
+DEBUG [2018-01-23 12:38:09,282] main                 Adding msg type 'ao.REGEN_HEALTH_MANA', msgNumber 582/0x246
+DEBUG [2018-01-23 12:38:09,282] main                 Adding msg type 'ao.DECREMENT_WEAPON_USES', msgNumber 583/0x247
+DEBUG [2018-01-23 12:38:09,283] main                 Adding msg type 'ao.DISMOUNT', msgNumber 584/0x248
+DEBUG [2018-01-23 12:38:09,283] main                 Adding msg type 'ao.GET_PLAYER_STAT_VALUE', msgNumber 585/0x249
+DEBUG [2018-01-23 12:38:09,283] main                 Adding msg type 'ao.REMOVE_BUFF', msgNumber 586/0x24a
+DEBUG [2018-01-23 12:38:09,284] main                 Adding msg type 'ao.AUTO_ATTACK_COMPLETED', msgNumber 587/0x24b
+DEBUG [2018-01-23 12:38:09,284] main                 Adding msg type 'ao.ALTER_THREAT', msgNumber 588/0x24c
+DEBUG [2018-01-23 12:38:09,292] main                 Adding msg type 'arena.getStats', msgNumber 589/0x24d
+DEBUG [2018-01-23 12:38:09,292] main                 Adding msg type 'arena.getTypes', msgNumber 590/0x24e
+DEBUG [2018-01-23 12:38:09,293] main                 Adding msg type 'arena.joinQueue', msgNumber 591/0x24f
+DEBUG [2018-01-23 12:38:09,293] main                 Adding msg type 'arena.leaveQueue', msgNumber 592/0x250
+DEBUG [2018-01-23 12:38:09,293] main                 Adding msg type 'arena.removePlayer', msgNumber 593/0x251
+DEBUG [2018-01-23 12:38:09,294] main                 Adding msg type 'arena.kill', msgNumber 594/0x252
+DEBUG [2018-01-23 12:38:09,294] main                 Adding msg type 'arena.pickupFlag', msgNumber 595/0x253
+DEBUG [2018-01-23 12:38:09,294] main                 Adding msg type 'arena.dropFlag', msgNumber 596/0x254
+DEBUG [2018-01-23 12:38:09,295] main                 Adding msg type 'arena.activateMachine', msgNumber 597/0x255
+DEBUG [2018-01-23 12:38:09,295] main                 Adding msg type 'arena.dotScore', msgNumber 598/0x256
+DEBUG [2018-01-23 12:38:09,295] main                 Adding msg type 'arena.startChecks', msgNumber 599/0x257
+DEBUG [2018-01-23 12:38:09,296] main                 Adding msg type 'arena.addCreature', msgNumber 600/0x258
+DEBUG [2018-01-23 12:38:09,296] main                 Adding msg type 'arena.despawnGates', msgNumber 601/0x259
+DEBUG [2018-01-23 12:38:09,296] main                 Adding msg type 'arena.endArena', msgNumber 602/0x25a
+DEBUG [2018-01-23 12:38:09,297] main                 Adding msg type 'duel.startChallenge', msgNumber 603/0x25b
+DEBUG [2018-01-23 12:38:09,297] main                 Adding msg type 'duel.acceptChallenge', msgNumber 604/0x25c
+DEBUG [2018-01-23 12:38:09,297] main                 Adding msg type 'duel.declineChallenge', msgNumber 605/0x25d
+DEBUG [2018-01-23 12:38:09,298] main                 Adding msg type 'duel.challengeDisconnect', msgNumber 606/0x25e
+DEBUG [2018-01-23 12:38:09,298] main                 Adding msg type 'duel.removeChallenge', msgNumber 607/0x25f
+DEBUG [2018-01-23 12:38:09,298] main                 Adding msg type 'duel.startDuel', msgNumber 608/0x260
+DEBUG [2018-01-23 12:38:09,299] main                 Adding msg type 'duel.defeat', msgNumber 609/0x261
+DEBUG [2018-01-23 12:38:09,299] main                 Adding msg type 'duel.disconnect', msgNumber 610/0x262
+DEBUG [2018-01-23 12:38:09,299] main                 Adding msg type 'duel.remove', msgNumber 611/0x263
+DEBUG [2018-01-23 12:38:09,300] main                 Adding msg type 'arena.removeEffects', msgNumber 612/0x264
+DEBUG [2018-01-23 12:38:09,300] main                 Adding msg type 'ao.ACTIVATE_ARENA_ABILITY', msgNumber 613/0x265
+DEBUG [2018-01-23 12:38:09,300] main                 Adding msg type 'ao.COMPLETE_TUTORIAL', msgNumber 614/0x266
+DEBUG [2018-01-23 12:38:09,301] main                 Adding msg type 'ao.CHANGE_RACE', msgNumber 615/0x267
+DEBUG [2018-01-23 12:38:09,301] main                 Adding msg type 'ao.SELECT_RACE', msgNumber 616/0x268
+DEBUG [2018-01-23 12:38:09,301] main                 Adding msg type 'ao.ALTER_EXP', msgNumber 617/0x269
+DEBUG [2018-01-23 12:38:09,301] main                 Adding msg type 'ao.GROUP_LEAVE', msgNumber 618/0x26a
+DEBUG [2018-01-23 12:38:09,302] main                 Adding msg type 'iow.GROUP_INVITE_BY_NAME', msgNumber 619/0x26b
+DEBUG [2018-01-23 12:38:09,302] main                 Adding msg type 'iow.GET_PLAYER_BY_NAME', msgNumber 620/0x26c
+DEBUG [2018-01-23 12:38:09,302] main                 Adding msg type 'iow.CREATE_GROUP', msgNumber 621/0x26d
+DEBUG [2018-01-23 12:38:09,303] main                 Adding msg type 'ao.GET_FRIENDS', msgNumber 622/0x26e
+DEBUG [2018-01-23 12:38:09,303] main                 Adding msg type 'ao.ADD_FRIEND', msgNumber 623/0x26f
+DEBUG [2018-01-23 12:38:09,303] main                 Adding msg type 'ao.GROUP_PROMOTE_LEADER', msgNumber 624/0x270
+DEBUG [2018-01-23 12:38:09,314] main                 Adding msg type 'ao.GET_INSTANCE_TEMPLATE', msgNumber 625/0x271
+DEBUG [2018-01-23 12:38:09,315] main                 Adding msg type 'ao.SPAWN_INSTANCE_MOBS', msgNumber 626/0x272
+DEBUG [2018-01-23 12:38:09,315] main                 Adding msg type 'ao.SPAWN_MOB', msgNumber 627/0x273
+DEBUG [2018-01-23 12:38:09,315] main                 Adding msg type 'mob.SPAWN_ARENA_CREATURE', msgNumber 628/0x274
+DEBUG [2018-01-23 12:38:09,316] main                 Adding msg type 'mob.SPAWN_PET', msgNumber 629/0x275
+DEBUG [2018-01-23 12:38:09,316] main                 Adding msg type 'mob.TAME_BEAST', msgNumber 630/0x276
+DEBUG [2018-01-23 12:38:09,317] main                 Adding msg type 'mob.PET_COMMAND_UPDATE', msgNumber 631/0x277
+DEBUG [2018-01-23 12:38:09,317] main                 Adding msg type 'mob.SEND_PET_COMMAND', msgNumber 632/0x278
+DEBUG [2018-01-23 12:38:09,317] main                 Adding msg type 'mob.UPDATE_PET_STATS', msgNumber 633/0x279
+DEBUG [2018-01-23 12:38:09,318] main                 Adding msg type 'mob.PET_TARGET_LOST', msgNumber 634/0x27a
+DEBUG [2018-01-23 12:38:09,318] main                 Adding msg type 'mob.TARGET_IN_REACTION_RANGE', msgNumber 635/0x27b
+DEBUG [2018-01-23 12:38:09,318] main                 Adding msg type 'mob.ADD_TARGET_TO_CHECK', msgNumber 636/0x27c
+DEBUG [2018-01-23 12:38:09,318] main                 Adding msg type 'mob.REMOVE_TARGET_TO_CHECK', msgNumber 637/0x27d
+DEBUG [2018-01-23 12:38:09,319] main                 Adding msg type 'ao.INTERACT_WITH_OBJECT', msgNumber 638/0x27e
+DEBUG [2018-01-23 12:38:09,319] main                 Adding msg type 'mob.GET_TEMPLATES', msgNumber 639/0x27f
+DEBUG [2018-01-23 12:38:09,319] main                 Adding msg type 'mob.CREATE_MOB_SPAWN', msgNumber 640/0x280
+DEBUG [2018-01-23 12:38:09,320] main                 Adding msg type 'ao.CREATE_QUEST', msgNumber 641/0x281
+DEBUG [2018-01-23 12:38:09,320] main                 Adding msg type 'ao.CREATE_LOOT_TABLE', msgNumber 642/0x282
+DEBUG [2018-01-23 12:38:09,320] main                 Adding msg type 'ao.EDIT_QUEST', msgNumber 643/0x283
+DEBUG [2018-01-23 12:38:09,321] main                 Adding msg type 'mob.GET_ISLANDS_DATA', msgNumber 644/0x284
+DEBUG [2018-01-23 12:38:09,321] main                 Adding msg type 'ao.VERIFY_ISLAND_ACCESS', msgNumber 645/0x285
+DEBUG [2018-01-23 12:38:09,321] main                 Adding msg type 'ao.ENTER_WORLD', msgNumber 646/0x286
+DEBUG [2018-01-23 12:38:09,322] main                 Adding msg type 'ao.REQUEST_DEVELOPER_ACCESS', msgNumber 647/0x287
+DEBUG [2018-01-23 12:38:09,322] main                 Adding msg type 'ao.CREATE_ISLAND', msgNumber 648/0x288
+DEBUG [2018-01-23 12:38:09,322] main                 Adding msg type 'ao.VIEW_MARKERS', msgNumber 649/0x289
+DEBUG [2018-01-23 12:38:09,323] main                 Adding msg type 'ao.REQUEST_SPAWN_DATA', msgNumber 650/0x28a
+DEBUG [2018-01-23 12:38:09,323] main                 Adding msg type 'ao.EDIT_SPAWN_MARKER', msgNumber 651/0x28b
+DEBUG [2018-01-23 12:38:09,323] main                 Adding msg type 'ao.DELETE_SPAWN_MARKER', msgNumber 652/0x28c
+DEBUG [2018-01-23 12:38:09,324] main                 Adding msg type 'ao.CREATE_MOB', msgNumber 653/0x28d
+DEBUG [2018-01-23 12:38:09,324] main                 Adding msg type 'ao.EDIT_MOB', msgNumber 654/0x28e
+DEBUG [2018-01-23 12:38:09,324] main                 Adding msg type 'ao.CREATE_FACTION', msgNumber 655/0x28f
+DEBUG [2018-01-23 12:38:09,325] main                 Adding msg type 'ao.EDIT_FACTION', msgNumber 656/0x290
+DEBUG [2018-01-23 12:38:09,325] main                 Adding msg type 'ao.CATEGORY_UPDATED', msgNumber 657/0x291
+DEBUG [2018-01-23 12:38:09,325] main                 Adding msg type 'ao.SPAWN_DOME_MOB', msgNumber 658/0x292
+DEBUG [2018-01-23 12:38:09,326] main                 Adding msg type 'ao.DOME_ENQUIRY', msgNumber 659/0x293
+DEBUG [2018-01-23 12:38:09,326] main                 Adding msg type 'ao.DOME_ENTRY_REQUEST', msgNumber 660/0x294
+DEBUG [2018-01-23 12:38:09,326] main                 Adding msg type 'ao.DOME_LEAVE_REQUEST', msgNumber 661/0x295
+DEBUG [2018-01-23 12:38:09,327] main                 Adding msg type 'ao.ACTIVATE_DOME_ABILITY', msgNumber 662/0x296
+DEBUG [2018-01-23 12:38:09,327] main                 Adding msg type 'ao.MOB_KILLED', msgNumber 663/0x297
+DEBUG [2018-01-23 12:38:09,327] main                 Adding msg type 'ao.OBJECT_ACTIVATED', msgNumber 664/0x298
+DEBUG [2018-01-23 12:38:09,328] main                 Adding msg type 'ao.GET_INTERACTION_OPTIONS', msgNumber 665/0x299
+DEBUG [2018-01-23 12:38:09,328] main                 Adding msg type 'ao.START_INTERACTION', msgNumber 666/0x29a
+DEBUG [2018-01-23 12:38:09,328] main                 Adding msg type 'ao.DIALOGUE_OPTION_CHOSEN', msgNumber 667/0x29b
+DEBUG [2018-01-23 12:38:09,328] main                 Adding msg type 'ao.START_DIALOGUE', msgNumber 668/0x29c
+DEBUG [2018-01-23 12:38:09,329] main                 Adding msg type 'ao.INVALID_PATH', msgNumber 669/0x29d
+DEBUG [2018-01-23 12:38:09,329] main                 Adding msg type 'ao.PLAY_COORD_EFFECT', msgNumber 670/0x29e
+DEBUG [2018-01-23 12:38:09,333] main                 Adding msg type 'faction.GET_REACTION', msgNumber 671/0x29f
+DEBUG [2018-01-23 12:38:09,333] main                 Adding msg type 'faction.UPDATE_PVP_STATE', msgNumber 181/0xb5
+DEBUG [2018-01-23 12:38:09,334] main                 Adding msg type 'faction.ALTER_REPUTATION', msgNumber 182/0xb6
+DEBUG [2018-01-23 12:38:09,334] main                 Adding msg type 'ao.CHARACTER_CREATED', msgNumber 183/0xb7
+DEBUG [2018-01-23 12:38:09,334] main                 Adding msg type 'ao.CHARACTER_DELETED', msgNumber 184/0xb8
+DEBUG [2018-01-23 12:38:09,338] main                 Adding msg type 'crafting.HARVEST_RESOURCE', msgNumber 185/0xb9
+DEBUG [2018-01-23 12:38:09,338] main                 Adding msg type 'crafting.GATHER_RESOURCE', msgNumber 186/0xba
+DEBUG [2018-01-23 12:38:09,339] main                 Adding msg type 'crafting.CRAFT_ITEM', msgNumber 187/0xbb
+DEBUG [2018-01-23 12:38:09,339] main                 Adding msg type 'crafting.GRID_UPDATED', msgNumber 188/0xbc
+DEBUG [2018-01-23 12:38:09,339] main                 Adding msg type 'crafting.GET_BLUEPRINTS', msgNumber 189/0xbd
+DEBUG [2018-01-23 12:38:09,340] main                 Adding msg type 'crafting.CREATE_RESOURCE_NODE_FROM_MOB', msgNumber 190/0xbe
+DEBUG [2018-01-23 12:38:09,340] main                 Adding msg type 'crafting.DESTROY_MOB_RESOURCE_NODE', msgNumber 191/0xbf
+DEBUG [2018-01-23 12:38:09,397] main                 Adding msg type 'voxel.CREATE_CLAIM', msgNumber 192/0xc0
+DEBUG [2018-01-23 12:38:09,397] main                 Adding msg type 'voxel.EDIT_CLAIM', msgNumber 193/0xc1
+DEBUG [2018-01-23 12:38:09,397] main                 Adding msg type 'voxel.PURCHASE_CLAIM', msgNumber 194/0xc2
+DEBUG [2018-01-23 12:38:09,397] main                 Adding msg type 'voxel.SELL_CLAIM', msgNumber 195/0xc3
+DEBUG [2018-01-23 12:38:09,398] main                 Adding msg type 'voxel.DELETE_CLAIM', msgNumber 196/0xc4
+DEBUG [2018-01-23 12:38:09,398] main                 Adding msg type 'voxel.CLAIM_PERMISSION', msgNumber 197/0xc5
+DEBUG [2018-01-23 12:38:09,398] main                 Adding msg type 'voxel.CLAIM_ACTION', msgNumber 198/0xc6
+DEBUG [2018-01-23 12:38:09,399] main                 Adding msg type 'voxel.PLACE_CLAIM_OBJECT', msgNumber 199/0xc7
+DEBUG [2018-01-23 12:38:09,399] main                 Adding msg type 'voxel.EDIT_CLAIM_OBJECT', msgNumber 200/0xc8
+DEBUG [2018-01-23 12:38:09,399] main                 Adding msg type 'voxel.GET_RESOURCES', msgNumber 201/0xc9
+DEBUG [2018-01-23 12:38:09,400] main                 Adding msg type 'voxel.NO_BUILD_CLAIM_TRIGGER', msgNumber 202/0xca
+DEBUG [2018-01-23 12:38:09,400] main                 Adding msg type 'voxel.UPGRADE_BUILDING_OBJECT', msgNumber 203/0xcb
+DEBUG [2018-01-23 12:38:09,400] main                 Adding msg type 'voxel.GET_BUILDING_TEMPLATE', msgNumber 204/0xcc
+DEBUG [2018-01-23 12:38:09,400] main                 Adding msg type 'voxel.GET_CLAIM_OBJECT_INFO', msgNumber 205/0xcd
+DEBUG [2018-01-23 12:38:09,401] main                 Adding msg type 'voxel.ATTACK_BUILDING_OBJECT', msgNumber 206/0xce
+DEBUG [2018-01-23 12:38:09,404] main                 Adding msg type 'ao.SET_MOVEMENT_STATE', msgNumber 207/0xcf
+DEBUG [2018-01-23 12:38:09,404] main                 Adding msg type 'ao.WATER_REGION_TRANSITION', msgNumber 208/0xd0
+DEBUG [2018-01-23 12:38:09,404] main                 Adding msg type 'ao.CHANGE_INSTANCE', msgNumber 672/0x2a0
+DEBUG [2018-01-23 12:38:09,404] main                 Engine: script completed
+DEBUG [2018-01-23 12:38:09,407] main                 Initializing Database with driver com.mysql.jdbc.Driver
+DEBUG [2018-01-23 12:38:09,407] main                 classpath = ../other/rhino1_5R5/js.jar;../other/mysql-connector-java-3.1.14-bin.jar;../dist/lib/injected.jar;../dist/lib/atavism.jar;../dist/lib/agis.jar;../config/world/world.jar;../other/java-getopt-1.0.11.jar;../other/jython.jar;../other/log4j-1.2.15.jar;../other/bcel-5.2.jar;../other/mbsclient.jar;../other/slf4j-api-1.5.6.jar;../other/slf4j-log4j12-1.5.6.jar;../other/shiro-core-1.0-incubating-SNAPSHOT.jar;../other/json_simple-1.1.jar;.
+DEBUG [2018-01-23 12:38:09,533] main                 com.mysql.jdbc.Driver driver loaded
+DEBUG [2018-01-23 12:38:09,534] main                 Database: starting keepalive
+DEBUG [2018-01-23 12:38:09,536] main                 Engine: connecting to localhostuser = root passwd=
+DEBUG [2018-01-23 12:38:09,537] main                 *** url = jdbc:mysql://localhost/atavism username = root password = 
+INFO  [2018-01-23 12:38:10,748] main                 connected to database
+DEBUG [2018-01-23 12:38:10,748] main                 Reading namespaces from the database
+DEBUG [2018-01-23 12:38:10,755] main                 Read 16 namespaces from the database
+INFO  [2018-01-23 12:38:10,756] main                 encached the mapping of namespace strings to ints
+DEBUG [2018-01-23 12:38:11,261] main                 Adding msg type 'msgsys.AGENT_HELLO', msgNumber 5000/0x1388
+DEBUG [2018-01-23 12:38:11,261] main                 Adding msg type 'msgsys.HELLO_RESPONSE', msgNumber 5001/0x1389
+DEBUG [2018-01-23 12:38:11,261] main                 Adding msg type 'msgsys.ALLOC_NAME', msgNumber 5002/0x138a
+DEBUG [2018-01-23 12:38:11,261] main                 Adding msg type 'msgsys.NEW_AGENT', msgNumber 5003/0x138b
+DEBUG [2018-01-23 12:38:11,262] main                 Adding msg type 'msgsys.AGENT_STATE', msgNumber 5004/0x138c
+DEBUG [2018-01-23 12:38:11,262] main                 Adding msg type 'msgsys.ADVERTISE', msgNumber 5005/0x138d
+DEBUG [2018-01-23 12:38:11,262] main                 Adding msg type 'msgsys.SUBSCRIBE', msgNumber 5006/0x138e
+DEBUG [2018-01-23 12:38:11,262] main                 Adding msg type 'msgsys.UNSUBSCRIBE', msgNumber 5007/0x138f
+DEBUG [2018-01-23 12:38:11,262] main                 Adding msg type 'msgsys.FILTER_UPDATE', msgNumber 5008/0x1390
+DEBUG [2018-01-23 12:38:11,263] main                 Adding msg type 'msgsys.AWAIT_PLUGIN_DEPENDENTS', msgNumber 5009/0x1391
+DEBUG [2018-01-23 12:38:11,263] main                 Adding msg type 'msgsys.PLUGIN_AVAILABLE', msgNumber 5010/0x1392
+DEBUG [2018-01-23 12:38:11,263] main                 Adding msg type 'msgsys.RESPONSE', msgNumber 5011/0x1393
+DEBUG [2018-01-23 12:38:11,263] main                 Adding msg type 'msgsys.BOOLEAN_RESPONSE', msgNumber 5012/0x1394
+DEBUG [2018-01-23 12:38:11,263] main                 Adding msg type 'msgsys.LONG_RESPONSE', msgNumber 5013/0x1395
+DEBUG [2018-01-23 12:38:11,264] main                 Adding msg type 'msgsys.INT_RESPONSE', msgNumber 5014/0x1396
+DEBUG [2018-01-23 12:38:11,264] main                 Adding msg type 'msgsys.STRING_RESPONSE', msgNumber 5015/0x1397
+DEBUG [2018-01-23 12:38:11,264] main                 Adding msg type 'msgsys.ALLOC_NAME_RESPONSE', msgNumber 5016/0x1398
+ERROR [2018-01-23 12:38:11,589] main                 File '../config/world/proxy-ads.txt', line 83: unknown message type ao.MOVEMENT_STATE
+ERROR [2018-01-23 12:38:11,600] main                 File '../config/world/proxy-ads.txt', line 113: unknown message type ao.SET_UNDERWATER
+DEBUG [2018-01-23 12:38:11,605] main                 Sending msgsys.ADVERTISE id=1 to proxy_1
+DEBUG [2018-01-23 12:38:11,611] SelfMessage          SelfMessageHandler.handle pos=842
+DEBUG [2018-01-23 12:38:11,621] SelfMessage          handleSelfMessage id=1 type=msgsys.ADVERTISE class=atavism.msgsys.AdvertiseMessage
+DEBUG [2018-01-23 12:38:11,622] SelfMessage          [proxy_1,1] handleAdvertise: Adding 204 and removing 0
+DEBUG [2018-01-23 12:38:11,623] SelfMessage          sendResponse to proxy_1,1 type=msgsys.RESPONSE id=2 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:11,625] SelfMessage          SelfMessageHandler.handle pos=28
+DEBUG [2018-01-23 12:38:11,625] SelfMessage          handleSelfMessage id=2 responseTo=1 type=msgsys.RESPONSE class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:11,630] main                 TcpServer: bound to /0:0:0:0:0:0:0:0:50440
+DEBUG [2018-01-23 12:38:11,632] main                 MessageAgent: connected to domain server java.nio.channels.SocketChannel[connected local=/127.0.0.1:50441 remote=localhost/127.0.0.1:20377]
+INFO  [2018-01-23 12:38:11,727] main                 My agent-id: 6
+DEBUG [2018-01-23 12:38:11,728] main                 DOMAIN: helloResponse: atavism.msgsys.HelloResponseMessage@4aee9545
+DEBUG [2018-01-23 12:38:11,728] main                 DOMAIN: helloResponse key: bCwhvDlLs5wAAAAISG1hY1NIQTG/BKYEtQdIs8g3LZZt5IGC88n1Lw==
+DEBUG [2018-01-23 12:38:11,735] main                 SecureTokenManager.initDomain: reading domain key. keyId=0x6c2c21bc394bb39c algorithm=HmacSHA1
+DEBUG [2018-01-23 12:38:12,301] AgentConnection-1    received connect: Accepting connection from wmgr_1
+DEBUG [2018-01-23 12:38:12,372] AgentConnection-2    MessageAgent: connected to agent java.nio.channels.SocketChannel[connected local=/127.0.0.1:50466 remote=/127.0.0.1:50291]
+DEBUG [2018-01-23 12:38:12,375] AgentConnection-3    MessageAgent: connected to agent java.nio.channels.SocketChannel[connected local=/127.0.0.1:50467 remote=/127.0.0.1:50321]
+DEBUG [2018-01-23 12:38:12,376] AgentConnection-4    MessageAgent: connected to agent java.nio.channels.SocketChannel[connected local=/127.0.0.1:50468 remote=/127.0.0.1:50262]
+DEBUG [2018-01-23 12:38:12,376] AgentConnection-5    MessageAgent: connected to agent java.nio.channels.SocketChannel[connected local=/127.0.0.1:50464 remote=/127.0.0.1:50380]
+DEBUG [2018-01-23 12:38:12,411] MessageIO            [wmgr_1,7] handleAdvertise: Adding 57 and removing 0
+DEBUG [2018-01-23 12:38:12,421] AgentConnection-3    connect: Accepted connection from instance
+DEBUG [2018-01-23 12:38:12,424] MessageIO            [instance,7] handleAdvertise: Adding 18 and removing 0
+DEBUG [2018-01-23 12:38:12,437] AgentConnection-4    connect: Accepted connection from objmgr
+DEBUG [2018-01-23 12:38:12,445] AgentConnection-2    connect: Accepted connection from combat
+DEBUG [2018-01-23 12:38:12,446] AgentConnection-5    connect: Accepted connection from login_manager
+DEBUG [2018-01-23 12:38:12,454] MessageIO            [combat,7] handleAdvertise: Adding 69 and removing 0
+DEBUG [2018-01-23 12:38:12,459] MessageIO            [objmgr,7] handleAdvertise: Adding 73 and removing 0
+DEBUG [2018-01-23 12:38:12,477] MessageIO            [login_manager,7] handleAdvertise: Adding 13 and removing 0
+DEBUG [2018-01-23 12:38:14,587] AgentConnection-5    MessageAgent: connected to agent java.nio.channels.SocketChannel[connected local=/127.0.0.1:50531 remote=/127.0.0.1:50512]
+DEBUG [2018-01-23 12:38:14,766] AgentConnection-5    connect: Accepted connection from arena
+DEBUG [2018-01-23 12:38:14,769] MessageIO            [arena,5] handleAdvertise: Adding 53 and removing 0
+DEBUG [2018-01-23 12:38:15,729] AgentConnection-5    MessageAgent: connected to agent java.nio.channels.SocketChannel[connected local=/127.0.0.1:50635 remote=/127.0.0.1:50595]
+DEBUG [2018-01-23 12:38:15,788] AgentConnection-5    connect: Accepted connection from builder
+DEBUG [2018-01-23 12:38:15,792] MessageIO            [builder,7] handleAdvertise: Adding 25 and removing 0
+DEBUG [2018-01-23 12:38:16,259] AgentConnection-5    MessageAgent: connected to agent java.nio.channels.SocketChannel[connected local=/127.0.0.1:50703 remote=/127.0.0.1:50689]
+DEBUG [2018-01-23 12:38:16,350] AgentConnection-5    connect: Accepted connection from mobserver
+DEBUG [2018-01-23 12:38:16,356] MessageIO            [mobserver,5] handleAdvertise: Adding 97 and removing 0
+WARN  [2018-01-23 12:38:16,440] main                 engine: world geometry is not set
+DEBUG [2018-01-23 12:38:16,444] main                 Engine: Executing script file: ../config/common/proxy.py
+DEBUG [2018-01-23 12:38:16,445] main                 runPYFile: file=../config/common/proxy.py
+DEBUG [2018-01-23 12:38:16,783] MessageIO            [objmgr,11] Got subscription subId=1 filter [MessageTypeFilter types=ao.DUMP_ALL_THREAD_STACKS,]
+DEBUG [2018-01-23 12:38:16,788] MessageIO            sendResponse to objmgr,11 type=msgsys.RESPONSE id=11 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:16,792] MessageIO            [wmgr_1,12] Got subscription subId=1 filter [MessageTypeFilter types=ao.DUMP_ALL_THREAD_STACKS,]
+DEBUG [2018-01-23 12:38:16,792] MessageIO            sendResponse to wmgr_1,12 type=msgsys.RESPONSE id=12 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:16,796] MessageIO            [instance,11] Got subscription subId=1 filter [MessageTypeFilter types=ao.DUMP_ALL_THREAD_STACKS,]
+DEBUG [2018-01-23 12:38:16,796] MessageIO            sendResponse to instance,11 type=msgsys.RESPONSE id=13 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:16,949] MessageIO            [builder,11] Got subscription subId=1 filter [MessageTypeFilter types=ao.DUMP_ALL_THREAD_STACKS,]
+DEBUG [2018-01-23 12:38:16,949] MessageIO            sendResponse to builder,11 type=msgsys.RESPONSE id=14 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:17,310] MessageIO            [arena,11] Got subscription subId=1 filter [MessageTypeFilter types=ao.DUMP_ALL_THREAD_STACKS,]
+DEBUG [2018-01-23 12:38:17,311] MessageIO            sendResponse to arena,11 type=msgsys.RESPONSE id=15 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:17,598] MessageIO            [combat,11] Got subscription subId=1 filter [MessageTypeFilter types=ao.DUMP_ALL_THREAD_STACKS,]
+DEBUG [2018-01-23 12:38:17,598] MessageIO            sendResponse to combat,11 type=msgsys.RESPONSE id=16 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:17,809] MessageIO            [objmgr,13] Got subscription subId=2 filter [MessageTypeFilter types=ao.UNLOAD_INSTANCE,ao.GET_NAMED_OBJECT,ao.GET_TEMPLATE_NAMES,ao.GET_OBJECT_STATUS,ao.GENERATE_OBJECT,ao.DELETE_OBJECT,ao.SET_PERSISTENCE,ao.DELETE_INSTANCE,ao.GET_MATCHING_OBJECTS,ao.LOAD_OBJECT,ao.GET_TEMPLATE,ao.LOAD_OBJECT_DATA,ao.UNLOAD_OBJECT,ao.MODIFY_NAMESPACE,ao.SAVE_OBJECT_DATA,ao.LOAD_INSTANCE_CONTENT,ao.SAVE_OBJECT,ao.GET_PLUGIN_STATUS,ao.FIX_WNODE_REQ,ao.REGISTER_TEMPLATE,]
+DEBUG [2018-01-23 12:38:17,810] MessageIO            sendResponse to objmgr,13 type=msgsys.RESPONSE id=17 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:18,033] main                 Sending msgsys.ALLOC_NAME id=18 to DomainServer
+DEBUG [2018-01-23 12:38:18,086] MessageIO            [objmgr,17] Got subscription subId=4 filter [Some Namespace]
+DEBUG [2018-01-23 12:38:18,086] MessageIO            sendResponse to objmgr,17 type=msgsys.RESPONSE id=19 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:18,179] MessageIO            [mobserver,13] Got subscription subId=1 filter [MessageTypeFilter types=ao.DUMP_ALL_THREAD_STACKS,]
+DEBUG [2018-01-23 12:38:18,179] MessageIO            sendResponse to mobserver,13 type=msgsys.RESPONSE id=20 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:18,198] MessageIO            [objmgr,19] Got subscription subId=5 filter [Some Namespace]
+DEBUG [2018-01-23 12:38:18,198] MessageIO            sendResponse to objmgr,19 type=msgsys.RESPONSE id=21 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:18,226] MessageIO            [wmgr_1,17] Got subscription subId=3 filter [PerceptionFilter types=ao.SET_SUBPERSISTENCE,ao.SAVE_SUBOBJECT,ao.DELETE_SUBOBJECT,ao.GET_PROPERTY,ao.SET_PROPERTY,ao.GET_PROPERTY_NAMES,ao.UNLOAD_SUBOBJECT, subjectCount=0 targets=]
+DEBUG [2018-01-23 12:38:18,227] MessageIO            sendResponse to wmgr_1,17 type=msgsys.RESPONSE id=22 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:18,303] MessageIO            [builder,16] Got subscription subId=2 filter [MessageTypeFilter types=voxel.GET_RESOURCES,ao.SPAWNED,voxel.PLACE_CLAIM_OBJECT,combat.INTERRUPT_ABILITY,voxel.GET_CLAIM_OBJECT_INFO,voxel.CLAIM_ACTION,voxel.PURCHASE_CLAIM,voxel.EDIT_CLAIM,ao.ACCOUNT_LOGIN,ao.INSTANCE_LOADED,voxel.CREATE_CLAIM,voxel.SELL_CLAIM,voxel.NO_BUILD_CLAIM_TRIGGER,voxel.UPGRADE_BUILDING_OBJECT,voxel.ATTACK_BUILDING_OBJECT,voxel.DELETE_CLAIM,voxel.EDIT_CLAIM_OBJECT,ao.DESPAWNED,voxel.CLAIM_PERMISSION,]
+DEBUG [2018-01-23 12:38:18,304] MessageIO            sendResponse to builder,16 type=msgsys.RESPONSE id=23 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:18,368] MessageIO            [login_manager,13] Got subscription subId=1 filter [MessageTypeFilter types=ao.DUMP_ALL_THREAD_STACKS,]
+DEBUG [2018-01-23 12:38:18,369] MessageIO            sendResponse to login_manager,13 type=msgsys.RESPONSE id=24 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:18,457] main                 Engine: Engine.registerPlugin: registering FlashPolicy1
+DEBUG [2018-01-23 12:38:18,458] main                 EnginePlugin.activate: plugin=FlashPolicy1
+DEBUG [2018-01-23 12:38:18,462] main                 subscribe [MessageTypeFilter types=ao.DUMP_ALL_THREAD_STACKS,] matching agents 1
+DEBUG [2018-01-23 12:38:18,462] main                 Sending msgsys.SUBSCRIBE id=25 to proxy_1
+DEBUG [2018-01-23 12:38:18,468] SelfMessage          SelfMessageHandler.handle pos=42
+DEBUG [2018-01-23 12:38:18,468] SelfMessage          handleSelfMessage id=25 type=msgsys.SUBSCRIBE class=atavism.msgsys.SubscribeMessage
+DEBUG [2018-01-23 12:38:18,469] SelfMessage          [proxy_1,25] Got subscription subId=1 filter [MessageTypeFilter types=ao.DUMP_ALL_THREAD_STACKS,]
+DEBUG [2018-01-23 12:38:18,480] SelfMessage          sendResponse to proxy_1,25 type=msgsys.RESPONSE id=26 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:18,481] SelfMessage          SelfMessageHandler.handle pos=28
+DEBUG [2018-01-23 12:38:18,481] SelfMessage          handleSelfMessage id=26 responseTo=25 type=msgsys.RESPONSE class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:18,482] main                 EnginePlugin.activate: plugin=FlashPolicy1, created createSubscription for dumpAllStacks
+DEBUG [2018-01-23 12:38:18,484] main                 EnginePlugin.activate: registered DumpAllStacksMessageHook
+DEBUG [2018-01-23 12:38:18,545] main                 Sending msgsys.AWAIT_PLUGIN_DEPENDENTS id=27 to DomainServer
+DEBUG [2018-01-23 12:38:18,554] MessageIO            [combat,16] Got subscription subId=2 filter [MessageTypeFilter types=combat.SKILL_ALTER_CURRENT,combat.LEARN_ABILITY,ao.HANDLE_EXP,combat.PURCHASE_SKILL_POINT,ao.START_ABILITY,combat.ALTER_EXP,combat.SKILL_RESET,combat.UPDATE_ACTIONBAR,combat.ABILITY_USED,combat.SKILL_INCREASE,combat.SKILL_DECREASE,ao.SKILL_UPDATE,combat.SET_SKILL_STATE,ao.ABILITY_UPDATE,ao.LEVEL_CHANGE,]
+DEBUG [2018-01-23 12:38:18,555] MessageIO            sendResponse to combat,16 type=msgsys.RESPONSE id=28 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:18,561] MessageIO            [wmgr_1,20] Got subscription subId=4 filter [Some Namespace]
+DEBUG [2018-01-23 12:38:18,562] MessageIO            sendResponse to wmgr_1,20 type=msgsys.RESPONSE id=29 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:18,611] MessageIO            [wmgr_1,22] Got subscription subId=6 filter [WorldManagerFilter types=ao.PLAYER_PATH_WM_REQ,ao.NEW_REGION, namespaces=NS.wmgr,NS.wminstance pluginName=null instances=0]
+DEBUG [2018-01-23 12:38:18,612] MessageIO            sendResponse to wmgr_1,22 type=msgsys.RESPONSE id=30 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:18,653] MessageIO            [wmgr_1,23] Got subscription subId=7 filter [PerceptionFilter types=ao.COM_REQ,ao.ORIENT_REQ,ao.UPDATEWNODE_REQ,ao.REPARENT_WNODE_REQ,ao.MOB_PATH_REQ,ao.REFRESH_WNODE,ao.UPDATE_OBJECT,ao.MODIFY_DC, subjectCount=0 targets=]
+DEBUG [2018-01-23 12:38:18,653] MessageIO            sendResponse to wmgr_1,23 type=msgsys.RESPONSE id=31 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:18,730] MessageIO            [wmgr_1,25] Got subscription subId=8 filter [PerceptionFilter types=ao.SPAWN_REQ,ao.DESPAWN_REQ,ao.DC_REQ,ao.GETWNODE_REQ,ao.OBJINFO_REQ,ao.SETWNODE_REQ,ao.GET_OBJECTS_IN, subjectCount=0 targets=]
+DEBUG [2018-01-23 12:38:18,730] MessageIO            sendResponse to wmgr_1,25 type=msgsys.RESPONSE id=32 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:18,755] MessageIO            [objmgr,31] Got subscription subId=6 filter [MessageTypeFilter types=ao.ACTIVATE,ao.DESTROY_ITEM,ao.UPDATE_OBJECT,]
+DEBUG [2018-01-23 12:38:18,756] MessageIO            sendResponse to objmgr,31 type=msgsys.RESPONSE id=33 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:18,778] MessageIO            [combat,26] Got subscription subId=5 filter [Some Namespace]
+DEBUG [2018-01-23 12:38:18,778] MessageIO            sendResponse to combat,26 type=msgsys.RESPONSE id=34 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:18,828] main                 FlashPolicyPlugin: registering hooks
+DEBUG [2018-01-23 12:38:18,831] MessageIO            [combat,28] Got subscription subId=6 filter [Some Namespace]
+DEBUG [2018-01-23 12:38:18,831] MessageIO            sendResponse to combat,28 type=msgsys.RESPONSE id=35 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:18,914] MessageIO            [objmgr,36] Got subscription subId=7 filter [MessageTypeFilter types=ao.INV_REMOVE,ao.CREATE_INV,ao.LOOTALL,ao.ADD_ITEM,ao.INV_FIND,]
+DEBUG [2018-01-23 12:38:18,914] MessageIO            sendResponse to objmgr,36 type=msgsys.RESPONSE id=36 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:18,947] main                 FlashPolicy: binding for incoming client connections at: localhost/127.0.0.1:5041
+DEBUG [2018-01-23 12:38:18,948] main                 Set policy complete
+DEBUG [2018-01-23 12:38:18,949] main                 TcpServer: bound to /127.0.0.1:5041
+DEBUG [2018-01-23 12:38:19,011] main                 Started server
+DEBUG [2018-01-23 12:38:19,012] main                 Engine.registerStatusReportingPlugin: Registering plugin FlashPolicy1 of type FlashPolicy
+DEBUG [2018-01-23 12:38:19,022] MessageIO            [mobserver,24] Got subscription subId=2 filter [MessageTypeFilter types=ao.QUEST_STATE_STATUS_CHANGE,ao.ABANDON_QUEST,ao.REQ_RESET_QUESTS,ao.QUEST_RESP,ao.OFFER_QUEST,ao.UPDATE_OBJECT,]
+DEBUG [2018-01-23 12:38:19,023] MessageIO            sendResponse to mobserver,24 type=msgsys.RESPONSE id=37 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:19,049] main                 Registering plugin: FlashPolicy1
+DEBUG [2018-01-23 12:38:19,073] MessageIO            [objmgr,42] Got subscription subId=9 filter [Some Namespace]
+DEBUG [2018-01-23 12:38:19,073] MessageIO            sendResponse to objmgr,42 type=msgsys.RESPONSE id=38 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:19,095] MessageIO            [objmgr,44] Got subscription subId=10 filter [Some Namespace]
+DEBUG [2018-01-23 12:38:19,095] MessageIO            sendResponse to objmgr,44 type=msgsys.RESPONSE id=39 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:19,149] main                 FlashPolicy: activation done
+DEBUG [2018-01-23 12:38:19,150] main                 EnginePlugin.activate: plugin=FlashPolicy1, onActivate complete, calling activateHooks
+DEBUG [2018-01-23 12:38:19,150] main                 Engine.getManagementAgent returned null
+DEBUG [2018-01-23 12:38:19,150] main                 EnginePlugin.activate: plugin=FlashPolicy1, activate hooks called
+DEBUG [2018-01-23 12:38:19,150] main                 Sending msgsys.PLUGIN_AVAILABLE id=40 to DomainServer
+DEBUG [2018-01-23 12:38:19,169] MessageIO            [wmgr_1,35] Got subscription subId=13 filter [MessageTypeFilter types=ao.SPAWNED,mob.ADD_TARGET_TO_CHECK,ao.DESPAWNED,mob.REMOVE_TARGET_TO_CHECK,ao.WATER_REGION_TRANSITION,ao.INSTANCE_LOADED,ao.SET_MOVEMENT_STATE,]
+DEBUG [2018-01-23 12:38:19,169] MessageIO            sendResponse to wmgr_1,35 type=msgsys.RESPONSE id=41 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:19,181] MessageIO            [mobserver,32] Got subscription subId=5 filter [Some Namespace]
+DEBUG [2018-01-23 12:38:19,182] MessageIO            sendResponse to mobserver,32 type=msgsys.RESPONSE id=42 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:19,192] MessageIO            [wmgr_1,38] Got subscription subId=14 filter [MessageTypeFilter types=ao.LOGIN,combat.GET_AOE_TARGETS,]
+DEBUG [2018-01-23 12:38:19,192] MessageIO            sendResponse to wmgr_1,38 type=msgsys.RESPONSE id=43 class=atavism.msgsys.ResponseMessage
+INFO  [2018-01-23 12:38:19,210] SQ-Message-2         SQ-Message: Started new thread
+DEBUG [2018-01-23 12:38:19,218] MessageIO            [mobserver,34] Got subscription subId=6 filter [Some Namespace]
+DEBUG [2018-01-23 12:38:19,219] MessageIO            sendResponse to mobserver,34 type=msgsys.RESPONSE id=44 class=atavism.msgsys.ResponseMessage
+INFO  [2018-01-23 12:38:19,230] SQ-Message-6         SQ-Message: Started new thread
+INFO  [2018-01-23 12:38:19,230] SQ-Event-2           SQ-Event: Started new thread
+INFO  [2018-01-23 12:38:19,236] SQ-Event-6           SQ-Event: Started new thread
+DEBUG [2018-01-23 12:38:19,290] MessageIO            [arena,27] Got subscription subId=2 filter [MessageTypeFilter types=ao.SELECT_RACE,ao.ACTIVATE_ARENA_ABILITY,arena.activateMachine,arena.kill,duel.acceptChallenge,duel.challengeDisconnect,duel.declineChallenge,duel.removeChallenge,arena.removePlayer,arena.leaveQueue,ao.DESPAWNED,duel.startDuel,arena.pickupFlag,arena.getTypes,ao.SPAWNED,arena.getStats,arena.joinQueue,arena.startChecks,duel.defeat,duel.disconnect,duel.remove,arena.addCreature,ao.COMPLETE_TUTORIAL,duel.startChallenge,arena.endArena,arena.dotScore,ao.ALTER_EXP,]
+DEBUG [2018-01-23 12:38:19,291] MessageIO            sendResponse to arena,27 type=msgsys.RESPONSE id=45 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:19,297] main                 Sending msgsys.ALLOC_NAME id=46 to DomainServer
+INFO  [2018-01-23 12:38:19,390] SQ-Event-8           SQ-Event: Started new thread
+INFO  [2018-01-23 12:38:19,390] SQ-Event-4           SQ-Event: Started new thread
+INFO  [2018-01-23 12:38:19,391] SQ-Message-8         SQ-Message: Started new thread
+INFO  [2018-01-23 12:38:19,391] SQ-Message-4         SQ-Message: Started new thread
+DEBUG [2018-01-23 12:38:19,391] MessageIO            [arena,29] Got subscription subId=3 filter [MessageTypeFilter types=ao.LOGIN,ao.LOGOUT,]
+DEBUG [2018-01-23 12:38:19,392] MessageIO            sendResponse to arena,29 type=msgsys.RESPONSE id=47 class=atavism.msgsys.ResponseMessage
+INFO  [2018-01-23 12:38:19,529] SQ-Event-5           SQ-Event: Started new thread
+INFO  [2018-01-23 12:38:19,534] SQ-Event-1           SQ-Event: Started new thread
+INFO  [2018-01-23 12:38:19,534] SQ-Message-5         SQ-Message: Started new thread
+INFO  [2018-01-23 12:38:19,535] SQ-Message-1         SQ-Message: Started new thread
+INFO  [2018-01-23 12:38:19,722] SQ-Event-7           SQ-Event: Started new thread
+INFO  [2018-01-23 12:38:19,722] SQ-Event-3           SQ-Event: Started new thread
+INFO  [2018-01-23 12:38:19,723] SQ-Message-7         SQ-Message: Started new thread
+INFO  [2018-01-23 12:38:19,723] SQ-Message-3         SQ-Message: Started new thread
+DEBUG [2018-01-23 12:38:19,743] MessageIO            [mobserver,39] Got subscription subId=7 filter [MessageTypeFilter types=faction.UPDATE,ao.PROPERTY,ao.SPAWNED,faction.ALTER_REPUTATION,faction.UPDATE_PVP_STATE,ao.NOTIFY_REACTION_RADIUS,ao.DESPAWNED,]
+DEBUG [2018-01-23 12:38:19,744] MessageIO            sendResponse to mobserver,39 type=msgsys.RESPONSE id=48 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:20,125] main                 Engine: Engine.registerPlugin: registering Proxy1
+DEBUG [2018-01-23 12:38:20,126] main                 EnginePlugin.activate: plugin=Proxy1
+DEBUG [2018-01-23 12:38:20,126] main                 Sending msgsys.AWAIT_PLUGIN_DEPENDENTS id=49 to DomainServer
+DEBUG [2018-01-23 12:38:20,274] PlayerTimeout        PlayerTimeout thread running..
+DEBUG [2018-01-23 12:38:20,282] MessageIO            [objmgr,50] Got subscription subId=11 filter [MessageTypeFilter types=ao.CHECK_COMPONENT,inventory.GET_GENERIC_ITEM_DATA,inventory.CHECK_CURRENCY,inventory.PURCHASE_ITEM,ao.AGIS_INV_FIND,ao.GET_ACCOUNT_ITEM_COUNT,ao.GET_SKINS,]
+DEBUG [2018-01-23 12:38:20,282] MessageIO            sendResponse to objmgr,50 type=msgsys.RESPONSE id=50 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:20,566] MessageIO            [objmgr,52] Got subscription subId=12 filter [MessageTypeFilter types=inventory.ALTER_CURRENCY,inventory.PICKUP_ITEM,inventory.MAIL_TAKE_ITEM,ao.SET_SKIN_COLOUR,inventory.MOVE_ITEM,inventory.GENERATE_ITEM,inventory.REMOVE_GENERIC_ITEM,inventory.GET_LOOT_LIST,inventory.GET_MAIL,inventory.REMOVE_BAG,inventory.DELETE_MAIL,inventory.MAIL_READ,inventory.PLACE_BAG,inventory.LOOT_ITEM,ao.RELOAD_ITEMS,inventory.RETURN_MAIL,inventory.REMOVE_SPECIFIC_ITEM,inventory.SEND_MAIL,ao.DESPAWNED,ao.ALTER_ITEM_COUNT,inventory.GET_SPECIFIC_ITEM_DATA,inventory.GENERATE_LOOT,inventory.SEND_PURCHASE_MAIL,ao.TRADE_START_REQ,inventory.GET_MERCHANT_LIST,ao.USE_ACCOUNT_ITEM,ao.REPAIR_ITEMS,inventory.LOOT_ALL,inventory.SELL_ITEM,inventory.SEND_INV_UPDATE,inventory.MOVE_BAG,ao.SET_WEAPON,ao.EQUIPPED_ITEM_USED,ao.PURCHASE_SKIN,ao.TRADE_OFFER_REQ,]
+DEBUG [2018-01-23 12:38:20,567] MessageIO            sendResponse to objmgr,52 type=msgsys.RESPONSE id=51 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:20,769] MessageIO            [objmgr,54] Got subscription subId=13 filter [MessageTypeFilter types=ao.LOGIN,ao.LOGOUT,]
+DEBUG [2018-01-23 12:38:20,769] MessageIO            sendResponse to objmgr,54 type=msgsys.RESPONSE id=52 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:21,181] MessageIO            [mobserver,47] Got subscription subId=10 filter [Some Namespace]
+DEBUG [2018-01-23 12:38:21,182] MessageIO            sendResponse to mobserver,47 type=msgsys.RESPONSE id=53 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:21,257] MessageIO            [combat,44] Got subscription subId=7 filter [MessageTypeFilter types=ao.ITEM_ACQUIRE_STATUS_CHANGE,ao.SET_COMBAT_INFO_STATE,ao.PROPERTY,ao.SPAWNED,ao.ITEM_EQUIP_STATUS_CHANGE,combat.REMOVE_EFFECT,ao.START_ABILITY,ao.ADD_SKILL,ao.UPDATE_OBJECT,mob.UPDATE_PET_STATS,ao.REMOVE_BUFF,combat.TARGET_TYPE,combat.UPDATE_FATIGUE,ao.REGEN_HEALTH_MANA,arena.removeEffects,combat.STOP_AUTO_ATTACK,combat.UPDATE_BREATH,ao.RELEASE_OBJECT,ao.DESPAWNED,combat.APPLY_EFFECT,ao.UPDATE_HEALTH_PROPS,ao.DISMOUNT,ao.AUTO_ATTACK,]
+DEBUG [2018-01-23 12:38:21,258] MessageIO            sendResponse to combat,44 type=msgsys.RESPONSE id=54 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:21,348] MessageIO            [combat,46] Got subscription subId=8 filter [MessageTypeFilter types=ao.LOGIN,ao.GET_PLAYER_STAT_VALUE,]
+DEBUG [2018-01-23 12:38:21,349] MessageIO            sendResponse to combat,46 type=msgsys.RESPONSE id=55 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:21,376] MessageIO            [mobserver,51] Got subscription subId=11 filter [Some Namespace]
+DEBUG [2018-01-23 12:38:21,377] MessageIO            sendResponse to mobserver,51 type=msgsys.RESPONSE id=56 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:21,536] MessageIO            [combat,49] Got subscription subId=10 filter [Some Namespace]
+DEBUG [2018-01-23 12:38:21,537] MessageIO            sendResponse to combat,49 type=msgsys.RESPONSE id=57 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:21,667] MessageIO            [combat,51] Got subscription subId=11 filter [Some Namespace]
+DEBUG [2018-01-23 12:38:21,667] MessageIO            sendResponse to combat,51 type=msgsys.RESPONSE id=58 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:23,841] MessageIO            [combat,55] Got subscription subId=12 filter [MessageTypeFilter types=ao.GROUP_PROMOTE_LEADER,ao.PROPERTY,iow.CREATE_GROUP,ao.VOICE_MEMBER_ADDED,iow.GROUP_INVITE_BY_NAME,ao.GROUP_INVITE,ao.GROUP_LEAVE,ao.GROUP_INVITE_RESPONSE,ao.GROUP_REMOVE_MEMBER,ao.GROUP_CHAT,ao.GROUP_VOICE_CHAT_STATUS,ao.GROUP_SET_ALLOWED_SPEAKER,ao.GROUP_MUTE_VOICE_CHAT,]
+DEBUG [2018-01-23 12:38:23,841] MessageIO            sendResponse to combat,55 type=msgsys.RESPONSE id=59 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:23,915] MessageIO            [combat,57] Got subscription subId=13 filter [MessageTypeFilter types=ao.LOGOUT,ao.REQUEST_GROUP_INFO,]
+DEBUG [2018-01-23 12:38:23,915] MessageIO            sendResponse to combat,57 type=msgsys.RESPONSE id=60 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:24,092] StatusReporting      Engine.StatusReportingThread.run: count of status reporting plugins is 1
+DEBUG [2018-01-23 12:38:24,093] StatusReporting      Engine.StatusReportingThread: 1 plugins, 2% CPU
+DEBUG [2018-01-23 12:38:24,788] MessageIO            [objmgr,195] Got subscription subId=14 filter [MessageTypeFilter types=crafting.CREATE_RESOURCE_NODE_FROM_MOB,ao.SPAWNED,crafting.CRAFT_ITEM,crafting.GRID_UPDATED,ao.DESPAWNED,ao.INSTANCE_LOADED,crafting.DESTROY_MOB_RESOURCE_NODE,crafting.GATHER_RESOURCE,crafting.HARVEST_RESOURCE,crafting.GET_BLUEPRINTS,]
+DEBUG [2018-01-23 12:38:24,788] MessageIO            sendResponse to objmgr,195 type=msgsys.RESPONSE id=61 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:24,809] MessageIO            [instance,21] Got subscription subId=2 filter [MessageTypeFilter types=ao.GET_INSTANCE_INFO,ao.GET_ENTITY_OIDS,ao.SPAWNED,ao.CREATE_INSTANCE,ao.DESPAWNED,ao.LOAD_INSTANCE,ao.GET_MARKER,ao.REGISTER_INSTANCE_TEMPLATE,ao.GET_REGION,]
+DEBUG [2018-01-23 12:38:24,810] MessageIO            sendResponse to instance,21 type=msgsys.RESPONSE id=62 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:24,935] MessageIO            [instance,23] Got subscription subId=3 filter [MessageTypeFilter types=ao.SET_INSTANCE_GROUP,ao.UPDATE_OBJECT,]
+DEBUG [2018-01-23 12:38:24,936] MessageIO            sendResponse to instance,23 type=msgsys.RESPONSE id=63 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:24,986] MessageIO            [instance,26] Got subscription subId=6 filter [Some Namespace]
+DEBUG [2018-01-23 12:38:24,986] MessageIO            sendResponse to instance,26 type=msgsys.RESPONSE id=64 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:25,000] MessageIO            [instance,27] Got subscription subId=7 filter [Some Namespace]
+DEBUG [2018-01-23 12:38:25,000] MessageIO            sendResponse to instance,27 type=msgsys.RESPONSE id=65 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:25,073] MessageIO            [mobserver,68] Got subscription subId=14 filter [MessageTypeFilter types=ao.CREATE_MOB,ao.CREATE_QUEST,mob.SPAWN_ARENA_CREATURE,mob.GET_TEMPLATES,ao.VIEW_MARKERS,ao.VERIFY_ISLAND_ACCESS,ao.INSTANCE_LOADED,ao.CREATE_ISLAND,ao.SET_BLOCK,ao.DELETE_SPAWN_MARKER,mob.TAME_BEAST,ao.SPAWN_INSTANCE_MOBS,ao.PLAY_COORD_EFFECT,ao.EDIT_SPAWN_MARKER,ao.DESPAWNED,ao.REQUEST_SPAWN_DATA,ao.ENTER_WORLD,ao.CHANGE_INSTANCE,ao.SPAWNED,mob.SPAWN_PET,ao.ACCOUNT_LOGIN,ao.CREATE_FACTION,ao.CREATE_LOOT_TABLE,ao.USE_TRAP_DOOR,ao.REQUEST_DEVELOPER_ACCESS,ao.INTERACT_WITH_OBJECT,ao.SPAWN_DOME_MOB,mob.CREATE_MOB_SPAWN,ao.SPAWN_MOB,mob.GET_ISLANDS_DATA,]
+DEBUG [2018-01-23 12:38:25,073] MessageIO            sendResponse to mobserver,68 type=msgsys.RESPONSE id=66 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:25,098] MessageIO            [instance,29] Got subscription subId=8 filter [SearchMessageFilter type=[Instance,11] types=ao.SEARCH,]
+DEBUG [2018-01-23 12:38:25,098] MessageIO            sendResponse to instance,29 type=msgsys.RESPONSE id=67 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:25,106] MessageIO            [instance,30] Got subscription subId=9 filter [SearchMessageFilter type=[Region,22] types=ao.SEARCH,]
+DEBUG [2018-01-23 12:38:25,106] MessageIO            sendResponse to instance,30 type=msgsys.RESPONSE id=68 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:25,108] MessageIO            [mobserver,70] Got subscription subId=15 filter [MessageTypeFilter types=ao.GET_INSTANCE_TEMPLATE,ao.LOGIN,ao.LOGOUT,ao.LOAD_INSTANCE_BY_ID,]
+DEBUG [2018-01-23 12:38:25,108] MessageIO            sendResponse to mobserver,70 type=msgsys.RESPONSE id=69 class=atavism.msgsys.ResponseMessage
+INFO  [2018-01-23 12:38:25,194] main                 Starting Packet Aggregator thread with an aggregation interval of 10
+DEBUG [2018-01-23 12:38:25,223] main                 ProxyPlugin: registering hooks
+DEBUG [2018-01-23 12:38:25,259] main                 subscribe [MessageTypeFilter types=ao.SYS_CHAT,] matching agents 3
+DEBUG [2018-01-23 12:38:25,260] main                 Sending msgsys.SUBSCRIBE id=70 to proxy_1
+DEBUG [2018-01-23 12:38:25,260] main                 Sending msgsys.SUBSCRIBE id=70 to combat
+DEBUG [2018-01-23 12:38:25,260] SelfMessage          SelfMessageHandler.handle pos=42
+DEBUG [2018-01-23 12:38:25,389] main                 Sending msgsys.SUBSCRIBE id=70 to mobserver
+DEBUG [2018-01-23 12:38:25,391] SelfMessage          handleSelfMessage id=70 type=msgsys.SUBSCRIBE class=atavism.msgsys.SubscribeMessage
+DEBUG [2018-01-23 12:38:25,392] SelfMessage          [proxy_1,70] Got subscription subId=2 filter [MessageTypeFilter types=ao.SYS_CHAT,]
+DEBUG [2018-01-23 12:38:25,392] SelfMessage          sendResponse to proxy_1,70 type=msgsys.RESPONSE id=71 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:25,392] SelfMessage          SelfMessageHandler.handle pos=28
+DEBUG [2018-01-23 12:38:25,392] SelfMessage          handleSelfMessage id=71 responseTo=70 type=msgsys.RESPONSE class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:25,398] MessageIO            [objmgr,203] Got subscription subId=15 filter [MessageTypeFilter types=ao.CHARACTER_DELETED,ao.CHARACTER_CREATED,ao.EVENT_LOG,ao.DATA_LOG,]
+DEBUG [2018-01-23 12:38:25,399] MessageIO            sendResponse to objmgr,203 type=msgsys.RESPONSE id=72 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:25,405] MessageIO            [objmgr,205] Got subscription subId=16 filter [MessageTypeFilter types=ao.LOGIN,ao.LOGOUT,]
+DEBUG [2018-01-23 12:38:25,406] MessageIO            sendResponse to objmgr,205 type=msgsys.RESPONSE id=73 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:25,417] main                 subscribe [PerceptionFilter types=ao.TRAINING_FAILED,ao.PROPERTY,ao.UPDATE_PLAYER_IGNORE_LIST,ao.UPDATEWNODE,ao.TARGETED_PROPERTY,ao.EXTENSION,ao.VENDOR_BALANCE,ao.ANIMATION,ao.TRAINING_INFO,ao.ROAD,ao.FREE_OBJECT,ao.VENDOR_INFO,ao.VENDOR_INFO_REQ,ao.TRADE_START,ao.ADD_STATIC_PERCEPTION,ao.P2P_EXTENSION,ao.INVOKE_EFFECT,ao.QUEST_INFO,ao.REMOVE_QUEST_RESP,ao.ABILITY_UPDATE,ao.SET_AMBIENT,ao.DISPLAY_CONTEXT,ao.SOUND,ao.GET_MATCHING_PLAYERS,ao.REMOVE_STATIC_PERCEPTION,ao.TRADE_COMPLETE,ao.PERCEPTION_INFO,ao.WNODECORRECT,ao.NEW_DIRLIGHT,ao.COM,ao.DETACH,ao.ORIENT,ao.MOB_PATH,ao.ABILITY_STATUS,ao.FOG,ao.DAMAGE,ao.INV_UPDATE,ao.STAT_XP_UPDATE,ao.VOICE_PARMS,ao.QUEST_LOG_INFO,ao.TRADE_OFFER_UPDATE, subjectCount=0 targets=] matching agents 8
+DEBUG [2018-01-23 12:38:25,418] main                 Sending msgsys.SUBSCRIBE id=74 to proxy_1
+DEBUG [2018-01-23 12:38:25,419] main                 Sending msgsys.SUBSCRIBE id=74 to wmgr_1
+DEBUG [2018-01-23 12:38:25,419] SelfMessage          SelfMessageHandler.handle pos=185
+DEBUG [2018-01-23 12:38:25,420] main                 Sending msgsys.SUBSCRIBE id=74 to instance
+DEBUG [2018-01-23 12:38:25,423] SelfMessage          handleSelfMessage id=74 type=msgsys.SUBSCRIBE class=atavism.msgsys.SubscribeMessage
+DEBUG [2018-01-23 12:38:25,423] main                 Sending msgsys.SUBSCRIBE id=74 to objmgr
+DEBUG [2018-01-23 12:38:25,425] SelfMessage          [proxy_1,74] Got subscription subId=3 filter [PerceptionFilter types=ao.TRAINING_FAILED,ao.PROPERTY,ao.UPDATE_PLAYER_IGNORE_LIST,ao.UPDATEWNODE,ao.TARGETED_PROPERTY,ao.EXTENSION,ao.VENDOR_BALANCE,ao.ANIMATION,ao.TRAINING_INFO,ao.FREE_OBJECT,ao.ROAD,ao.VENDOR_INFO,ao.VENDOR_INFO_REQ,ao.TRADE_START,ao.ADD_STATIC_PERCEPTION,ao.P2P_EXTENSION,ao.INVOKE_EFFECT,ao.QUEST_INFO,ao.REMOVE_QUEST_RESP,ao.ABILITY_UPDATE,ao.SET_AMBIENT,ao.DISPLAY_CONTEXT,ao.SOUND,ao.GET_MATCHING_PLAYERS,ao.REMOVE_STATIC_PERCEPTION,ao.PERCEPTION_INFO,ao.TRADE_COMPLETE,ao.NEW_DIRLIGHT,ao.WNODECORRECT,ao.COM,ao.DETACH,ao.ORIENT,ao.MOB_PATH,ao.ABILITY_STATUS,ao.FOG,ao.DAMAGE,ao.INV_UPDATE,ao.VOICE_PARMS,ao.STAT_XP_UPDATE,ao.TRADE_OFFER_UPDATE,ao.QUEST_LOG_INFO, subjectCount=0 targets=]
+DEBUG [2018-01-23 12:38:25,426] SelfMessage          sendResponse to proxy_1,74 type=msgsys.RESPONSE id=75 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:25,427] SelfMessage          SelfMessageHandler.handle pos=28
+DEBUG [2018-01-23 12:38:25,427] SelfMessage          handleSelfMessage id=75 responseTo=74 type=msgsys.RESPONSE class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:25,429] main                 Sending msgsys.SUBSCRIBE id=74 to combat
+DEBUG [2018-01-23 12:38:25,430] main                 Sending msgsys.SUBSCRIBE id=74 to arena
+DEBUG [2018-01-23 12:38:25,431] main                 Sending msgsys.SUBSCRIBE id=74 to builder
+DEBUG [2018-01-23 12:38:25,433] main                 Sending msgsys.SUBSCRIBE id=74 to mobserver
+DEBUG [2018-01-23 12:38:25,462] main                 subscribe [PerceptionFilter types=ao.PLAYER_IGNORE_LIST_REQ,ao.INSTANCE_ENTRY_REQ,ao.LOGOUT_PLAYER,ao.GET_PLAYER_LOGIN_STATUS, subjectCount=0 targets=] matching agents 5
+DEBUG [2018-01-23 12:38:25,463] main                 Sending msgsys.SUBSCRIBE id=76 to proxy_1
+DEBUG [2018-01-23 12:38:25,463] main                 Sending msgsys.SUBSCRIBE id=76 to wmgr_1
+DEBUG [2018-01-23 12:38:25,464] main                 Sending msgsys.SUBSCRIBE id=76 to combat
+DEBUG [2018-01-23 12:38:25,464] main                 Sending msgsys.SUBSCRIBE id=76 to arena
+DEBUG [2018-01-23 12:38:25,464] main                 Sending msgsys.SUBSCRIBE id=76 to mobserver
+DEBUG [2018-01-23 12:38:25,479] SelfMessage          SelfMessageHandler.handle pos=56
+DEBUG [2018-01-23 12:38:25,480] SelfMessage          handleSelfMessage id=76 type=msgsys.SUBSCRIBE class=atavism.msgsys.SubscribeMessage
+DEBUG [2018-01-23 12:38:25,480] SelfMessage          [proxy_1,76] Got subscription subId=4 filter [PerceptionFilter types=ao.PLAYER_IGNORE_LIST_REQ,ao.INSTANCE_ENTRY_REQ,ao.LOGOUT_PLAYER,ao.GET_PLAYER_LOGIN_STATUS, subjectCount=0 targets=]
+DEBUG [2018-01-23 12:38:25,498] SelfMessage          sendResponse to proxy_1,76 type=msgsys.RESPONSE id=77 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:25,498] SelfMessage          SelfMessageHandler.handle pos=28
+DEBUG [2018-01-23 12:38:25,498] SelfMessage          handleSelfMessage id=77 responseTo=76 type=msgsys.RESPONSE class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:25,500] main                 subscribe [MessageTypeFilter types=ao.GET_PLUGIN_STATUS,] matching agents 0
+DEBUG [2018-01-23 12:38:25,501] main                 subscribe [MessageTypeFilter types=ao.ACCOUNT_LOGIN,] matching agents 1
+DEBUG [2018-01-23 12:38:25,501] main                 Sending msgsys.SUBSCRIBE id=78 to login_manager
+DEBUG [2018-01-23 12:38:25,526] main                 RDPServer: starting rdpServerThread with priority 7
+DEBUG [2018-01-23 12:38:25,528] main                 ProxyPlugin: initializeVoiceServerInformation: voiceServerHost :same, voiceServerPort 5067
+DEBUG [2018-01-23 12:38:25,529] main                 BIND: binding for client tcp and rdp packets on port 5050 with rdpsocket: atavism.server.network.rdp.RDPServerSocket@6945c41e
+DEBUG [2018-01-23 12:38:25,529] main                 BIND: in Bind with port: 5050
+DEBUG [2018-01-23 12:38:25,529] main                 BIND: about to bind RDPServer
+DEBUG [2018-01-23 12:38:25,529] main                 BIND: about to open datagram channel
+DEBUG [2018-01-23 12:38:25,534] main                 BIND: about to set buffer size for datagram channel: 131072
+DEBUG [2018-01-23 12:38:25,539] main                 BIND: about to bind to dc socket with port: 5050
+DEBUG [2018-01-23 12:38:25,539] main                 BIND: created addr: 0.0.0.0/0.0.0.0:5050
+DEBUG [2018-01-23 12:38:25,539] main                 BIND: got socket: sun.nio.ch.DatagramSocketAdaptor@4d8ef2cc
+DEBUG [2018-01-23 12:38:25,540] main                 BIND: bound socket: 
+DEBUG [2018-01-23 12:38:25,540] main                 BIND: getting resulting port: 
+DEBUG [2018-01-23 12:38:25,540] main                 BIND: about to signal channelMapNotEmpty: 
+DEBUG [2018-01-23 12:38:25,541] main                 BIND: about to wake up selector: 
+DEBUG [2018-01-23 12:38:25,541] main                 BIND: about to register RDPServer socket
+DEBUG [2018-01-23 12:38:25,543] main                 BIND: registered RDPServer socket
+DEBUG [2018-01-23 12:38:25,543] main                 BIND: bound server socket
+DEBUG [2018-01-23 12:38:25,549] main                 TcpServer: bound to /127.0.0.1:5050
+DEBUG [2018-01-23 12:38:25,551] main                 BIND: setup clientTCPMessage
+DEBUG [2018-01-23 12:38:25,552] main                 BIND: started clientTCPMessage
+DEBUG [2018-01-23 12:38:25,552] main                 BIND: got external address
+DEBUG [2018-01-23 12:38:25,552] main                 Registering proxy plugin
+DEBUG [2018-01-23 12:38:25,552] main                 Engine.registerStatusReportingPlugin: Registering plugin Proxy1 of type Proxy
+DEBUG [2018-01-23 12:38:25,552] main                 Registering plugin: Proxy1
+DEBUG [2018-01-23 12:38:25,561] main                 Proxy: activation done
+DEBUG [2018-01-23 12:38:27,494] main                 CONNECTOR: connections set to: 1
+DEBUG [2018-01-23 12:38:27,494] main                 ProxyPlugin: AgisProxyPlugin.onActivate()
+DEBUG [2018-01-23 12:38:27,509] main                 subscribe [MessageTypeFilter types=ao.ADD_FRIEND,ao.GET_FRIENDS,] matching agents 1
+DEBUG [2018-01-23 12:38:27,509] main                 Sending msgsys.SUBSCRIBE id=79 to proxy_1
+DEBUG [2018-01-23 12:38:27,775] SelfMessage          SelfMessageHandler.handle pos=46
+DEBUG [2018-01-23 12:38:27,776] SelfMessage          handleSelfMessage id=79 type=msgsys.SUBSCRIBE class=atavism.msgsys.SubscribeMessage
+DEBUG [2018-01-23 12:38:27,776] SelfMessage          [proxy_1,79] Got subscription subId=7 filter [MessageTypeFilter types=ao.GET_FRIENDS,ao.ADD_FRIEND,]
+DEBUG [2018-01-23 12:38:27,776] SelfMessage          sendResponse to proxy_1,79 type=msgsys.RESPONSE id=80 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:27,776] SelfMessage          SelfMessageHandler.handle pos=28
+DEBUG [2018-01-23 12:38:27,777] SelfMessage          handleSelfMessage id=80 responseTo=79 type=msgsys.RESPONSE class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:27,779] main                 subscribe [MessageTypeFilter types=ao.LOGIN,ao.LOGOUT,iow.GET_PLAYER_BY_NAME,] matching agents 2
+DEBUG [2018-01-23 12:38:27,779] main                 Sending msgsys.SUBSCRIBE id=81 to proxy_1
+DEBUG [2018-01-23 12:38:27,779] main                 Sending msgsys.SUBSCRIBE id=81 to combat
+DEBUG [2018-01-23 12:38:27,808] SelfMessage          SelfMessageHandler.handle pos=50
+DEBUG [2018-01-23 12:38:27,809] SelfMessage          handleSelfMessage id=81 type=msgsys.SUBSCRIBE class=atavism.msgsys.SubscribeMessage
+DEBUG [2018-01-23 12:38:27,809] SelfMessage          [proxy_1,81] Got subscription subId=8 filter [MessageTypeFilter types=ao.LOGIN,ao.LOGOUT,iow.GET_PLAYER_BY_NAME,]
+DEBUG [2018-01-23 12:38:27,809] SelfMessage          sendResponse to proxy_1,81 type=msgsys.RESPONSE id=82 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:27,809] SelfMessage          SelfMessageHandler.handle pos=28
+DEBUG [2018-01-23 12:38:27,810] SelfMessage          handleSelfMessage id=82 responseTo=81 type=msgsys.RESPONSE class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:28,119] main                 AdminDatabase: starting keepalive
+DEBUG [2018-01-23 12:38:28,290] main                 AuthDatabase: starting keepalive
+DEBUG [2018-01-23 12:38:28,296] main                 EnginePlugin.activate: plugin=Proxy1, onActivate complete, calling activateHooks
+DEBUG [2018-01-23 12:38:28,296] main                 Engine.getManagementAgent returned null
+DEBUG [2018-01-23 12:38:28,296] main                 EnginePlugin.activate: plugin=Proxy1, activate hooks called
+DEBUG [2018-01-23 12:38:28,297] main                 Sending msgsys.PLUGIN_AVAILABLE id=83 to DomainServer
+DEBUG [2018-01-23 12:38:28,699] main                 Engine: script completed
+DEBUG [2018-01-23 12:38:28,699] main                 Engine: Executing script file: ../config/common/global_props.py
+DEBUG [2018-01-23 12:38:28,700] main                 runPYFile: file=../config/common/global_props.py
+DEBUG [2018-01-23 12:38:28,919] main                 Engine: script completed
+DEBUG [2018-01-23 12:38:28,920] main                 Engine: Executing script file: ../config/world/global_props.py
+DEBUG [2018-01-23 12:38:28,920] main                 runPYFile: file=../config/world/global_props.py
+WARN  [2018-01-23 12:38:28,922] main                 ScriptManager.runPYFile: file not found: ../config/world/global_props.py
+DEBUG [2018-01-23 12:38:28,922] main                 Engine: script completed
+DEBUG [2018-01-23 12:38:28,923] main                 Engine: Executing script file: ../config/world/extensions_proxy.py
+DEBUG [2018-01-23 12:38:28,923] main                 runPYFile: file=../config/world/extensions_proxy.py
+DEBUG [2018-01-23 12:38:29,096] StatusReporting      Engine.StatusReportingThread.run: count of status reporting plugins is 2
+DEBUG [2018-01-23 12:38:29,096] StatusReporting      Engine.StatusReportingThread: 2 plugins, 7% CPU
+DEBUG [2018-01-23 12:38:30,067] main                 extensions_proxy.py: Loading...
+INFO  [2018-01-23 12:38:30,241] ProxyMsg             ProxyMsg: No non-zero counters
+DEBUG [2018-01-23 12:38:30,280] PlayerTimeout        PlayerTimeout thread running..
+INFO  [2018-01-23 12:38:30,662] TimeInQ              Histogram (5000 ms): No points in reporting interval
+DEBUG [2018-01-23 12:38:30,729] main                 extensions_proxy.py: LOADED
+DEBUG [2018-01-23 12:38:30,729] main                 Engine: script completed
+INFO  [2018-01-23 12:38:30,983] TimeInCallback       Histogram (5000 ms): No points in reporting interval
+DEBUG [2018-01-23 12:38:31,095] MessageIO            [wmgr_1,57] Got filter update subId=3 rpc=true
+DEBUG [2018-01-23 12:38:31,096] MessageIO            ADD SUBJECT 00000000000054c5
+DEBUG [2018-01-23 12:38:31,099] MessageIO            sendResponse to wmgr_1,57 type=msgsys.RESPONSE id=84 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:31,135] MessageIO            [wmgr_1,60] Got filter update subId=6 rpc=true
+DEBUG [2018-01-23 12:38:31,135] MessageIO            WorldManagerFilter ADD INSTANCE atavism.server.plugins.WorldManagerPlugin$WorldManagerFilter$InstanceGeometry@5ef8d5e5
+DEBUG [2018-01-23 12:38:31,135] MessageIO            sendResponse to wmgr_1,60 type=msgsys.RESPONSE id=85 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:31,985] MessageIO            [wmgr_1,63] Got filter update subId=3 rpc=true
+DEBUG [2018-01-23 12:38:31,985] MessageIO            ADD SUBJECT 00000000000054c6
+DEBUG [2018-01-23 12:38:31,985] MessageIO            sendResponse to wmgr_1,63 type=msgsys.RESPONSE id=86 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:32,042] MessageIO            [wmgr_1,66] Got filter update subId=6 rpc=true
+DEBUG [2018-01-23 12:38:32,043] MessageIO            WorldManagerFilter ADD INSTANCE atavism.server.plugins.WorldManagerPlugin$WorldManagerFilter$InstanceGeometry@22a2de19
+DEBUG [2018-01-23 12:38:32,043] MessageIO            sendResponse to wmgr_1,66 type=msgsys.RESPONSE id=87 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:32,216] MessageIO            [wmgr_1,69] Got filter update subId=3 rpc=true
+DEBUG [2018-01-23 12:38:32,216] MessageIO            ADD SUBJECT 00000000000054c7
+DEBUG [2018-01-23 12:38:32,216] MessageIO            sendResponse to wmgr_1,69 type=msgsys.RESPONSE id=88 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:32,239] MessageIO            [wmgr_1,72] Got filter update subId=6 rpc=true
+DEBUG [2018-01-23 12:38:32,239] MessageIO            WorldManagerFilter ADD INSTANCE atavism.server.plugins.WorldManagerPlugin$WorldManagerFilter$InstanceGeometry@72a34d12
+DEBUG [2018-01-23 12:38:32,240] MessageIO            sendResponse to wmgr_1,72 type=msgsys.RESPONSE id=89 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:32,456] MessageIO            [wmgr_1,75] Got filter update subId=7 rpc=true
+DEBUG [2018-01-23 12:38:32,456] MessageIO            ADD SUBJECT 00000000000054c8
+DEBUG [2018-01-23 12:38:32,456] MessageIO            sendResponse to wmgr_1,75 type=msgsys.RESPONSE id=90 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:32,485] MessageIO            [wmgr_1,77] Got filter update subId=8 rpc=true
+DEBUG [2018-01-23 12:38:32,486] MessageIO            ADD SUBJECT 00000000000054c8
+DEBUG [2018-01-23 12:38:32,486] MessageIO            sendResponse to wmgr_1,77 type=msgsys.RESPONSE id=91 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:32,511] MessageIO            [wmgr_1,79] Got filter update subId=3 rpc=true
+DEBUG [2018-01-23 12:38:32,511] MessageIO            ADD SUBJECT 00000000000054c8
+DEBUG [2018-01-23 12:38:32,511] MessageIO            sendResponse to wmgr_1,79 type=msgsys.RESPONSE id=92 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:32,605] MessageIO            [wmgr_1,83] Got filter update subId=7 rpc=true
+DEBUG [2018-01-23 12:38:32,605] MessageIO            ADD SUBJECT 00000000000054c9
+DEBUG [2018-01-23 12:38:32,606] MessageIO            sendResponse to wmgr_1,83 type=msgsys.RESPONSE id=93 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:32,630] MessageIO            [wmgr_1,86] Got filter update subId=8 rpc=true
+DEBUG [2018-01-23 12:38:32,630] MessageIO            ADD SUBJECT 00000000000054c9
+DEBUG [2018-01-23 12:38:32,631] MessageIO            sendResponse to wmgr_1,86 type=msgsys.RESPONSE id=94 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:32,664] MessageIO            [wmgr_1,88] Got filter update subId=3 rpc=true
+DEBUG [2018-01-23 12:38:32,664] MessageIO            ADD SUBJECT 00000000000054c9
+DEBUG [2018-01-23 12:38:32,664] MessageIO            sendResponse to wmgr_1,88 type=msgsys.RESPONSE id=95 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:33,074] MessageIO            [wmgr_1,117] Got filter update subId=7 rpc=true
+DEBUG [2018-01-23 12:38:33,074] MessageIO            ADD SUBJECT 00000000000054ca
+DEBUG [2018-01-23 12:38:33,074] MessageIO            sendResponse to wmgr_1,117 type=msgsys.RESPONSE id=96 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:33,092] MessageIO            [wmgr_1,119] Got filter update subId=7 rpc=true
+DEBUG [2018-01-23 12:38:33,092] MessageIO            ADD SUBJECT 00000000000054cc
+DEBUG [2018-01-23 12:38:33,092] MessageIO            sendResponse to wmgr_1,119 type=msgsys.RESPONSE id=97 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:33,114] MessageIO            [wmgr_1,120] Got filter update subId=7 rpc=true
+DEBUG [2018-01-23 12:38:33,115] MessageIO            ADD SUBJECT 00000000000054cb
+DEBUG [2018-01-23 12:38:33,115] MessageIO            sendResponse to wmgr_1,120 type=msgsys.RESPONSE id=98 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:33,147] MessageIO            [wmgr_1,125] Got filter update subId=8 rpc=true
+DEBUG [2018-01-23 12:38:33,148] MessageIO            ADD SUBJECT 00000000000054cb
+DEBUG [2018-01-23 12:38:33,148] MessageIO            sendResponse to wmgr_1,125 type=msgsys.RESPONSE id=99 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:33,181] MessageIO            [wmgr_1,127] Got filter update subId=3 rpc=true
+DEBUG [2018-01-23 12:38:33,181] MessageIO            ADD SUBJECT 00000000000054cb
+DEBUG [2018-01-23 12:38:33,181] MessageIO            sendResponse to wmgr_1,127 type=msgsys.RESPONSE id=100 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:33,248] MessageIO            [wmgr_1,130] Got filter update subId=8 rpc=true
+DEBUG [2018-01-23 12:38:33,248] MessageIO            ADD SUBJECT 00000000000054ca
+DEBUG [2018-01-23 12:38:33,249] MessageIO            sendResponse to wmgr_1,130 type=msgsys.RESPONSE id=101 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:33,249] MessageIO            [wmgr_1,131] Got filter update subId=8 rpc=true
+DEBUG [2018-01-23 12:38:33,249] MessageIO            ADD SUBJECT 00000000000054cc
+DEBUG [2018-01-23 12:38:33,250] MessageIO            sendResponse to wmgr_1,131 type=msgsys.RESPONSE id=102 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:33,271] MessageIO            [wmgr_1,134] Got filter update subId=3 rpc=true
+DEBUG [2018-01-23 12:38:33,271] MessageIO            ADD SUBJECT 00000000000054ca
+DEBUG [2018-01-23 12:38:33,271] MessageIO            sendResponse to wmgr_1,134 type=msgsys.RESPONSE id=103 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:33,288] MessageIO            [wmgr_1,135] Got filter update subId=3 rpc=true
+DEBUG [2018-01-23 12:38:33,288] MessageIO            ADD SUBJECT 00000000000054cc
+DEBUG [2018-01-23 12:38:33,288] MessageIO            sendResponse to wmgr_1,135 type=msgsys.RESPONSE id=104 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:33,298] Scheduled-1          AUTH: updating server status
+DEBUG [2018-01-23 12:38:33,741] Scheduled-1          AUTH: updating world_server with statement: com.mysql.jdbc.ServerPreparedStatement[1] - UPDATE world set server_name='localhost', server_port=5040, population=0, status='Online', last_update='2018-01-23 12:38:33' where world_id=1
+DEBUG [2018-01-23 12:38:34,151] StatusReporting      Engine.StatusReportingThread.run: count of status reporting plugins is 2
+DEBUG [2018-01-23 12:38:34,151] StatusReporting      Engine.StatusReportingThread: 2 plugins, 28% CPU
+INFO  [2018-01-23 12:38:35,241] ProxyMsg             ProxyMsg: No non-zero counters
+INFO  [2018-01-23 12:38:35,662] TimeInQ              Histogram (5000 ms): No points in reporting interval
+INFO  [2018-01-23 12:38:35,983] TimeInCallback       Histogram (5000 ms): No points in reporting interval
+DEBUG [2018-01-23 12:38:39,156] StatusReporting      Engine.StatusReportingThread.run: count of status reporting plugins is 2
+DEBUG [2018-01-23 12:38:39,156] StatusReporting      Engine.StatusReportingThread: 2 plugins, 0% CPU
+INFO  [2018-01-23 12:38:40,241] ProxyMsg             ProxyMsg: No non-zero counters
+DEBUG [2018-01-23 12:38:40,280] PlayerTimeout        PlayerTimeout thread running..
+INFO  [2018-01-23 12:38:40,662] TimeInQ              Histogram (5000 ms): No points in reporting interval
+INFO  [2018-01-23 12:38:41,014] TimeInCallback       Histogram (5000 ms): No points in reporting interval
+DEBUG [2018-01-23 12:38:43,528] MessageIO            [wmgr_1,174] Got filter update subId=7 rpc=true
+DEBUG [2018-01-23 12:38:43,528] MessageIO            ADD SUBJECT 00000000000054cd
+DEBUG [2018-01-23 12:38:43,528] MessageIO            sendResponse to wmgr_1,174 type=msgsys.RESPONSE id=105 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:43,554] MessageIO            [wmgr_1,176] Got filter update subId=8 rpc=true
+DEBUG [2018-01-23 12:38:43,554] MessageIO            ADD SUBJECT 00000000000054cd
+DEBUG [2018-01-23 12:38:43,554] MessageIO            sendResponse to wmgr_1,176 type=msgsys.RESPONSE id=106 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:43,605] MessageIO            [wmgr_1,178] Got filter update subId=3 rpc=true
+DEBUG [2018-01-23 12:38:43,606] MessageIO            ADD SUBJECT 00000000000054cd
+DEBUG [2018-01-23 12:38:43,606] MessageIO            sendResponse to wmgr_1,178 type=msgsys.RESPONSE id=107 class=atavism.msgsys.ResponseMessage
+DEBUG [2018-01-23 12:38:44,159] StatusReporting      Engine.StatusReportingThread.run: count of status reporting plugins is 2
+DEBUG [2018-01-23 12:38:44,160] StatusReporting      Engine.StatusReportingThread: 2 plugins, 0% CPU
+DEBUG [2018-01-23 12:38:44,232] MessageIO            [mobserver,142] Got subscription subId=16 filter [SubjectFilter oid=00000000000054cd types=ao.MOB_PATH_CORRECTION,ao.COMMAND,]
+DEBUG [2018-01-23 12:38:44,232] MessageIO            sendResponse to mobserver,142 type=msgsys.RESPONSE id=108 class=atavism.msgsys.ResponseMessage
+INFO  [2018-01-23 12:38:45,241] ProxyMsg             ProxyMsg: No non-zero counters
+INFO  [2018-01-23 12:38:45,665] TimeInQ              Histogram (5000 ms): No points in reporting interval
+INFO  [2018-01-23 12:38:46,015] TimeInCallback       Histogram (5000 ms): No points in reporting interval
+DEBUG [2018-01-23 12:38:48,295] Scheduled-1          AUTH: updating server status
+DEBUG [2018-01-23 12:38:48,298] Scheduled-1          AUTH: updating world_server with statement: com.mysql.jdbc.ServerPreparedStatement[2] - UPDATE world set server_name='localhost', server_port=5040, population=0, status='Online', last_update='2018-01-23 12:38:48' where world_id=1
+DEBUG [2018-01-23 12:38:49,180] StatusReporting      Engine.StatusReportingThread.run: count of status reporting plugins is 2
+DEBUG [2018-01-23 12:38:49,180] StatusReporting      Engine.StatusReportingThread: 2 plugins, 0% CPU
+INFO  [2018-01-23 12:38:50,243] ProxyMsg             ProxyMsg: No non-zero counters
+DEBUG [2018-01-23 12:38:50,281] PlayerTimeout        PlayerTimeout thread running..
+INFO  [2018-01-23 12:38:50,685] TimeInQ              Histogram (5000 ms): No points in reporting interval
+INFO  [2018-01-23 12:38:51,015] TimeInCallback       Histogram (5000 ms): No points in reporting interval
+DEBUG [2018-01-23 12:38:54,182] StatusReporting      Engine.StatusReportingThread.run: count of status reporting plugins is 2
+DEBUG [2018-01-23 12:38:54,182] StatusReporting      Engine.StatusReportingThread: 2 plugins, 0% CPU
+INFO  [2018-01-23 12:38:55,243] ProxyMsg             ProxyMsg: No non-zero counters
+INFO  [2018-01-23 12:38:55,685] TimeInQ              Histogram (5000 ms): No points in reporting interval
+INFO  [2018-01-23 12:38:56,015] TimeInCallback       Histogram (5000 ms): No points in reporting interval
+DEBUG [2018-01-23 12:38:59,184] StatusReporting      Engine.StatusReportingThread.run: count of status reporting plugins is 2
+DEBUG [2018-01-23 12:38:59,185] StatusReporting      Engine.StatusReportingThread: 2 plugins, 0% CPU
+INFO  [2018-01-23 12:39:00,243] ProxyMsg             ProxyMsg: No non-zero counters
+DEBUG [2018-01-23 12:39:00,282] PlayerTimeout        PlayerTimeout thread running..
+INFO  [2018-01-23 12:39:00,702] TimeInQ              Histogram (5000 ms): No points in reporting interval
+INFO  [2018-01-23 12:39:01,017] TimeInCallback       Histogram (5000 ms): No points in reporting interval
+DEBUG [2018-01-23 12:39:03,296] Scheduled-2          AUTH: updating server status
+DEBUG [2018-01-23 12:39:03,302] Scheduled-2          AUTH: updating world_server with statement: com.mysql.jdbc.ServerPreparedStatement[3] - UPDATE world set server_name='localhost', server_port=5040, population=0, status='Online', last_update='2018-01-23 12:39:03' where world_id=1
+DEBUG [2018-01-23 12:39:04,191] StatusReporting      Engine.StatusReportingThread.run: count of status reporting plugins is 2
+DEBUG [2018-01-23 12:39:04,191] StatusReporting      Engine.StatusReportingThread: 2 plugins, 0% CPU
+INFO  [2018-01-23 12:39:05,257] ProxyMsg             ProxyMsg: No non-zero counters
+INFO  [2018-01-23 12:39:05,703] TimeInQ              Histogram (5000 ms): No points in reporting interval
+INFO  [2018-01-23 12:39:06,018] TimeInCallback       Histogram (5000 ms): No points in reporting interval
+DEBUG [2018-01-23 12:39:09,197] StatusReporting      Engine.StatusReportingThread.run: count of status reporting plugins is 2
+DEBUG [2018-01-23 12:39:09,197] StatusReporting      Engine.StatusReportingThread: 2 plugins, 0% CPU
+DEBUG [2018-01-23 12:39:09,599] DBKeepalive          Database: ping
+INFO  [2018-01-23 12:39:10,257] ProxyMsg             ProxyMsg: No non-zero counters
+DEBUG [2018-01-23 12:39:10,283] PlayerTimeout        PlayerTimeout thread running..
+INFO  [2018-01-23 12:39:10,703] TimeInQ              Histogram (5000 ms): No points in reporting interval
+INFO  [2018-01-23 12:39:11,018] TimeInCallback       Histogram (5000 ms): No points in reporting interval
+DEBUG [2018-01-23 12:39:14,200] StatusReporting      Engine.StatusReportingThread.run: count of status reporting plugins is 2
+DEBUG [2018-01-23 12:39:14,200] StatusReporting      Engine.StatusReportingThread: 2 plugins, 0% CPU
+INFO  [2018-01-23 12:39:15,257] ProxyMsg             ProxyMsg: No non-zero counters
+INFO  [2018-01-23 12:39:15,703] TimeInQ              Histogram (5000 ms): No points in reporting interval
+INFO  [2018-01-23 12:39:16,018] TimeInCallback       Histogram (5000 ms): No points in reporting interval
+DEBUG [2018-01-23 12:39:18,325] Scheduled-1          AUTH: updating server status
+DEBUG [2018-01-23 12:39:18,333] Scheduled-1          AUTH: updating world_server with statement: com.mysql.jdbc.ServerPreparedStatement[4] - UPDATE world set server_name='localhost', server_port=5040, population=0, status='Online', last_update='2018-01-23 12:39:18' where world_id=1
+DEBUG [2018-01-23 12:39:19,204] StatusReporting      Engine.StatusReportingThread.run: count of status reporting plugins is 2
+DEBUG [2018-01-23 12:39:19,204] StatusReporting      Engine.StatusReportingThread: 2 plugins, 0% CPU
+INFO  [2018-01-23 12:39:20,258] ProxyMsg             ProxyMsg: No non-zero counters
+DEBUG [2018-01-23 12:39:20,285] PlayerTimeout        PlayerTimeout thread running..
+INFO  [2018-01-23 12:39:20,705] TimeInQ              Histogram (5000 ms): No points in reporting interval
+INFO  [2018-01-23 12:39:21,020] TimeInCallback       Histogram (5000 ms): No points in reporting interval
+DEBUG [2018-01-23 12:39:24,207] StatusReporting      Engine.StatusReportingThread.run: count of status reporting plugins is 2
+DEBUG [2018-01-23 12:39:24,207] StatusReporting      Engine.StatusReportingThread: 2 plugins, 0% CPU
+INFO  [2018-01-23 12:39:25,258] ProxyMsg             ProxyMsg: No non-zero counters
+INFO  [2018-01-23 12:39:25,705] TimeInQ              Histogram (5000 ms): No points in reporting interval
+INFO  [2018-01-23 12:39:26,030] TimeInCallback       Histogram (5000 ms): No points in reporting interval
+DEBUG [2018-01-23 12:39:28,160] DBKeepalive          AdminDatabase: ping
+DEBUG [2018-01-23 12:39:28,306] DBKeepalive          AuthDatabase: ping
+DEBUG [2018-01-23 12:39:29,209] StatusReporting      Engine.StatusReportingThread.run: count of status reporting plugins is 2
+DEBUG [2018-01-23 12:39:29,209] StatusReporting      Engine.StatusReportingThread: 2 plugins, 0% CPU
+INFO  [2018-01-23 12:39:30,258] ProxyMsg             ProxyMsg: No non-zero counters
+DEBUG [2018-01-23 12:39:30,285] PlayerTimeout        PlayerTimeout thread running..
+INFO  [2018-01-23 12:39:30,705] TimeInQ              Histogram (5000 ms): No points in reporting interval
+INFO  [2018-01-23 12:39:31,031] TimeInCallback       Histogram (5000 ms): No points in reporting interval
+DEBUG [2018-01-23 12:39:33,296] Scheduled-1          AUTH: updating server status
+DEBUG [2018-01-23 12:39:33,299] Scheduled-1          AUTH: updating world_server with statement: com.mysql.jdbc.ServerPreparedStatement[5] - UPDATE world set server_name='localhost', server_port=5040, population=0, status='Online', last_update='2018-01-23 12:39:33' where world_id=1
+DEBUG [2018-01-23 12:39:34,211] StatusReporting      Engine.StatusReportingThread.run: count of status reporting plugins is 2
+DEBUG [2018-01-23 12:39:34,212] StatusReporting      Engine.StatusReportingThread: 2 plugins, 0% CPU
+INFO  [2018-01-23 12:39:35,258] ProxyMsg             ProxyMsg: No non-zero counters
+INFO  [2018-01-23 12:39:35,705] TimeInQ              Histogram (5000 ms): No points in reporting interval
+INFO  [2018-01-23 12:39:36,033] TimeInCallback       Histogram (5000 ms): No points in reporting interval
+DEBUG [2018-01-23 12:39:39,216] StatusReporting      Engine.StatusReportingThread.run: count of status reporting plugins is 2
+DEBUG [2018-01-23 12:39:39,216] StatusReporting      Engine.StatusReportingThread: 2 plugins, 0% CPU
+INFO  [2018-01-23 12:39:40,260] ProxyMsg             ProxyMsg: No non-zero counters
+DEBUG [2018-01-23 12:39:40,286] PlayerTimeout        PlayerTimeout thread running..
+INFO  [2018-01-23 12:39:40,706] TimeInQ              Histogram (5000 ms): No points in reporting interval
+INFO  [2018-01-23 12:39:41,034] TimeInCallback       Histogram (5000 ms): No points in reporting interval
+DEBUG [2018-01-23 12:39:44,218] StatusReporting      Engine.StatusReportingThread.run: count of status reporting plugins is 2
+DEBUG [2018-01-23 12:39:44,218] StatusReporting      Engine.StatusReportingThread: 2 plugins, 0% CPU
+INFO  [2018-01-23 12:39:45,261] ProxyMsg             ProxyMsg: No non-zero counters
+INFO  [2018-01-23 12:39:45,706] TimeInQ              Histogram (5000 ms): No points in reporting interval
+INFO  [2018-01-23 12:39:46,034] TimeInCallback       Histogram (5000 ms): No points in reporting interval
+DEBUG [2018-01-23 12:39:48,297] Scheduled-2          AUTH: updating server status
+DEBUG [2018-01-23 12:39:48,300] Scheduled-2          AUTH: updating world_server with statement: com.mysql.jdbc.ServerPreparedStatement[6] - UPDATE world set server_name='localhost', server_port=5040, population=0, status='Online', last_update='2018-01-23 12:39:48' where world_id=1
+DEBUG [2018-01-23 12:39:49,220] StatusReporting      Engine.StatusReportingThread.run: count of status reporting plugins is 2
+DEBUG [2018-01-23 12:39:49,220] StatusReporting      Engine.StatusReportingThread: 2 plugins, 0% CPU
+INFO  [2018-01-23 12:39:50,261] ProxyMsg             ProxyMsg: No non-zero counters
+DEBUG [2018-01-23 12:39:50,286] PlayerTimeout        PlayerTimeout thread running..
+INFO  [2018-01-23 12:39:50,706] TimeInQ              Histogram (5000 ms): No points in reporting interval
+INFO  [2018-01-23 12:39:51,034] TimeInCallback       Histogram (5000 ms): No points in reporting interval
+DEBUG [2018-01-23 12:39:54,222] StatusReporting      Engine.StatusReportingThread.run: count of status reporting plugins is 2
+DEBUG [2018-01-23 12:39:54,222] StatusReporting      Engine.StatusReportingThread: 2 plugins, 0% CPU
+INFO  [2018-01-23 12:39:55,262] ProxyMsg             ProxyMsg: No non-zero counters
+INFO  [2018-01-23 12:39:55,707] TimeInQ              Histogram (5000 ms): No points in reporting interval
+INFO  [2018-01-23 12:39:56,035] TimeInCallback       Histogram (5000 ms): No points in reporting interval
+DEBUG [2018-01-23 12:39:59,225] StatusReporting      Engine.StatusReportingThread.run: count of status reporting plugins is 2
+DEBUG [2018-01-23 12:39:59,225] StatusReporting      Engine.StatusReportingThread: 2 plugins, 0% CPU
+INFO  [2018-01-23 12:40:00,264] ProxyMsg             ProxyMsg: No non-zero counters
+DEBUG [2018-01-23 12:40:00,287] PlayerTimeout        PlayerTimeout thread running..
+INFO  [2018-01-23 12:40:00,707] TimeInQ              Histogram (5000 ms): No points in reporting interval
+INFO  [2018-01-23 12:40:01,035] TimeInCallback       Histogram (5000 ms): No points in reporting interval
+DEBUG [2018-01-23 12:40:03,298] Scheduled-4          AUTH: updating server status
+DEBUG [2018-01-23 12:40:03,301] Scheduled-4          AUTH: updating world_server with statement: com.mysql.jdbc.ServerPreparedStatement[7] - UPDATE world set server_name='localhost', server_port=5040, population=0, status='Online', last_update='2018-01-23 12:40:03' where world_id=1
+DEBUG [2018-01-23 12:40:04,227] StatusReporting      Engine.StatusReportingThread.run: count of status reporting plugins is 2
+DEBUG [2018-01-23 12:40:04,227] StatusReporting      Engine.StatusReportingThread: 2 plugins, 0% CPU
+INFO  [2018-01-23 12:40:05,264] ProxyMsg             ProxyMsg: No non-zero counters
+INFO  [2018-01-23 12:40:05,707] TimeInQ              Histogram (5000 ms): No points in reporting interval
+INFO  [2018-01-23 12:40:06,035] TimeInCallback       Histogram (5000 ms): No points in reporting interval
+DEBUG [2018-01-23 12:40:09,229] StatusReporting      Engine.StatusReportingThread.run: count of status reporting plugins is 2
+DEBUG [2018-01-23 12:40:09,229] StatusReporting      Engine.StatusReportingThread: 2 plugins, 0% CPU
+DEBUG [2018-01-23 12:40:09,601] DBKeepalive          Database: ping
+INFO  [2018-01-23 12:40:10,264] ProxyMsg             ProxyMsg: No non-zero counters
+DEBUG [2018-01-23 12:40:10,287] PlayerTimeout        PlayerTimeout thread running..
+INFO  [2018-01-23 12:40:10,707] TimeInQ              Histogram (5000 ms): No points in reporting interval
+INFO  [2018-01-23 12:40:11,035] TimeInCallback       Histogram (5000 ms): No points in reporting interval
+DEBUG [2018-01-23 12:40:13,901] MessageIO            Connection closed (exception) java.nio.channels.SocketChannel[connected local=/127.0.0.1:50464 remote=/127.0.0.1:50380]
+ERROR [2018-01-23 12:40:13,902] MessageIO            Lost connection to agent 'login_manager' java.nio.channels.SocketChannel[closed]
+DEBUG [2018-01-23 12:40:14,009] MessageIO            Connection closed (exception) java.nio.channels.SocketChannel[connected local=/127.0.0.1:50466 remote=/127.0.0.1:50291]
+ERROR [2018-01-23 12:40:14,010] MessageIO            Lost connection to agent 'combat' java.nio.channels.SocketChannel[closed]
+DEBUG [2018-01-23 12:40:14,172] MessageIO            Connection closed (exception) java.nio.channels.SocketChannel[connected local=/127.0.0.1:50467 remote=/127.0.0.1:50321]
+ERROR [2018-01-23 12:40:14,172] MessageIO            Lost connection to agent 'instance' java.nio.channels.SocketChannel[closed]
+DEBUG [2018-01-23 12:40:14,232] StatusReporting      Engine.StatusReportingThread.run: count of status reporting plugins is 2
+DEBUG [2018-01-23 12:40:14,232] StatusReporting      Engine.StatusReportingThread: 2 plugins, 0% CPU
+DEBUG [2018-01-23 12:40:14,298] MessageIO            Connection closed (exception) java.nio.channels.SocketChannel[connected local=/127.0.0.1:50468 remote=/127.0.0.1:50262]
+ERROR [2018-01-23 12:40:14,298] MessageIO            Lost connection to agent 'objmgr' java.nio.channels.SocketChannel[closed]
+DEBUG [2018-01-23 12:40:14,396] MessageIO            Connection closed (exception) java.nio.channels.SocketChannel[connected local=/127.0.0.1:50440 remote=/127.0.0.1:50454]
+ERROR [2018-01-23 12:40:14,397] MessageIO            Lost connection to agent 'wmgr_1' java.nio.channels.SocketChannel[closed]
